@@ -1,245 +1,267 @@
-﻿import React from "react";
+import React, { useMemo } from "react";
 import { AbsoluteFill } from "remotion";
 import { GoogleOfficialLogo } from "./components/RealLogos";
 
 export const Thumbnail: React.FC = () => {
+  // Generate 3D perspective undulating dot grid wave (matching reference)
+  const dots = useMemo(() => {
+    const rows = 28;
+    const cols = 52;
+    const points: Array<{
+      x: number;
+      y: number;
+      radius: number;
+      opacity: number;
+      color: string;
+    }> = [];
+
+    const horizonY = 380;
+    const bottomY = 1100;
+    const centerX = 1920 * 0.52;
+
+    for (let r = 0; r < rows; r++) {
+      // Normalized depth t: 0 is far/horizon, 1 is near/bottom
+      const t = (r + 1) / rows;
+      // Perspective compression
+      const scale = 0.28 + 0.72 * Math.pow(t, 1.4);
+      const gridWidth = 1920 * 1.65 * scale;
+      const baseY = horizonY + (bottomY - horizonY) * Math.pow(t, 1.5);
+
+      for (let c = 0; c < cols; c++) {
+        const normX = c / (cols - 1) - 0.5;
+        const x = centerX + normX * gridWidth;
+
+        // Undulating 3D wave calculation (hills & valleys sweeping across)
+        const wave =
+          Math.sin(c * 0.22 + r * 0.32) * 38 * Math.pow(t, 0.9) +
+          Math.cos(c * 0.12 - r * 0.18) * 26 * Math.pow(t, 1.1);
+
+        const y = baseY + wave;
+
+        // Dot radius & brightness scale with proximity (t)
+        const radius = 1.8 + 3.4 * Math.pow(t, 1.5);
+        const opacity = Math.min(
+          1,
+          Math.max(0.15, (0.25 + 0.75 * Math.pow(t, 0.9)) * (0.8 + 0.2 * Math.sin(c * 0.3 + r * 0.2)))
+        );
+
+        // Gradient from deeper cyan/blue at distance to electric cyan/white in foreground crests
+        const isCrest = wave > 15;
+        const color =
+          t > 0.75 && isCrest
+            ? "#A5F3FC"
+            : t > 0.5
+            ? "#38BDF8"
+            : "#0284C7";
+
+        // Only include points within screen bounds
+        if (x >= -40 && x <= 1960 && y >= 320 && y <= 1120) {
+          points.push({ x, y, radius, opacity, color });
+        }
+      }
+    }
+    return points;
+  }, []);
+
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: "#05070D",
+        backgroundColor: "#02040A",
         overflow: "hidden",
-        fontFamily: "system-ui, -apple-system, sans-serif",
+        fontFamily: "'Montserrat', 'Inter', system-ui, -apple-system, sans-serif",
       }}
     >
-      {/* Electric Blue Rounded Border Frame */}
+      {/* Import High-Impact Fonts */}
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900;950&family=Inter:wght@700;800;900&display=swap');
+      `}</style>
+
+      {/* Dark Ambient & Diagonal Atmospheric Red/Blue Streaks (top-right like reference) */}
       <div
         style={{
           position: "absolute",
-          inset: 20,
-          border: "4px solid #0070F3",
-          borderRadius: 36,
-          boxShadow: "0 0 70px rgba(0, 112, 243, 0.5), inset 0 0 40px rgba(0, 112, 243, 0.25)",
+          inset: 0,
+          background:
+            "radial-gradient(ellipse 90% 60% at 75% 20%, rgba(225, 29, 72, 0.16) 0%, transparent 60%), radial-gradient(circle at 35% 85%, rgba(14, 165, 233, 0.12) 0%, transparent 55%)",
+          zIndex: 1,
+        }}
+      />
+
+      {/* High-Tech Diagonal Streak from Top-Right */}
+      <div
+        style={{
+          position: "absolute",
+          top: -100,
+          right: -100,
+          width: 900,
+          height: 500,
+          background: "linear-gradient(135deg, rgba(239, 68, 68, 0.18) 0%, rgba(59, 130, 246, 0.08) 50%, transparent 75%)",
+          transform: "rotate(-18deg)",
+          filter: "blur(40px)",
+          zIndex: 2,
+        }}
+      />
+
+      {/* 3D Undulating Perspective Dot Wave Canvas */}
+      <svg
+        style={{
+          position: "absolute",
+          inset: 0,
+          width: 1920,
+          height: 1080,
+          zIndex: 5,
+        }}
+      >
+        <defs>
+          <filter id="dotGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feMerge>
+              <feMergeNode in="blur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+        </defs>
+
+        {dots.map((dot, i) => (
+          <circle
+            key={i}
+            cx={dot.x}
+            cy={dot.y}
+            r={dot.radius}
+            fill={dot.color}
+            opacity={dot.opacity}
+            filter={dot.radius > 3.2 ? "url(#dotGlow)" : undefined}
+          />
+        ))}
+      </svg>
+
+      {/* Electric Rounded Border Frame (Exact 1:1 match with reference) */}
+      <div
+        style={{
+          position: "absolute",
+          inset: 22,
+          border: "14px solid #0070F3",
+          borderRadius: 34,
+          boxShadow:
+            "0 0 45px rgba(0, 112, 243, 0.65), inset 0 0 25px rgba(0, 112, 243, 0.4)",
           pointerEvents: "none",
           zIndex: 50,
         }}
       />
 
-      {/* Atmospheric Glows */}
+      {/* Main Content Area (Left-Aligned, Clean 2-Tier Typography) */}
       <div
         style={{
           position: "absolute",
-          top: "20%",
-          left: "15%",
-          width: 900,
-          height: 900,
-          borderRadius: "50%",
-          background: "radial-gradient(circle, rgba(56, 189, 248, 0.25) 0%, transparent 70%)",
-          filter: "blur(120px)",
-        }}
-      />
-      <div
-        style={{
-          position: "absolute",
-          top: "20%",
-          right: "10%",
-          width: 850,
-          height: 850,
-          borderRadius: "50%",
-          background: "radial-gradient(circle, rgba(168, 85, 247, 0.28) 0%, transparent 70%)",
-          filter: "blur(130px)",
-        }}
-      />
-
-      {/* Hero Visual on Right Side (Pulsing Singularity / RSI Loop) */}
-      <div
-        style={{
-          position: "absolute",
-          right: 120,
-          top: "50%",
-          transform: "translateY(-50%)",
-          width: 540,
-          height: 540,
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          zIndex: 15,
-        }}
-      >
-        {/* Outer dashed rings */}
-        <div
-          style={{
-            position: "absolute",
-            width: 480,
-            height: 480,
-            borderRadius: "50%",
-            border: "3px dashed rgba(56, 189, 248, 0.4)",
-            boxShadow: "0 0 60px rgba(56, 189, 248, 0.3)",
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            width: 340,
-            height: 340,
-            borderRadius: "50%",
-            border: "2px solid rgba(168, 85, 247, 0.5)",
-            boxShadow: "0 0 40px rgba(168, 85, 247, 0.3)",
-          }}
-        />
-
-        {/* Central Glowing Core */}
-        <div
-          style={{
-            width: 220,
-            height: 220,
-            borderRadius: "50%",
-            background: "radial-gradient(circle, #38BDF8 0%, #1E1B4B 75%)",
-            border: "4px solid #38BDF8",
-            boxShadow: "0 0 80px rgba(56, 189, 248, 0.8)",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            color: "#FFFFFF",
-            textAlign: "center",
-          }}
-        >
-          <span style={{ fontSize: 13, fontWeight: 800, letterSpacing: "0.15em", color: "#E0F2FE" }}>SINGULARITY</span>
-          <span style={{ fontSize: 62, fontWeight: 950, color: "#FFFFFF", lineHeight: 1 }}>RSI</span>
-          <span style={{ fontSize: 12, fontWeight: 700, color: "#34D399" }}>ACHIEVED</span>
-        </div>
-
-        {/* Orbiting Badges */}
-        <div
-          style={{
-            position: "absolute",
-            top: 20,
-            padding: "8px 18px",
-            borderRadius: 12,
-            background: "rgba(15, 23, 42, 0.95)",
-            border: "1.5px solid #38BDF8",
-            color: "#38BDF8",
-            fontSize: 13,
-            fontWeight: 800,
-            boxShadow: "0 10px 25px rgba(0,0,0,0.8)",
-          }}
-        >
-          AUTONOMOUS LOOP
-        </div>
-
-        <div
-          style={{
-            position: "absolute",
-            bottom: 20,
-            padding: "8px 18px",
-            borderRadius: 12,
-            background: "rgba(15, 23, 42, 0.95)",
-            border: "1.5px solid #F43F5E",
-            color: "#FB7185",
-            fontSize: 13,
-            fontWeight: 800,
-            boxShadow: "0 10px 25px rgba(0,0,0,0.8)",
-          }}
-        >
-          GROK 4.7 ROADBLOCK
-        </div>
-      </div>
-
-      {/* Main Left Content */}
-      <div
-        style={{
-          position: "relative",
-          zIndex: 20,
-          height: "100%",
-          width: "60%",
+          top: 105,
+          left: 110,
+          zIndex: 30,
           display: "flex",
           flexDirection: "column",
-          justifyContent: "space-between",
-          padding: "80px 100px",
+          gap: 16,
         }}
       >
-        {/* Top Brand Bar with Authentic Google 4-Color Logo */}
-        <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
+        {/* Top-Left Verified Brand Badge: [Logo] [BRAND NAME] [✓] */}
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 16,
+          }}
+        >
+          {/* Authentic Google 4-Color Icon */}
           <div
             style={{
-              width: 60,
-              height: 60,
-              borderRadius: 18,
-              background: "rgba(15, 23, 42, 0.9)",
-              border: "2px solid rgba(255, 255, 255, 0.15)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              boxShadow: "0 10px 30px rgba(0,0,0,0.8)",
+              filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.8))",
             }}
           >
-            <GoogleOfficialLogo size={36} />
+            <GoogleOfficialLogo size={42} />
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <span style={{ fontSize: 24, fontWeight: 900, color: "#FFFFFF", letterSpacing: "0.05em" }}>
-              GOOGLE DEEPMIND LEAK
-            </span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="#38BDF8">
-              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
+
+          {/* Brand Name */}
+          <span
+            style={{
+              fontSize: 34,
+              fontWeight: 900,
+              color: "#FFFFFF",
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+              fontFamily: "'Montserrat', sans-serif",
+            }}
+          >
+            GOOGLE DEEPMIND
+          </span>
+
+          {/* Authentic Circular Blue Verified Checkmark Badge */}
+          <div
+            style={{
+              width: 30,
+              height: 30,
+              borderRadius: "50%",
+              backgroundColor: "#0095F6",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              boxShadow: "0 0 14px rgba(0, 149, 246, 0.8)",
+            }}
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M5 12.5L9.5 17L19 7.5"
+                stroke="#FFFFFF"
+                strokeWidth="3.2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
             </svg>
           </div>
         </div>
 
-        {/* Center Title */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+        {/* 2-Tier Hero Headline */}
+        <div
+          style={{
+            marginTop: 48,
+            display: "flex",
+            flexDirection: "column",
+            gap: 8,
+          }}
+        >
+          {/* Tier 1: Sub-Hook in Cyan */}
           <div
             style={{
-              fontSize: 30,
+              fontSize: 58,
               fontWeight: 900,
               color: "#38BDF8",
-              letterSpacing: "0.2em",
+              letterSpacing: "0.08em",
               textTransform: "uppercase",
-              textShadow: "0 0 30px rgba(56, 189, 248, 0.6)",
+              fontFamily: "'Montserrat', sans-serif",
+              textShadow: "0 0 25px rgba(56, 189, 248, 0.7), 0 0 50px rgba(56, 189, 248, 0.3)",
+              lineHeight: 1,
             }}
           >
-            RECURSIVE AI UNLOCKED?
+            NEW LEAKS ON
           </div>
+
+          {/* Tier 2: Giant White Hero Title with Intense White/Cyan Bloom */}
           <h1
             style={{
               margin: 0,
-              fontSize: 104,
+              fontSize: 162,
               fontWeight: 950,
-              lineHeight: 0.95,
               letterSpacing: "-0.03em",
               textTransform: "uppercase",
               color: "#FFFFFF",
-              textShadow: "0 10px 50px rgba(0, 0, 0, 0.9)",
+              fontFamily: "'Montserrat', 'Inter', system-ui, sans-serif",
+              lineHeight: 0.95,
+              filter:
+                "drop-shadow(0 0 20px rgba(255, 255, 255, 0.9)) drop-shadow(0 0 50px rgba(56, 189, 248, 0.6)) drop-shadow(0 0 90px rgba(0, 112, 243, 0.35))",
             }}
           >
-            THE RSI LOOP
+            GEMINI 4 PRO
           </h1>
-        </div>
-
-        {/* Bottom Metrics Row */}
-        <div style={{ display: "flex", gap: 20, alignItems: "center" }}>
-          <div
-            style={{
-              background: "rgba(15, 23, 42, 0.85)",
-              border: "1.5px solid rgba(56, 189, 248, 0.4)",
-              borderRadius: 16,
-              padding: "12px 24px",
-            }}
-          >
-            <div style={{ fontSize: 11, color: "#94A3B8", fontWeight: 700 }}>GOOGLE DEEPMIND</div>
-            <div style={{ fontSize: 22, fontWeight: 900, color: "#38BDF8" }}>GEMINI 4 PRO</div>
-          </div>
-
-          <div
-            style={{
-              background: "rgba(15, 23, 42, 0.85)",
-              border: "1.5px solid rgba(239, 68, 68, 0.4)",
-              borderRadius: 16,
-              padding: "12px 24px",
-            }}
-          >
-            <div style={{ fontSize: 11, color: "#94A3B8", fontWeight: 700 }}>xAI ROADBLOCK</div>
-            <div style={{ fontSize: 22, fontWeight: 900, color: "#EF4444" }}>RL QUITTING FLAW</div>
-          </div>
         </div>
       </div>
     </AbsoluteFill>
