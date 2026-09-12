@@ -220,36 +220,36 @@ export const Thumbnail: React.FC = () => {
           </div>
         </div>
 
-        {/* 2-Tier Hero Headline */}
+        {/* 2-Tier Hero Headline (Maximum Hype) */}
         <div
           style={{
             marginTop: 48,
             display: "flex",
             flexDirection: "column",
-            gap: 8,
+            gap: 10,
           }}
         >
-          {/* Tier 1: Sub-Hook in Cyan */}
+          {/* Tier 1: Sub-Hook in Electric Cyan */}
           <div
             style={{
-              fontSize: 58,
+              fontSize: 56,
               fontWeight: 900,
               color: "#38BDF8",
-              letterSpacing: "0.08em",
+              letterSpacing: "0.1em",
               textTransform: "uppercase",
               fontFamily: "'Montserrat', sans-serif",
-              textShadow: "0 0 25px rgba(56, 189, 248, 0.7), 0 0 50px rgba(56, 189, 248, 0.3)",
+              textShadow: "0 0 25px rgba(56, 189, 248, 0.8), 0 0 50px rgba(56, 189, 248, 0.4)",
               lineHeight: 1,
             }}
           >
-            NEW LEAKS ON
+            LEAK CONFIRMS
           </div>
 
-          {/* Tier 2: Giant White Hero Title with Intense White/Cyan Bloom */}
+          {/* Tier 2: Giant White Hero Title with High-Energy Glow Bloom */}
           <h1
             style={{
               margin: 0,
-              fontSize: 162,
+              fontSize: 160,
               fontWeight: 950,
               letterSpacing: "-0.03em",
               textTransform: "uppercase",
@@ -257,10 +257,10 @@ export const Thumbnail: React.FC = () => {
               fontFamily: "'Montserrat', 'Inter', system-ui, sans-serif",
               lineHeight: 0.95,
               filter:
-                "drop-shadow(0 0 20px rgba(255, 255, 255, 0.9)) drop-shadow(0 0 50px rgba(56, 189, 248, 0.6)) drop-shadow(0 0 90px rgba(0, 112, 243, 0.35))",
+                "drop-shadow(0 0 20px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 50px rgba(56, 189, 248, 0.7)) drop-shadow(0 0 90px rgba(0, 112, 243, 0.45))",
             }}
           >
-            GEMINI 4 PRO
+            RSI ACHIEVED
           </h1>
         </div>
       </div>
