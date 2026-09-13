@@ -24,6 +24,8 @@ export const VideoPlayerView: React.FC<VideoPlayerViewProps> = ({
         <Video
           src={videoSrc.startsWith('http') ? videoSrc : staticFile(videoSrc)}
           style={{ width: "100%", height: "100%", objectFit: "contain" }}
+          muted={true}
+          volume={0}
         />
 
         {/* Video Scrubber & Controls Bar (Native UI look) */}
