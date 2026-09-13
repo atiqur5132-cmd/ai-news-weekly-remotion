@@ -312,7 +312,7 @@ export const SceneDeepSeekDisruption: React.FC<{ durationInFrames: number }> = (
           </h1>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginTop: 24 }}>
             <div style={{ backgroundColor: "#0F172A", padding: "24px", borderRadius: 14, border: "1px solid #334155" }}>
-              <div style={{ fontSize: 14, color: "#94A3B8", marginBottom: 8 }}>CLOSED APIS (GPT-5 / CLAUDE 3.7)</div>
+              <div style={{ fontSize: 14, color: "#94A3B8", marginBottom: 8 }}>CLOSED APIS (GPT-5 / CLAUDE SONNET 5)</div>
               <div style={{ fontSize: 36, fontWeight: 900, color: "#EF4444" }}>$3.00 - $15.00</div>
               <div style={{ fontSize: 13, color: "#64748B", marginTop: 8 }}>Per 1M Input Tokens · Cloud Locked</div>
             </div>
