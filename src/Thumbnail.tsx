@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill } from "remotion";
-import { GoogleOfficialLogo } from "./components/RealLogos";
+import { GoogleOfficialLogo, AnthropicLogo, OpenAILogo } from "./components/RealLogos";
 
 export const Thumbnail: React.FC = () => {
   // Generate 3D perspective undulating dot grid wave (matching reference)
@@ -169,16 +169,18 @@ export const Thumbnail: React.FC = () => {
             gap: 16,
           }}
         >
-          {/* Authentic Google 4-Color Icon */}
+          {/* Authentic Anthropic Serif & OpenAI Icons */}
           <div
             style={{
               display: "flex",
               alignItems: "center",
-              justifyContent: "center",
+              gap: 12,
               filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.8))",
             }}
           >
-            <GoogleOfficialLogo size={42} />
+            <AnthropicLogo size={42} />
+            <span style={{ fontSize: 24, color: "#94A3B8" }}>vs</span>
+            <OpenAILogo size={42} color="#10A37F" />
           </div>
 
           {/* Brand Name */}
@@ -192,7 +194,7 @@ export const Thumbnail: React.FC = () => {
               fontFamily: "'Montserrat', sans-serif",
             }}
           >
-            GOOGLE DEEPMIND
+            ANTHROPIC • OPENAI
           </span>
 
           {/* Authentic Circular Blue Verified Checkmark Badge */}
@@ -223,33 +225,33 @@ export const Thumbnail: React.FC = () => {
         {/* 2-Tier Hero Headline (Maximum Hype) */}
         <div
           style={{
-            marginTop: 48,
+            marginTop: 40,
             display: "flex",
             flexDirection: "column",
-            gap: 10,
+            gap: 8,
           }}
         >
           {/* Tier 1: Sub-Hook in Electric Cyan */}
           <div
             style={{
-              fontSize: 56,
+              fontSize: 52,
               fontWeight: 900,
-              color: "#38BDF8",
-              letterSpacing: "0.1em",
+              color: "#F59E0B",
+              letterSpacing: "0.08em",
               textTransform: "uppercase",
               fontFamily: "'Montserrat', sans-serif",
-              textShadow: "0 0 25px rgba(56, 189, 248, 0.8), 0 0 50px rgba(56, 189, 248, 0.4)",
+              textShadow: "0 0 25px rgba(245, 158, 11, 0.8), 0 0 50px rgba(245, 158, 11, 0.4)",
               lineHeight: 1,
             }}
           >
-            LEAK CONFIRMS
+            OPUS 5.2 LEAK
           </div>
 
           {/* Tier 2: Giant White Hero Title with High-Energy Glow Bloom */}
           <h1
             style={{
               margin: 0,
-              fontSize: 160,
+              fontSize: 140,
               fontWeight: 950,
               letterSpacing: "-0.03em",
               textTransform: "uppercase",
@@ -260,7 +262,7 @@ export const Thumbnail: React.FC = () => {
                 "drop-shadow(0 0 20px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 50px rgba(56, 189, 248, 0.7)) drop-shadow(0 0 90px rgba(0, 112, 243, 0.45))",
             }}
           >
-            RSI ACHIEVED
+            GPT-6 SOL
           </h1>
         </div>
       </div>
