@@ -1,5247 +1,3973 @@
 {
-  "duration": 326.38,
+  "duration": 251.94,
   "fps": 30,
-  "totalFrames": 9791,
+  "totalFrames": 7558,
   "segments": [
     {
       "id": 0,
       "start": 0.0,
-      "end": 5.92,
-      "text": "Every major aicio in silicon valley is publicly begging governments to slow down the frontier race,",
+      "end": 4.22,
+      "text": "Take a video of any video game on Steam, feed it into an AI model,",
       "words": [
         {
-          "word": " Every",
+          "word": " Take",
           "start": 0.0,
-          "end": 0.3,
-          "probability": 0.8
+          "end": 0.22,
+          "probability": 0.45
         },
         {
-          "word": " major",
-          "start": 0.3,
-          "end": 0.7,
+          "word": " a",
+          "start": 0.22,
+          "end": 0.36,
+          "probability": 0.99
+        },
+        {
+          "word": " video",
+          "start": 0.36,
+          "end": 0.62,
+          "probability": 0.99
+        },
+        {
+          "word": " of",
+          "start": 0.62,
+          "end": 0.86,
+          "probability": 0.99
+        },
+        {
+          "word": " any",
+          "start": 0.86,
+          "end": 1.02,
+          "probability": 0.99
+        },
+        {
+          "word": " video",
+          "start": 1.02,
+          "end": 1.36,
+          "probability": 0.95
+        },
+        {
+          "word": " game",
+          "start": 1.36,
+          "end": 1.62,
+          "probability": 0.99
+        },
+        {
+          "word": " on",
+          "start": 1.62,
+          "end": 1.78,
           "probability": 1.0
         },
         {
-          "word": " aicio",
-          "start": 0.7,
-          "end": 1.64,
-          "probability": 0.25
+          "word": " Steam,",
+          "start": 1.78,
+          "end": 2.04,
+          "probability": 0.9
         },
         {
-          "word": " in",
-          "start": 1.64,
-          "end": 1.94,
-          "probability": 0.91
-        },
-        {
-          "word": " silicon",
-          "start": 1.94,
-          "end": 2.12,
-          "probability": 0.13
-        },
-        {
-          "word": " valley",
-          "start": 2.12,
-          "end": 2.58,
-          "probability": 0.93
-        },
-        {
-          "word": " is",
-          "start": 2.58,
-          "end": 2.98,
-          "probability": 0.96
-        },
-        {
-          "word": " publicly",
-          "start": 2.98,
-          "end": 3.32,
-          "probability": 0.91
-        },
-        {
-          "word": " begging",
-          "start": 3.32,
-          "end": 3.74,
-          "probability": 0.99
-        },
-        {
-          "word": " governments",
-          "start": 3.74,
-          "end": 4.14,
-          "probability": 0.97
-        },
-        {
-          "word": " to",
-          "start": 4.14,
-          "end": 4.56,
-          "probability": 0.99
-        },
-        {
-          "word": " slow",
-          "start": 4.56,
-          "end": 4.82,
-          "probability": 0.99
-        },
-        {
-          "word": " down",
-          "start": 4.82,
-          "end": 5.16,
-          "probability": 1.0
-        },
-        {
-          "word": " the",
-          "start": 5.16,
-          "end": 5.3,
+          "word": " feed",
+          "start": 2.72,
+          "end": 3.02,
           "probability": 0.98
         },
         {
-          "word": " frontier",
-          "start": 5.3,
-          "end": 5.48,
-          "probability": 0.97
+          "word": " it",
+          "start": 3.02,
+          "end": 3.18,
+          "probability": 0.98
         },
         {
-          "word": " race,",
-          "start": 5.48,
-          "end": 5.92,
-          "probability": 0.84
+          "word": " into",
+          "start": 3.18,
+          "end": 3.48,
+          "probability": 0.99
+        },
+        {
+          "word": " an",
+          "start": 3.48,
+          "end": 3.64,
+          "probability": 0.99
+        },
+        {
+          "word": " AI",
+          "start": 3.64,
+          "end": 3.8,
+          "probability": 0.99
+        },
+        {
+          "word": " model,",
+          "start": 3.8,
+          "end": 4.22,
+          "probability": 0.98
         }
       ]
     },
     {
       "id": 1,
-      "start": 6.44,
-      "end": 11.9,
-      "text": "but behind closed doors they are accelerating faster than they have in human history.",
+      "start": 4.72,
+      "end": 7.98,
+      "text": "and get a fully playable zero dependency codebase back in minutes.",
       "words": [
         {
-          "word": " but",
-          "start": 6.44,
-          "end": 6.66,
-          "probability": 0.95
-        },
-        {
-          "word": " behind",
-          "start": 6.66,
-          "end": 7.02,
+          "word": " and",
+          "start": 4.72,
+          "end": 4.88,
           "probability": 0.99
         },
         {
-          "word": " closed",
-          "start": 7.02,
-          "end": 7.32,
-          "probability": 0.97
-        },
-        {
-          "word": " doors",
-          "start": 7.32,
-          "end": 7.82,
-          "probability": 0.99
-        },
-        {
-          "word": " they",
-          "start": 7.82,
-          "end": 8.66,
-          "probability": 0.25
-        },
-        {
-          "word": " are",
-          "start": 8.66,
-          "end": 8.88,
-          "probability": 0.99
-        },
-        {
-          "word": " accelerating",
-          "start": 8.88,
-          "end": 9.32,
-          "probability": 0.98
-        },
-        {
-          "word": " faster",
-          "start": 9.32,
-          "end": 9.96,
-          "probability": 0.99
-        },
-        {
-          "word": " than",
-          "start": 9.96,
-          "end": 10.52,
-          "probability": 0.99
-        },
-        {
-          "word": " they",
-          "start": 10.52,
-          "end": 10.68,
-          "probability": 0.99
-        },
-        {
-          "word": " have",
-          "start": 10.68,
-          "end": 10.94,
+          "word": " get",
+          "start": 4.88,
+          "end": 5.04,
           "probability": 1.0
         },
         {
+          "word": " a",
+          "start": 5.04,
+          "end": 5.14,
+          "probability": 1.0
+        },
+        {
+          "word": " fully",
+          "start": 5.14,
+          "end": 5.4,
+          "probability": 1.0
+        },
+        {
+          "word": " playable",
+          "start": 5.4,
+          "end": 5.84,
+          "probability": 0.98
+        },
+        {
+          "word": " zero",
+          "start": 5.84,
+          "end": 6.2,
+          "probability": 0.44
+        },
+        {
+          "word": " dependency",
+          "start": 6.2,
+          "end": 6.64,
+          "probability": 0.85
+        },
+        {
+          "word": " codebase",
+          "start": 6.64,
+          "end": 7.26,
+          "probability": 0.75
+        },
+        {
+          "word": " back",
+          "start": 7.26,
+          "end": 7.56,
+          "probability": 0.99
+        },
+        {
           "word": " in",
-          "start": 10.94,
-          "end": 11.22,
-          "probability": 0.99
+          "start": 7.56,
+          "end": 7.74,
+          "probability": 1.0
         },
         {
-          "word": " human",
-          "start": 11.22,
-          "end": 11.44,
-          "probability": 0.99
-        },
-        {
-          "word": " history.",
-          "start": 11.44,
-          "end": 11.9,
-          "probability": 0.99
+          "word": " minutes.",
+          "start": 7.74,
+          "end": 7.98,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 2,
-      "start": 12.38,
-      "end": 18.66,
-      "text": "Over the last 48 hours dario amide Sam Altman and Elon Musk formed what looks like an unprecedented",
+      "start": 8.58,
+      "end": 10.46,
+      "text": "That is no longer a research concept.",
       "words": [
         {
-          "word": " Over",
-          "start": 12.38,
-          "end": 12.56,
-          "probability": 0.97
-        },
-        {
-          "word": " the",
-          "start": 12.56,
-          "end": 12.74,
-          "probability": 1.0
-        },
-        {
-          "word": " last",
-          "start": 12.74,
-          "end": 12.96,
-          "probability": 1.0
-        },
-        {
-          "word": " 48",
-          "start": 12.96,
-          "end": 13.32,
-          "probability": 0.95
-        },
-        {
-          "word": " hours",
-          "start": 13.32,
-          "end": 13.8,
-          "probability": 0.97
-        },
-        {
-          "word": " dario",
-          "start": 13.8,
-          "end": 14.3,
-          "probability": 0.63
-        },
-        {
-          "word": " amide",
-          "start": 14.3,
-          "end": 14.68,
-          "probability": 0.53
-        },
-        {
-          "word": " Sam",
-          "start": 14.68,
-          "end": 15.08,
-          "probability": 0.68
-        },
-        {
-          "word": " Altman",
-          "start": 15.08,
-          "end": 15.58,
-          "probability": 0.82
-        },
-        {
-          "word": " and",
-          "start": 15.58,
-          "end": 16.18,
-          "probability": 0.84
-        },
-        {
-          "word": " Elon",
-          "start": 16.18,
-          "end": 16.44,
-          "probability": 0.63
-        },
-        {
-          "word": " Musk",
-          "start": 16.44,
-          "end": 16.72,
-          "probability": 0.76
-        },
-        {
-          "word": " formed",
-          "start": 16.72,
-          "end": 17.12,
-          "probability": 0.98
-        },
-        {
-          "word": " what",
-          "start": 17.12,
-          "end": 17.42,
-          "probability": 0.93
-        },
-        {
-          "word": " looks",
-          "start": 17.42,
-          "end": 17.62,
+          "word": " That",
+          "start": 8.58,
+          "end": 8.74,
           "probability": 0.99
         },
         {
-          "word": " like",
-          "start": 17.62,
-          "end": 17.86,
-          "probability": 1.0
-        },
-        {
-          "word": " an",
-          "start": 17.86,
-          "end": 17.98,
+          "word": " is",
+          "start": 8.74,
+          "end": 8.94,
           "probability": 0.98
         },
         {
-          "word": " unprecedented",
-          "start": 17.98,
-          "end": 18.66,
+          "word": " no",
+          "start": 8.94,
+          "end": 9.18,
+          "probability": 1.0
+        },
+        {
+          "word": " longer",
+          "start": 9.18,
+          "end": 9.54,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 9.54,
+          "end": 9.72,
+          "probability": 1.0
+        },
+        {
+          "word": " research",
+          "start": 9.72,
+          "end": 10.02,
+          "probability": 0.98
+        },
+        {
+          "word": " concept.",
+          "start": 10.02,
+          "end": 10.46,
           "probability": 1.0
         }
       ]
     },
     {
       "id": 3,
-      "start": 18.66,
-      "end": 24.8,
-      "text": "truce. They claim recursive self-improvement is spiraling out of control that we need mandatory",
+      "start": 11.2,
+      "end": 16.08,
+      "text": "It just happened on live developer timelines with OpenAI's GPT-6 Astra.",
       "words": [
         {
-          "word": " truce.",
-          "start": 18.66,
-          "end": 19.0,
-          "probability": 0.89
+          "word": " It",
+          "start": 11.2,
+          "end": 11.4,
+          "probability": 1.0
         },
         {
-          "word": " They",
-          "start": 19.58,
-          "end": 19.74,
+          "word": " just",
+          "start": 11.4,
+          "end": 11.52,
+          "probability": 1.0
+        },
+        {
+          "word": " happened",
+          "start": 11.52,
+          "end": 11.9,
+          "probability": 1.0
+        },
+        {
+          "word": " on",
+          "start": 11.9,
+          "end": 12.2,
+          "probability": 1.0
+        },
+        {
+          "word": " live",
+          "start": 12.2,
+          "end": 12.5,
+          "probability": 0.96
+        },
+        {
+          "word": " developer",
+          "start": 12.5,
+          "end": 12.9,
+          "probability": 0.99
+        },
+        {
+          "word": " timelines",
+          "start": 12.9,
+          "end": 13.38,
+          "probability": 0.99
+        },
+        {
+          "word": " with",
+          "start": 13.38,
+          "end": 13.96,
+          "probability": 0.96
+        },
+        {
+          "word": " OpenAI's",
+          "start": 13.96,
+          "end": 14.76,
+          "probability": 0.94
+        },
+        {
+          "word": " GPT",
+          "start": 14.76,
+          "end": 15.1,
           "probability": 0.97
         },
         {
-          "word": " claim",
-          "start": 19.74,
-          "end": 20.02,
-          "probability": 0.99
-        },
-        {
-          "word": " recursive",
-          "start": 20.02,
-          "end": 20.54,
-          "probability": 0.93
-        },
-        {
-          "word": " self",
-          "start": 20.54,
-          "end": 21.0,
-          "probability": 0.98
-        },
-        {
-          "word": "-improvement",
-          "start": 21.0,
-          "end": 21.64,
+          "word": "-6",
+          "start": 15.1,
+          "end": 15.62,
           "probability": 0.82
         },
         {
-          "word": " is",
-          "start": 21.64,
-          "end": 21.86,
-          "probability": 0.99
-        },
-        {
-          "word": " spiraling",
-          "start": 21.86,
-          "end": 22.44,
-          "probability": 0.98
-        },
-        {
-          "word": " out",
-          "start": 22.44,
-          "end": 22.72,
-          "probability": 0.99
-        },
-        {
-          "word": " of",
-          "start": 22.72,
-          "end": 22.82,
-          "probability": 0.99
-        },
-        {
-          "word": " control",
-          "start": 22.82,
-          "end": 23.12,
-          "probability": 1.0
-        },
-        {
-          "word": " that",
-          "start": 23.12,
-          "end": 23.92,
-          "probability": 0.82
-        },
-        {
-          "word": " we",
-          "start": 23.92,
-          "end": 24.12,
-          "probability": 0.98
-        },
-        {
-          "word": " need",
-          "start": 24.12,
-          "end": 24.32,
-          "probability": 1.0
-        },
-        {
-          "word": " mandatory",
-          "start": 24.32,
-          "end": 24.8,
-          "probability": 0.98
+          "word": " Astra.",
+          "start": 15.62,
+          "end": 16.08,
+          "probability": 0.89
         }
       ]
     },
     {
       "id": 4,
-      "start": 24.8,
-      "end": 32.4,
-      "text": "pauses, independent oversight, a global breather, sounds noble until you look at what leaked into",
+      "start": 16.56,
+      "end": 19.52,
+      "text": "And while developers were still reeling from a complete Mario Kart,",
       "words": [
         {
-          "word": " pauses,",
-          "start": 24.8,
-          "end": 25.52,
-          "probability": 0.0
+          "word": " And",
+          "start": 16.56,
+          "end": 16.7,
+          "probability": 0.95
         },
         {
-          "word": " independent",
-          "start": 26.08,
-          "end": 26.52,
-          "probability": 0.94
+          "word": " while",
+          "start": 16.7,
+          "end": 16.86,
+          "probability": 0.99
         },
         {
-          "word": " oversight,",
-          "start": 26.52,
-          "end": 27.1,
-          "probability": 0.96
+          "word": " developers",
+          "start": 16.86,
+          "end": 17.18,
+          "probability": 1.0
+        },
+        {
+          "word": " were",
+          "start": 17.18,
+          "end": 17.58,
+          "probability": 0.99
+        },
+        {
+          "word": " still",
+          "start": 17.58,
+          "end": 17.82,
+          "probability": 1.0
+        },
+        {
+          "word": " reeling",
+          "start": 17.82,
+          "end": 18.02,
+          "probability": 0.99
+        },
+        {
+          "word": " from",
+          "start": 18.02,
+          "end": 18.36,
+          "probability": 1.0
         },
         {
           "word": " a",
-          "start": 27.94,
-          "end": 28.04,
-          "probability": 0.99
-        },
-        {
-          "word": " global",
-          "start": 28.04,
-          "end": 28.24,
-          "probability": 0.98
-        },
-        {
-          "word": " breather,",
-          "start": 28.24,
-          "end": 28.88,
-          "probability": 0.99
-        },
-        {
-          "word": " sounds",
-          "start": 29.26,
-          "end": 29.64,
-          "probability": 0.97
-        },
-        {
-          "word": " noble",
-          "start": 29.64,
-          "end": 30.02,
-          "probability": 0.96
-        },
-        {
-          "word": " until",
-          "start": 30.02,
-          "end": 30.9,
-          "probability": 0.32
-        },
-        {
-          "word": " you",
-          "start": 30.9,
-          "end": 31.16,
+          "start": 18.36,
+          "end": 18.44,
           "probability": 1.0
         },
         {
-          "word": " look",
-          "start": 31.16,
-          "end": 31.34,
-          "probability": 0.99
-        },
-        {
-          "word": " at",
-          "start": 31.34,
-          "end": 31.52,
-          "probability": 0.99
-        },
-        {
-          "word": " what",
-          "start": 31.52,
-          "end": 31.7,
+          "word": " complete",
+          "start": 18.44,
+          "end": 18.8,
           "probability": 1.0
         },
         {
-          "word": " leaked",
-          "start": 31.7,
-          "end": 31.96,
-          "probability": 0.92
+          "word": " Mario",
+          "start": 18.8,
+          "end": 19.08,
+          "probability": 0.96
         },
         {
-          "word": " into",
-          "start": 31.96,
-          "end": 32.4,
-          "probability": 0.96
+          "word": " Kart,",
+          "start": 19.08,
+          "end": 19.52,
+          "probability": 0.89
         }
       ]
     },
     {
       "id": 5,
-      "start": 32.4,
-      "end": 38.12,
-      "text": "the developer pipelines literally hours later. Anthropic is internally running tests on clawed",
+      "start": 19.7,
+      "end": 26.08,
+      "text": "we cloned running inside a single HTML file, an unannounced model surfaced inside OpenAI's production API.",
       "words": [
         {
-          "word": " the",
-          "start": 32.4,
-          "end": 32.54,
-          "probability": 0.98
-        },
-        {
-          "word": " developer",
-          "start": 32.54,
-          "end": 32.88,
-          "probability": 0.97
-        },
-        {
-          "word": " pipelines",
-          "start": 32.88,
-          "end": 33.26,
-          "probability": 0.98
-        },
-        {
-          "word": " literally",
-          "start": 33.26,
-          "end": 34.0,
-          "probability": 0.92
-        },
-        {
-          "word": " hours",
-          "start": 34.0,
-          "end": 34.4,
-          "probability": 0.99
-        },
-        {
-          "word": " later.",
-          "start": 34.4,
-          "end": 34.88,
+          "word": " we",
+          "start": 19.7,
+          "end": 19.74,
           "probability": 1.0
         },
         {
-          "word": " Anthropic",
-          "start": 35.46,
-          "end": 35.94,
-          "probability": 0.62
-        },
-        {
-          "word": " is",
-          "start": 35.94,
-          "end": 36.14,
-          "probability": 0.99
-        },
-        {
-          "word": " internally",
-          "start": 36.14,
-          "end": 36.5,
-          "probability": 0.99
+          "word": " cloned",
+          "start": 19.74,
+          "end": 20.06,
+          "probability": 0.89
         },
         {
           "word": " running",
-          "start": 36.5,
-          "end": 36.96,
+          "start": 20.06,
+          "end": 20.26,
+          "probability": 0.99
+        },
+        {
+          "word": " inside",
+          "start": 20.26,
+          "end": 20.76,
           "probability": 1.0
         },
         {
-          "word": " tests",
-          "start": 36.96,
-          "end": 37.3,
+          "word": " a",
+          "start": 20.76,
+          "end": 20.96,
+          "probability": 1.0
+        },
+        {
+          "word": " single",
+          "start": 20.96,
+          "end": 21.24,
+          "probability": 1.0
+        },
+        {
+          "word": " HTML",
+          "start": 21.24,
+          "end": 21.52,
+          "probability": 0.95
+        },
+        {
+          "word": " file,",
+          "start": 21.52,
+          "end": 22.18,
+          "probability": 1.0
+        },
+        {
+          "word": " an",
+          "start": 22.9,
+          "end": 23.04,
+          "probability": 0.83
+        },
+        {
+          "word": " unannounced",
+          "start": 23.04,
+          "end": 23.48,
           "probability": 0.99
         },
         {
-          "word": " on",
-          "start": 37.3,
-          "end": 37.7,
+          "word": " model",
+          "start": 23.48,
+          "end": 23.76,
+          "probability": 0.96
+        },
+        {
+          "word": " surfaced",
+          "start": 23.76,
+          "end": 24.14,
           "probability": 0.99
         },
         {
-          "word": " clawed",
-          "start": 37.7,
-          "end": 38.12,
-          "probability": 0.51
+          "word": " inside",
+          "start": 24.14,
+          "end": 24.58,
+          "probability": 1.0
+        },
+        {
+          "word": " OpenAI's",
+          "start": 24.58,
+          "end": 25.48,
+          "probability": 0.99
+        },
+        {
+          "word": " production",
+          "start": 25.48,
+          "end": 25.64,
+          "probability": 0.89
+        },
+        {
+          "word": " API.",
+          "start": 25.64,
+          "end": 26.08,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 6,
-      "start": 38.12,
-      "end": 45.32,
-      "text": "opus 5.2. Open AI is quietly handing out access to GPT-6 soul and open source labs are",
+      "start": 26.88,
+      "end": 33.14,
+      "text": "GPT-6 Soul. Meanwhile, Sam Altman casually revealed that thousands of autonomous agents",
       "words": [
         {
-          "word": " opus",
-          "start": 38.12,
-          "end": 38.46,
-          "probability": 0.63
-        },
-        {
-          "word": " 5",
-          "start": 38.46,
-          "end": 38.72,
-          "probability": 0.92
-        },
-        {
-          "word": ".2.",
-          "start": 38.72,
-          "end": 39.3,
-          "probability": 0.99
-        },
-        {
-          "word": " Open",
-          "start": 39.78,
-          "end": 40.0,
-          "probability": 0.92
-        },
-        {
-          "word": " AI",
-          "start": 40.0,
-          "end": 40.18,
-          "probability": 0.17
-        },
-        {
-          "word": " is",
-          "start": 40.18,
-          "end": 40.58,
-          "probability": 1.0
-        },
-        {
-          "word": " quietly",
-          "start": 40.58,
-          "end": 40.84,
-          "probability": 1.0
-        },
-        {
-          "word": " handing",
-          "start": 40.84,
-          "end": 41.36,
-          "probability": 1.0
-        },
-        {
-          "word": " out",
-          "start": 41.36,
-          "end": 41.64,
-          "probability": 1.0
-        },
-        {
-          "word": " access",
-          "start": 41.64,
-          "end": 42.02,
-          "probability": 1.0
-        },
-        {
-          "word": " to",
-          "start": 42.02,
-          "end": 42.34,
-          "probability": 1.0
-        },
-        {
           "word": " GPT",
-          "start": 42.34,
-          "end": 42.68,
-          "probability": 0.95
+          "start": 26.88,
+          "end": 27.52,
+          "probability": 0.54
         },
         {
           "word": "-6",
-          "start": 42.68,
-          "end": 43.1,
-          "probability": 0.76
+          "start": 27.52,
+          "end": 28.0,
+          "probability": 0.83
         },
         {
-          "word": " soul",
-          "start": 43.1,
-          "end": 43.34,
-          "probability": 0.2
+          "word": " Soul.",
+          "start": 28.0,
+          "end": 28.22,
+          "probability": 0.34
         },
         {
-          "word": " and",
-          "start": 43.34,
-          "end": 44.12,
-          "probability": 0.35
+          "word": " Meanwhile,",
+          "start": 28.7,
+          "end": 29.16,
+          "probability": 0.99
         },
         {
-          "word": " open",
-          "start": 44.12,
-          "end": 44.3,
-          "probability": 0.94
+          "word": " Sam",
+          "start": 29.7,
+          "end": 30.02,
+          "probability": 0.99
         },
         {
-          "word": " source",
-          "start": 44.3,
-          "end": 44.62,
-          "probability": 0.69
+          "word": " Altman",
+          "start": 30.02,
+          "end": 30.48,
+          "probability": 0.92
         },
         {
-          "word": " labs",
-          "start": 44.62,
-          "end": 44.98,
-          "probability": 0.96
+          "word": " casually",
+          "start": 30.48,
+          "end": 30.74,
+          "probability": 0.99
         },
         {
-          "word": " are",
-          "start": 44.98,
-          "end": 45.32,
+          "word": " revealed",
+          "start": 30.74,
+          "end": 31.34,
           "probability": 1.0
+        },
+        {
+          "word": " that",
+          "start": 31.34,
+          "end": 31.74,
+          "probability": 0.99
+        },
+        {
+          "word": " thousands",
+          "start": 31.74,
+          "end": 32.1,
+          "probability": 0.99
+        },
+        {
+          "word": " of",
+          "start": 32.1,
+          "end": 32.4,
+          "probability": 1.0
+        },
+        {
+          "word": " autonomous",
+          "start": 32.4,
+          "end": 32.62,
+          "probability": 0.88
+        },
+        {
+          "word": " agents",
+          "start": 32.62,
+          "end": 33.14,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 7,
-      "start": 45.32,
-      "end": 49.26,
-      "text": "preparing something that makes all of these safety agreements completely irrelevant.",
+      "start": 33.14,
+      "end": 38.24,
+      "text": "are already running unchecked while he sleeps. Tonight, we look at the four revelations from",
       "words": [
         {
-          "word": " preparing",
-          "start": 45.32,
-          "end": 45.62,
+          "word": " are",
+          "start": 33.14,
+          "end": 33.52,
           "probability": 1.0
         },
         {
-          "word": " something",
-          "start": 45.62,
-          "end": 46.1,
+          "word": " already",
+          "start": 33.52,
+          "end": 33.8,
+          "probability": 0.99
+        },
+        {
+          "word": " running",
+          "start": 33.8,
+          "end": 34.08,
           "probability": 1.0
         },
         {
-          "word": " that",
-          "start": 46.1,
-          "end": 46.44,
-          "probability": 1.0
-        },
-        {
-          "word": " makes",
-          "start": 46.44,
-          "end": 46.72,
-          "probability": 1.0
-        },
-        {
-          "word": " all",
-          "start": 46.72,
-          "end": 47.02,
-          "probability": 1.0
-        },
-        {
-          "word": " of",
-          "start": 47.02,
-          "end": 47.2,
-          "probability": 1.0
-        },
-        {
-          "word": " these",
-          "start": 47.2,
-          "end": 47.34,
+          "word": " unchecked",
+          "start": 34.08,
+          "end": 34.4,
           "probability": 0.98
         },
         {
-          "word": " safety",
-          "start": 47.34,
-          "end": 47.6,
-          "probability": 0.99
+          "word": " while",
+          "start": 34.4,
+          "end": 34.88,
+          "probability": 0.98
         },
         {
-          "word": " agreements",
-          "start": 47.6,
-          "end": 48.14,
-          "probability": 0.99
-        },
-        {
-          "word": " completely",
-          "start": 48.14,
-          "end": 48.72,
+          "word": " he",
+          "start": 34.88,
+          "end": 35.02,
           "probability": 1.0
         },
         {
-          "word": " irrelevant.",
-          "start": 48.72,
-          "end": 49.26,
+          "word": " sleeps.",
+          "start": 35.02,
+          "end": 35.26,
+          "probability": 1.0
+        },
+        {
+          "word": " Tonight,",
+          "start": 35.94,
+          "end": 36.22,
+          "probability": 0.98
+        },
+        {
+          "word": " we",
+          "start": 36.5,
+          "end": 36.64,
+          "probability": 1.0
+        },
+        {
+          "word": " look",
+          "start": 36.64,
+          "end": 36.8,
+          "probability": 0.99
+        },
+        {
+          "word": " at",
+          "start": 36.8,
+          "end": 36.98,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 36.98,
+          "end": 37.08,
+          "probability": 0.99
+        },
+        {
+          "word": " four",
+          "start": 37.08,
+          "end": 37.32,
+          "probability": 0.84
+        },
+        {
+          "word": " revelations",
+          "start": 37.32,
+          "end": 37.7,
+          "probability": 0.97
+        },
+        {
+          "word": " from",
+          "start": 37.7,
+          "end": 38.24,
           "probability": 1.0
         }
       ]
     },
     {
       "id": 8,
-      "start": 49.9,
-      "end": 56.02,
-      "text": "Let's begin with dario's essay. It is titled we must pace the frontier and make no mistake,",
+      "start": 38.24,
+      "end": 42.6,
+      "text": "the past 48 hours that Prove Software Engineering has crossed an irreversible threshold.",
       "words": [
         {
-          "word": " Let's",
-          "start": 49.9,
-          "end": 50.22,
-          "probability": 0.66
-        },
-        {
-          "word": " begin",
-          "start": 50.22,
-          "end": 50.5,
-          "probability": 0.99
-        },
-        {
-          "word": " with",
-          "start": 50.5,
-          "end": 50.82,
-          "probability": 0.99
-        },
-        {
-          "word": " dario's",
-          "start": 50.82,
-          "end": 51.42,
-          "probability": 0.56
-        },
-        {
-          "word": " essay.",
-          "start": 51.42,
-          "end": 51.62,
-          "probability": 0.96
-        },
-        {
-          "word": " It",
-          "start": 52.26,
-          "end": 52.42,
-          "probability": 0.97
-        },
-        {
-          "word": " is",
-          "start": 52.42,
-          "end": 52.5,
-          "probability": 1.0
-        },
-        {
-          "word": " titled",
-          "start": 52.5,
-          "end": 52.86,
-          "probability": 0.99
-        },
-        {
-          "word": " we",
-          "start": 52.86,
-          "end": 53.22,
-          "probability": 0.2
-        },
-        {
-          "word": " must",
-          "start": 53.22,
-          "end": 53.4,
-          "probability": 0.99
-        },
-        {
-          "word": " pace",
-          "start": 53.4,
-          "end": 53.7,
-          "probability": 0.65
-        },
-        {
           "word": " the",
-          "start": 53.7,
-          "end": 53.92,
+          "start": 38.24,
+          "end": 38.36,
           "probability": 0.99
         },
         {
-          "word": " frontier",
-          "start": 53.92,
-          "end": 54.14,
+          "word": " past",
+          "start": 38.36,
+          "end": 38.58,
           "probability": 0.99
         },
         {
-          "word": " and",
-          "start": 54.14,
-          "end": 55.26,
-          "probability": 0.78
+          "word": " 48",
+          "start": 38.58,
+          "end": 38.98,
+          "probability": 0.99
         },
         {
-          "word": " make",
-          "start": 55.26,
-          "end": 55.4,
-          "probability": 0.97
-        },
-        {
-          "word": " no",
-          "start": 55.4,
-          "end": 55.66,
+          "word": " hours",
+          "start": 38.98,
+          "end": 39.42,
           "probability": 0.98
         },
         {
-          "word": " mistake,",
-          "start": 55.66,
-          "end": 56.02,
+          "word": " that",
+          "start": 39.42,
+          "end": 39.76,
+          "probability": 0.99
+        },
+        {
+          "word": " Prove",
+          "start": 39.76,
+          "end": 40.04,
+          "probability": 0.55
+        },
+        {
+          "word": " Software",
+          "start": 40.04,
+          "end": 40.3,
+          "probability": 0.74
+        },
+        {
+          "word": " Engineering",
+          "start": 40.3,
+          "end": 40.7,
+          "probability": 0.92
+        },
+        {
+          "word": " has",
+          "start": 40.7,
+          "end": 41.18,
           "probability": 1.0
+        },
+        {
+          "word": " crossed",
+          "start": 41.18,
+          "end": 41.48,
+          "probability": 1.0
+        },
+        {
+          "word": " an",
+          "start": 41.48,
+          "end": 41.78,
+          "probability": 0.87
+        },
+        {
+          "word": " irreversible",
+          "start": 41.78,
+          "end": 42.0,
+          "probability": 0.98
+        },
+        {
+          "word": " threshold.",
+          "start": 42.0,
+          "end": 42.6,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 9,
-      "start": 56.54,
-      "end": 62.06,
-      "text": "the technical concerns he brings up are chilling. He explicitly revealed that since this past summer",
+      "start": 43.36,
+      "end": 46.64,
+      "text": "Let's examine the first breakthrough by developer Nokla-Peep.",
       "words": [
         {
+          "word": " Let's",
+          "start": 43.36,
+          "end": 43.64,
+          "probability": 0.99
+        },
+        {
+          "word": " examine",
+          "start": 43.64,
+          "end": 43.98,
+          "probability": 0.99
+        },
+        {
           "word": " the",
-          "start": 56.44,
-          "end": 56.74,
-          "probability": 0.96
-        },
-        {
-          "word": " technical",
-          "start": 56.74,
-          "end": 57.04,
-          "probability": 1.0
-        },
-        {
-          "word": " concerns",
-          "start": 57.04,
-          "end": 57.5,
-          "probability": 1.0
-        },
-        {
-          "word": " he",
-          "start": 57.5,
-          "end": 57.84,
-          "probability": 0.96
-        },
-        {
-          "word": " brings",
-          "start": 57.84,
-          "end": 58.0,
-          "probability": 1.0
-        },
-        {
-          "word": " up",
-          "start": 58.0,
-          "end": 58.26,
-          "probability": 1.0
-        },
-        {
-          "word": " are",
-          "start": 58.26,
-          "end": 58.46,
-          "probability": 0.99
-        },
-        {
-          "word": " chilling.",
-          "start": 58.46,
-          "end": 58.7,
-          "probability": 0.99
-        },
-        {
-          "word": " He",
-          "start": 59.4,
-          "end": 59.52,
-          "probability": 0.99
-        },
-        {
-          "word": " explicitly",
-          "start": 59.52,
-          "end": 59.9,
-          "probability": 1.0
-        },
-        {
-          "word": " revealed",
-          "start": 59.9,
-          "end": 60.48,
-          "probability": 1.0
-        },
-        {
-          "word": " that",
-          "start": 60.48,
-          "end": 60.9,
-          "probability": 0.99
-        },
-        {
-          "word": " since",
-          "start": 60.9,
-          "end": 61.12,
-          "probability": 0.99
-        },
-        {
-          "word": " this",
-          "start": 61.12,
-          "end": 61.38,
-          "probability": 0.99
-        },
-        {
-          "word": " past",
-          "start": 61.38,
-          "end": 61.6,
-          "probability": 1.0
-        },
-        {
-          "word": " summer",
-          "start": 61.6,
-          "end": 62.06,
+          "start": 43.98,
+          "end": 44.3,
           "probability": 0.98
+        },
+        {
+          "word": " first",
+          "start": 44.3,
+          "end": 44.56,
+          "probability": 1.0
+        },
+        {
+          "word": " breakthrough",
+          "start": 44.56,
+          "end": 44.88,
+          "probability": 0.98
+        },
+        {
+          "word": " by",
+          "start": 44.88,
+          "end": 45.48,
+          "probability": 1.0
+        },
+        {
+          "word": " developer",
+          "start": 45.48,
+          "end": 45.84,
+          "probability": 0.94
+        },
+        {
+          "word": " Nokla",
+          "start": 45.84,
+          "end": 46.44,
+          "probability": 0.28
+        },
+        {
+          "word": "-Peep.",
+          "start": 46.44,
+          "end": 46.64,
+          "probability": 0.61
         }
       ]
     },
     {
       "id": 10,
-      "start": 62.62,
-      "end": 67.58,
-      "text": "AI models have started writing the code for their own successors. Anthropic's internal agents",
+      "start": 47.08,
+      "end": 50.62,
+      "text": "He took raw gameplay footage of a commercial steam fishing game called",
       "words": [
         {
-          "word": " AI",
-          "start": 62.56,
-          "end": 62.86,
-          "probability": 0.54
-        },
-        {
-          "word": " models",
-          "start": 62.86,
-          "end": 63.28,
+          "word": " He",
+          "start": 47.08,
+          "end": 47.34,
           "probability": 0.99
         },
         {
-          "word": " have",
-          "start": 63.28,
-          "end": 63.56,
+          "word": " took",
+          "start": 47.34,
+          "end": 47.52,
+          "probability": 1.0
+        },
+        {
+          "word": " raw",
+          "start": 47.52,
+          "end": 47.76,
+          "probability": 0.96
+        },
+        {
+          "word": " gameplay",
+          "start": 47.76,
+          "end": 48.14,
+          "probability": 0.96
+        },
+        {
+          "word": " footage",
+          "start": 48.14,
+          "end": 48.62,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 48.62,
+          "end": 48.88,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 48.88,
+          "end": 48.96,
+          "probability": 1.0
+        },
+        {
+          "word": " commercial",
+          "start": 48.96,
+          "end": 49.22,
           "probability": 0.99
         },
         {
-          "word": " started",
-          "start": 63.56,
-          "end": 63.84,
+          "word": " steam",
+          "start": 49.22,
+          "end": 49.64,
+          "probability": 0.75
+        },
+        {
+          "word": " fishing",
+          "start": 49.64,
+          "end": 49.98,
+          "probability": 0.67
+        },
+        {
+          "word": " game",
+          "start": 49.98,
+          "end": 50.28,
           "probability": 1.0
         },
         {
-          "word": " writing",
-          "start": 63.84,
-          "end": 64.16,
-          "probability": 0.99
-        },
-        {
-          "word": " the",
-          "start": 64.16,
-          "end": 64.4,
-          "probability": 1.0
-        },
-        {
-          "word": " code",
-          "start": 64.4,
-          "end": 64.66,
-          "probability": 1.0
-        },
-        {
-          "word": " for",
-          "start": 64.66,
-          "end": 64.92,
-          "probability": 1.0
-        },
-        {
-          "word": " their",
-          "start": 64.92,
-          "end": 65.06,
-          "probability": 1.0
-        },
-        {
-          "word": " own",
-          "start": 65.06,
-          "end": 65.24,
-          "probability": 1.0
-        },
-        {
-          "word": " successors.",
-          "start": 65.24,
-          "end": 65.64,
-          "probability": 0.99
-        },
-        {
-          "word": " Anthropic's",
-          "start": 66.38,
-          "end": 66.98,
-          "probability": 0.62
-        },
-        {
-          "word": " internal",
-          "start": 66.98,
-          "end": 67.18,
-          "probability": 1.0
-        },
-        {
-          "word": " agents",
-          "start": 67.18,
-          "end": 67.58,
-          "probability": 1.0
+          "word": " called",
+          "start": 50.28,
+          "end": 50.62,
+          "probability": 0.98
         }
       ]
     },
     {
       "id": 11,
-      "start": 67.58,
-      "end": 72.38,
-      "text": "aren't just assisting engineers anymore. They are architecting the next model architectures.",
+      "start": 50.62,
+      "end": 56.64,
+      "text": "How to Fish and fed the video directly into GPT-6 Astra via AIML API.",
       "words": [
         {
-          "word": " aren't",
-          "start": 67.58,
-          "end": 68.12,
-          "probability": 0.99
+          "word": " How",
+          "start": 50.62,
+          "end": 51.26,
+          "probability": 0.15
         },
         {
-          "word": " just",
-          "start": 68.12,
-          "end": 68.32,
-          "probability": 1.0
+          "word": " to",
+          "start": 51.26,
+          "end": 51.36,
+          "probability": 0.87
         },
         {
-          "word": " assisting",
-          "start": 68.32,
-          "end": 68.62,
-          "probability": 0.99
+          "word": " Fish",
+          "start": 51.36,
+          "end": 51.58,
+          "probability": 0.43
         },
         {
-          "word": " engineers",
-          "start": 68.62,
-          "end": 69.1,
-          "probability": 1.0
+          "word": " and",
+          "start": 51.58,
+          "end": 52.4,
+          "probability": 0.47
         },
         {
-          "word": " anymore.",
-          "start": 69.1,
-          "end": 69.68,
-          "probability": 0.98
-        },
-        {
-          "word": " They",
-          "start": 70.28,
-          "end": 70.46,
-          "probability": 0.99
-        },
-        {
-          "word": " are",
-          "start": 70.46,
-          "end": 70.6,
-          "probability": 1.0
-        },
-        {
-          "word": " architecting",
-          "start": 70.6,
-          "end": 71.32,
-          "probability": 0.99
+          "word": " fed",
+          "start": 52.4,
+          "end": 52.6,
+          "probability": 0.58
         },
         {
           "word": " the",
-          "start": 71.32,
-          "end": 71.46,
-          "probability": 1.0
-        },
-        {
-          "word": " next",
-          "start": 71.46,
-          "end": 71.66,
-          "probability": 1.0
-        },
-        {
-          "word": " model",
-          "start": 71.66,
-          "end": 71.96,
+          "start": 52.6,
+          "end": 52.78,
           "probability": 0.99
         },
         {
-          "word": " architectures.",
-          "start": 71.96,
-          "end": 72.38,
-          "probability": 0.99
+          "word": " video",
+          "start": 52.78,
+          "end": 53.08,
+          "probability": 0.98
+        },
+        {
+          "word": " directly",
+          "start": 53.08,
+          "end": 53.46,
+          "probability": 0.98
+        },
+        {
+          "word": " into",
+          "start": 53.46,
+          "end": 53.9,
+          "probability": 0.98
+        },
+        {
+          "word": " GPT",
+          "start": 53.9,
+          "end": 54.32,
+          "probability": 0.93
+        },
+        {
+          "word": "-6",
+          "start": 54.32,
+          "end": 54.88,
+          "probability": 0.76
+        },
+        {
+          "word": " Astra",
+          "start": 54.88,
+          "end": 55.3,
+          "probability": 0.55
+        },
+        {
+          "word": " via",
+          "start": 55.3,
+          "end": 55.48,
+          "probability": 0.28
+        },
+        {
+          "word": " AIML",
+          "start": 55.48,
+          "end": 56.3,
+          "probability": 0.69
+        },
+        {
+          "word": " API.",
+          "start": 56.3,
+          "end": 56.64,
+          "probability": 0.92
         }
       ]
     },
     {
       "id": 12,
-      "start": 73.26,
-      "end": 78.06,
-      "text": "This is called recursive self-improvement and dario warns that if we do not pace this",
+      "start": 57.44,
+      "end": 63.58,
+      "text": "Look at this side-by-side comparison. Left is the real game. Right is Astra's rebuilt version.",
       "words": [
         {
-          "word": " This",
-          "start": 73.26,
-          "end": 73.42,
-          "probability": 1.0
-        },
-        {
-          "word": " is",
-          "start": 73.42,
-          "end": 73.54,
-          "probability": 1.0
-        },
-        {
-          "word": " called",
-          "start": 73.54,
-          "end": 73.78,
-          "probability": 1.0
-        },
-        {
-          "word": " recursive",
-          "start": 73.78,
-          "end": 74.06,
-          "probability": 0.96
-        },
-        {
-          "word": " self",
-          "start": 74.06,
-          "end": 74.6,
-          "probability": 0.99
-        },
-        {
-          "word": "-improvement",
-          "start": 74.6,
-          "end": 75.22,
-          "probability": 0.86
-        },
-        {
-          "word": " and",
-          "start": 75.22,
-          "end": 75.84,
-          "probability": 0.48
-        },
-        {
-          "word": " dario",
-          "start": 75.84,
-          "end": 76.16,
-          "probability": 0.95
-        },
-        {
-          "word": " warns",
-          "start": 76.16,
-          "end": 76.56,
-          "probability": 1.0
-        },
-        {
-          "word": " that",
-          "start": 76.56,
-          "end": 76.88,
-          "probability": 0.99
-        },
-        {
-          "word": " if",
-          "start": 76.88,
-          "end": 77.08,
+          "word": " Look",
+          "start": 57.44,
+          "end": 57.7,
           "probability": 0.98
         },
         {
-          "word": " we",
-          "start": 77.08,
-          "end": 77.22,
+          "word": " at",
+          "start": 57.7,
+          "end": 57.94,
           "probability": 1.0
-        },
-        {
-          "word": " do",
-          "start": 77.22,
-          "end": 77.34,
-          "probability": 1.0
-        },
-        {
-          "word": " not",
-          "start": 77.34,
-          "end": 77.54,
-          "probability": 1.0
-        },
-        {
-          "word": " pace",
-          "start": 77.54,
-          "end": 77.82,
-          "probability": 0.77
         },
         {
           "word": " this",
-          "start": 77.82,
-          "end": 78.12,
+          "start": 57.94,
+          "end": 58.14,
+          "probability": 0.98
+        },
+        {
+          "word": " side",
+          "start": 58.14,
+          "end": 58.42,
+          "probability": 0.97
+        },
+        {
+          "word": "-by",
+          "start": 58.42,
+          "end": 58.62,
+          "probability": 0.85
+        },
+        {
+          "word": "-side",
+          "start": 58.62,
+          "end": 58.94,
           "probability": 0.99
+        },
+        {
+          "word": " comparison.",
+          "start": 58.94,
+          "end": 59.16,
+          "probability": 0.99
+        },
+        {
+          "word": " Left",
+          "start": 60.1,
+          "end": 60.34,
+          "probability": 0.86
+        },
+        {
+          "word": " is",
+          "start": 60.34,
+          "end": 60.62,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 60.62,
+          "end": 60.8,
+          "probability": 0.99
+        },
+        {
+          "word": " real",
+          "start": 60.8,
+          "end": 61.0,
+          "probability": 0.91
+        },
+        {
+          "word": " game.",
+          "start": 61.0,
+          "end": 61.32,
+          "probability": 0.95
+        },
+        {
+          "word": " Right",
+          "start": 61.9,
+          "end": 62.06,
+          "probability": 0.98
+        },
+        {
+          "word": " is",
+          "start": 62.06,
+          "end": 62.36,
+          "probability": 1.0
+        },
+        {
+          "word": " Astra's",
+          "start": 62.36,
+          "end": 62.94,
+          "probability": 0.98
+        },
+        {
+          "word": " rebuilt",
+          "start": 62.94,
+          "end": 63.18,
+          "probability": 0.94
+        },
+        {
+          "word": " version.",
+          "start": 63.18,
+          "end": 63.58,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 13,
-      "start": 78.12,
-      "end": 83.48,
-      "text": "capabilities curve alignment will fundamentally fail. He proposed a three part plan,",
+      "start": 64.34,
+      "end": 68.82,
+      "text": "It didn't just generate a static graphic. It synthesized the entire game loop.",
       "words": [
         {
-          "word": " capabilities",
-          "start": 78.12,
-          "end": 78.68,
-          "probability": 0.73
-        },
-        {
-          "word": " curve",
-          "start": 78.68,
-          "end": 78.98,
-          "probability": 0.97
-        },
-        {
-          "word": " alignment",
-          "start": 78.98,
-          "end": 79.92,
-          "probability": 0.2
-        },
-        {
-          "word": " will",
-          "start": 79.92,
-          "end": 80.3,
+          "word": " It",
+          "start": 64.34,
+          "end": 64.46,
           "probability": 0.99
         },
         {
-          "word": " fundamentally",
-          "start": 80.3,
-          "end": 80.68,
-          "probability": 0.99
+          "word": " didn't",
+          "start": 64.46,
+          "end": 64.72,
+          "probability": 1.0
         },
         {
-          "word": " fail.",
-          "start": 80.68,
-          "end": 81.28,
-          "probability": 0.99
+          "word": " just",
+          "start": 64.72,
+          "end": 64.94,
+          "probability": 1.0
         },
         {
-          "word": " He",
-          "start": 81.88,
-          "end": 81.96,
-          "probability": 0.98
-        },
-        {
-          "word": " proposed",
-          "start": 81.96,
-          "end": 82.28,
-          "probability": 0.98
+          "word": " generate",
+          "start": 64.94,
+          "end": 65.34,
+          "probability": 1.0
         },
         {
           "word": " a",
-          "start": 82.28,
-          "end": 82.58,
-          "probability": 0.98
+          "start": 65.34,
+          "end": 65.66,
+          "probability": 0.97
         },
         {
-          "word": " three",
-          "start": 82.58,
-          "end": 82.78,
+          "word": " static",
+          "start": 65.66,
+          "end": 65.92,
+          "probability": 1.0
+        },
+        {
+          "word": " graphic.",
+          "start": 65.92,
+          "end": 66.26,
+          "probability": 1.0
+        },
+        {
+          "word": " It",
+          "start": 67.18,
+          "end": 67.24,
+          "probability": 0.99
+        },
+        {
+          "word": " synthesized",
+          "start": 67.24,
+          "end": 67.84,
+          "probability": 0.94
+        },
+        {
+          "word": " the",
+          "start": 67.84,
+          "end": 68.02,
+          "probability": 1.0
+        },
+        {
+          "word": " entire",
+          "start": 68.02,
+          "end": 68.2,
+          "probability": 1.0
+        },
+        {
+          "word": " game",
+          "start": 68.2,
+          "end": 68.6,
           "probability": 0.96
         },
         {
-          "word": " part",
-          "start": 82.78,
-          "end": 83.02,
-          "probability": 0.7
-        },
-        {
-          "word": " plan,",
-          "start": 83.02,
-          "end": 83.48,
-          "probability": 1.0
+          "word": " loop.",
+          "start": 68.6,
+          "end": 68.82,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 14,
-      "start": 84.12,
-      "end": 89.44,
-      "text": "independent evaluators, competitor peer review, and a structured deceleration across all frontier",
+      "start": 69.46,
+      "end": 74.78,
+      "text": "Cast, hook, fight, reel, and land. Notice the dynamic physics.",
       "words": [
         {
-          "word": " independent",
-          "start": 84.12,
-          "end": 84.56,
+          "word": " Cast,",
+          "start": 69.46,
+          "end": 69.8,
+          "probability": 0.77
+        },
+        {
+          "word": " hook,",
+          "start": 70.56,
+          "end": 70.58,
+          "probability": 0.62
+        },
+        {
+          "word": " fight,",
+          "start": 71.3,
+          "end": 71.48,
           "probability": 0.96
         },
         {
-          "word": " evaluators,",
-          "start": 84.56,
-          "end": 85.4,
-          "probability": 0.99
-        },
-        {
-          "word": " competitor",
-          "start": 85.4,
-          "end": 85.94,
-          "probability": 0.97
-        },
-        {
-          "word": " peer",
-          "start": 85.94,
-          "end": 86.2,
-          "probability": 0.97
-        },
-        {
-          "word": " review,",
-          "start": 86.2,
-          "end": 86.5,
-          "probability": 0.99
+          "word": " reel,",
+          "start": 72.16,
+          "end": 72.34,
+          "probability": 0.9
         },
         {
           "word": " and",
-          "start": 87.2,
-          "end": 87.24,
-          "probability": 1.0
-        },
-        {
-          "word": " a",
-          "start": 87.24,
-          "end": 87.34,
-          "probability": 0.97
-        },
-        {
-          "word": " structured",
-          "start": 87.34,
-          "end": 87.72,
+          "start": 72.7,
+          "end": 72.7,
           "probability": 0.99
         },
         {
-          "word": " deceleration",
-          "start": 87.72,
-          "end": 88.54,
-          "probability": 0.98
-        },
-        {
-          "word": " across",
-          "start": 88.54,
-          "end": 88.8,
+          "word": " land.",
+          "start": 72.7,
+          "end": 72.88,
           "probability": 1.0
         },
         {
-          "word": " all",
-          "start": 88.8,
-          "end": 89.2,
-          "probability": 0.98
+          "word": " Notice",
+          "start": 73.5,
+          "end": 73.86,
+          "probability": 0.99
         },
         {
-          "word": " frontier",
-          "start": 89.2,
-          "end": 89.44,
-          "probability": 0.59
+          "word": " the",
+          "start": 73.86,
+          "end": 74.1,
+          "probability": 1.0
+        },
+        {
+          "word": " dynamic",
+          "start": 74.1,
+          "end": 74.44,
+          "probability": 0.97
+        },
+        {
+          "word": " physics.",
+          "start": 74.44,
+          "end": 74.78,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 15,
-      "start": 89.44,
-      "end": 95.86,
-      "text": "labs. Sam Altman immediately chimed in saying open AI agrees and will do the same. Elon Musk",
+      "start": 75.58,
+      "end": 78.9,
+      "text": "The fishing rod bends under tension, the fishing line stretches,",
       "words": [
         {
-          "word": " labs.",
-          "start": 89.44,
-          "end": 89.9,
-          "probability": 0.97
+          "word": " The",
+          "start": 75.38,
+          "end": 75.68,
+          "probability": 0.2
         },
         {
-          "word": " Sam",
-          "start": 90.48,
-          "end": 90.78,
-          "probability": 0.95
-        },
-        {
-          "word": " Altman",
-          "start": 90.78,
-          "end": 91.2,
-          "probability": 0.97
-        },
-        {
-          "word": " immediately",
-          "start": 91.2,
-          "end": 91.66,
-          "probability": 0.96
-        },
-        {
-          "word": " chimed",
-          "start": 91.66,
-          "end": 92.26,
-          "probability": 0.96
-        },
-        {
-          "word": " in",
-          "start": 92.26,
-          "end": 92.36,
-          "probability": 0.99
-        },
-        {
-          "word": " saying",
-          "start": 92.36,
-          "end": 92.76,
-          "probability": 0.83
-        },
-        {
-          "word": " open",
-          "start": 92.76,
-          "end": 93.06,
-          "probability": 0.54
-        },
-        {
-          "word": " AI",
-          "start": 93.06,
-          "end": 93.26,
-          "probability": 0.92
-        },
-        {
-          "word": " agrees",
-          "start": 93.26,
-          "end": 93.7,
-          "probability": 0.99
-        },
-        {
-          "word": " and",
-          "start": 93.7,
-          "end": 94.1,
+          "word": " fishing",
+          "start": 75.68,
+          "end": 76.12,
           "probability": 0.9
         },
         {
-          "word": " will",
-          "start": 94.1,
-          "end": 94.26,
-          "probability": 0.84
+          "word": " rod",
+          "start": 76.12,
+          "end": 76.4,
+          "probability": 1.0
         },
         {
-          "word": " do",
-          "start": 94.26,
-          "end": 94.42,
+          "word": " bends",
+          "start": 76.4,
+          "end": 76.7,
+          "probability": 0.99
+        },
+        {
+          "word": " under",
+          "start": 76.7,
+          "end": 77.06,
+          "probability": 1.0
+        },
+        {
+          "word": " tension,",
+          "start": 77.06,
+          "end": 77.36,
           "probability": 1.0
         },
         {
           "word": " the",
-          "start": 94.42,
-          "end": 94.56,
+          "start": 77.94,
+          "end": 78.02,
+          "probability": 0.98
+        },
+        {
+          "word": " fishing",
+          "start": 78.02,
+          "end": 78.3,
           "probability": 1.0
         },
         {
-          "word": " same.",
-          "start": 94.56,
-          "end": 94.84,
-          "probability": 1.0
+          "word": " line",
+          "start": 78.3,
+          "end": 78.56,
+          "probability": 0.99
         },
         {
-          "word": " Elon",
-          "start": 95.62,
-          "end": 95.62,
-          "probability": 0.97
-        },
-        {
-          "word": " Musk",
-          "start": 95.62,
-          "end": 95.86,
+          "word": " stretches,",
+          "start": 78.56,
+          "end": 78.9,
           "probability": 0.99
         }
       ]
     },
     {
       "id": 16,
-      "start": 95.86,
-      "end": 108.1,
-      "text": "seconded it calling for immediate oversight. It looks like harmony, but developers who track",
+      "start": 79.62,
+      "end": 84.12,
+      "text": "and the fish flops with active collision meshes. It even coded a full-shop economy,",
       "words": [
         {
-          "word": " seconded",
-          "start": 95.86,
-          "end": 96.56,
+          "word": " and",
+          "start": 79.62,
+          "end": 79.8,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 79.8,
+          "end": 79.9,
+          "probability": 0.99
+        },
+        {
+          "word": " fish",
+          "start": 79.9,
+          "end": 80.1,
+          "probability": 1.0
+        },
+        {
+          "word": " flops",
+          "start": 80.1,
+          "end": 80.48,
           "probability": 0.95
         },
         {
-          "word": " it",
-          "start": 96.56,
-          "end": 96.7,
+          "word": " with",
+          "start": 80.48,
+          "end": 80.72,
           "probability": 0.99
         },
         {
-          "word": " calling",
-          "start": 96.7,
-          "end": 97.0,
-          "probability": 0.57
+          "word": " active",
+          "start": 80.72,
+          "end": 81.02,
+          "probability": 0.99
         },
         {
-          "word": " for",
-          "start": 97.0,
-          "end": 97.4,
+          "word": " collision",
+          "start": 81.02,
+          "end": 81.32,
+          "probability": 0.97
+        },
+        {
+          "word": " meshes.",
+          "start": 81.32,
+          "end": 81.7,
           "probability": 1.0
-        },
-        {
-          "word": " immediate",
-          "start": 97.4,
-          "end": 97.76,
-          "probability": 0.99
-        },
-        {
-          "word": " oversight.",
-          "start": 97.76,
-          "end": 98.3,
-          "probability": 0.99
         },
         {
           "word": " It",
-          "start": 99.06,
-          "end": 99.18,
+          "start": 82.44,
+          "end": 82.56,
           "probability": 0.99
         },
         {
-          "word": " looks",
-          "start": 99.18,
-          "end": 99.34,
+          "word": " even",
+          "start": 82.56,
+          "end": 82.7,
           "probability": 1.0
         },
         {
-          "word": " like",
-          "start": 99.34,
-          "end": 99.62,
+          "word": " coded",
+          "start": 82.7,
+          "end": 83.02,
+          "probability": 0.35
+        },
+        {
+          "word": " a",
+          "start": 83.02,
+          "end": 83.3,
           "probability": 1.0
         },
         {
-          "word": " harmony,",
-          "start": 99.62,
-          "end": 99.94,
-          "probability": 0.87
-        },
-        {
-          "word": " but",
-          "start": 99.94,
-          "end": 100.82,
-          "probability": 1.0
-        },
-        {
-          "word": " developers",
-          "start": 100.82,
-          "end": 101.22,
-          "probability": 1.0
-        },
-        {
-          "word": " who",
-          "start": 101.22,
-          "end": 108.1,
+          "word": " full",
+          "start": 83.3,
+          "end": 83.52,
           "probability": 0.99
         },
         {
-          "word": " track",
-          "start": 108.1,
-          "end": 108.1,
-          "probability": 0.79
+          "word": "-shop",
+          "start": 83.52,
+          "end": 83.82,
+          "probability": 0.7
+        },
+        {
+          "word": " economy,",
+          "start": 83.82,
+          "end": 84.12,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 17,
-      "start": 108.1,
-      "end": 115.18,
-      "text": "anthropics production branches leaked direct references to clawed opus 5.2 not sonnet opus",
+      "start": 84.78,
+      "end": 88.56,
+      "text": "inventory saves, six different fish species, and grilling mechanics.",
       "words": [
         {
-          "word": " anthropics",
-          "start": 108.1,
-          "end": 109.04,
-          "probability": 0.31
-        },
-        {
-          "word": " production",
-          "start": 109.04,
-          "end": 109.24,
-          "probability": 0.97
-        },
-        {
-          "word": " branches",
-          "start": 109.24,
-          "end": 109.68,
-          "probability": 0.97
-        },
-        {
-          "word": " leaked",
-          "start": 109.68,
-          "end": 110.18,
-          "probability": 0.88
-        },
-        {
-          "word": " direct",
-          "start": 110.18,
-          "end": 110.54,
-          "probability": 0.98
-        },
-        {
-          "word": " references",
-          "start": 110.54,
-          "end": 111.1,
+          "word": " inventory",
+          "start": 84.78,
+          "end": 85.04,
           "probability": 0.99
         },
         {
-          "word": " to",
-          "start": 111.1,
-          "end": 111.52,
+          "word": " saves,",
+          "start": 85.04,
+          "end": 85.58,
+          "probability": 0.97
+        },
+        {
+          "word": " six",
+          "start": 86.18,
+          "end": 86.4,
+          "probability": 0.9
+        },
+        {
+          "word": " different",
+          "start": 86.4,
+          "end": 86.72,
+          "probability": 1.0
+        },
+        {
+          "word": " fish",
+          "start": 86.72,
+          "end": 86.94,
+          "probability": 1.0
+        },
+        {
+          "word": " species,",
+          "start": 86.94,
+          "end": 87.24,
           "probability": 0.99
         },
         {
-          "word": " clawed",
-          "start": 111.52,
-          "end": 111.98,
-          "probability": 0.52
+          "word": " and",
+          "start": 87.82,
+          "end": 87.94,
+          "probability": 1.0
         },
         {
-          "word": " opus",
-          "start": 111.98,
-          "end": 112.28,
-          "probability": 0.78
+          "word": " grilling",
+          "start": 87.94,
+          "end": 88.26,
+          "probability": 0.99
         },
         {
-          "word": " 5",
-          "start": 112.28,
-          "end": 112.54,
-          "probability": 0.83
-        },
-        {
-          "word": ".2",
-          "start": 112.54,
-          "end": 113.16,
-          "probability": 0.96
-        },
-        {
-          "word": " not",
-          "start": 113.16,
-          "end": 113.84,
-          "probability": 0.47
-        },
-        {
-          "word": " sonnet",
-          "start": 113.84,
-          "end": 114.36,
-          "probability": 0.74
-        },
-        {
-          "word": " opus",
-          "start": 114.36,
-          "end": 115.18,
-          "probability": 0.87
+          "word": " mechanics.",
+          "start": 88.26,
+          "end": 88.56,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 18,
-      "start": 115.18,
-      "end": 121.26,
-      "text": "the heavyweight frontier beast that hasn't seen an update in months. Insiders are already reporting",
+      "start": 89.36,
+      "end": 93.6,
+      "text": "All synthesized directly from visual pixels into executable logic.",
       "words": [
         {
-          "word": " the",
-          "start": 115.18,
-          "end": 115.72,
-          "probability": 0.71
+          "word": " All",
+          "start": 89.36,
+          "end": 89.6,
+          "probability": 0.99
         },
         {
-          "word": " heavyweight",
-          "start": 115.72,
-          "end": 116.12,
-          "probability": 0.85
+          "word": " synthesized",
+          "start": 89.6,
+          "end": 90.36,
+          "probability": 0.97
         },
         {
-          "word": " frontier",
-          "start": 116.12,
-          "end": 116.48,
-          "probability": 0.94
-        },
-        {
-          "word": " beast",
-          "start": 116.48,
-          "end": 116.94,
-          "probability": 0.86
-        },
-        {
-          "word": " that",
-          "start": 116.94,
-          "end": 117.34,
+          "word": " directly",
+          "start": 90.36,
+          "end": 90.76,
           "probability": 0.98
         },
         {
-          "word": " hasn't",
-          "start": 117.34,
-          "end": 117.7,
-          "probability": 0.99
-        },
-        {
-          "word": " seen",
-          "start": 117.7,
-          "end": 117.98,
+          "word": " from",
+          "start": 90.76,
+          "end": 91.24,
           "probability": 1.0
         },
         {
-          "word": " an",
-          "start": 117.98,
-          "end": 118.18,
-          "probability": 0.95
-        },
-        {
-          "word": " update",
-          "start": 118.18,
-          "end": 118.54,
+          "word": " visual",
+          "start": 91.24,
+          "end": 91.58,
           "probability": 0.99
         },
         {
-          "word": " in",
-          "start": 118.54,
-          "end": 118.82,
+          "word": " pixels",
+          "start": 91.58,
+          "end": 91.96,
+          "probability": 0.99
+        },
+        {
+          "word": " into",
+          "start": 91.96,
+          "end": 92.5,
           "probability": 1.0
         },
         {
-          "word": " months.",
-          "start": 118.82,
-          "end": 119.06,
-          "probability": 0.99
+          "word": " executable",
+          "start": 92.5,
+          "end": 93.02,
+          "probability": 0.97
         },
         {
-          "word": " Insiders",
-          "start": 119.4,
-          "end": 120.12,
-          "probability": 0.83
-        },
-        {
-          "word": " are",
-          "start": 120.12,
-          "end": 120.46,
-          "probability": 0.99
-        },
-        {
-          "word": " already",
-          "start": 120.46,
-          "end": 120.8,
-          "probability": 1.0
-        },
-        {
-          "word": " reporting",
-          "start": 120.8,
-          "end": 121.26,
+          "word": " logic.",
+          "start": 93.02,
+          "end": 93.6,
           "probability": 1.0
         }
       ]
     },
     {
       "id": 19,
-      "start": 121.26,
-      "end": 127.36,
-      "text": "that opus 5.2 isn't an incremental patch. It is built specifically around autonomous feedback",
+      "start": 94.3,
+      "end": 104.76,
+      "text": "Then came Luminous Mario Kart we benchmark. Instead of needing gigabytes of assets and an",
       "words": [
         {
-          "word": " that",
-          "start": 121.26,
-          "end": 121.64,
+          "word": " Then",
+          "start": 94.3,
+          "end": 94.5,
           "probability": 0.99
         },
         {
-          "word": " opus",
-          "start": 121.64,
-          "end": 122.02,
+          "word": " came",
+          "start": 94.5,
+          "end": 94.82,
+          "probability": 0.99
+        },
+        {
+          "word": " Luminous",
+          "start": 94.82,
+          "end": 95.34,
+          "probability": 0.83
+        },
+        {
+          "word": " Mario",
+          "start": 95.34,
+          "end": 95.58,
+          "probability": 0.93
+        },
+        {
+          "word": " Kart",
+          "start": 95.58,
+          "end": 96.02,
           "probability": 0.95
         },
         {
-          "word": " 5",
-          "start": 122.02,
-          "end": 122.3,
+          "word": " we",
+          "start": 96.02,
+          "end": 96.28,
+          "probability": 0.23
+        },
+        {
+          "word": " benchmark.",
+          "start": 96.28,
+          "end": 96.5,
+          "probability": 0.97
+        },
+        {
+          "word": " Instead",
+          "start": 97.38,
+          "end": 97.72,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 97.72,
+          "end": 97.88,
+          "probability": 1.0
+        },
+        {
+          "word": " needing",
+          "start": 97.88,
+          "end": 98.06,
           "probability": 0.98
         },
         {
-          "word": ".2",
-          "start": 122.3,
-          "end": 122.82,
+          "word": " gigabytes",
+          "start": 98.06,
+          "end": 98.62,
+          "probability": 0.96
+        },
+        {
+          "word": " of",
+          "start": 98.62,
+          "end": 98.84,
+          "probability": 1.0
+        },
+        {
+          "word": " assets",
+          "start": 98.84,
+          "end": 99.1,
           "probability": 0.99
         },
         {
-          "word": " isn't",
-          "start": 122.82,
-          "end": 123.28,
-          "probability": 0.94
+          "word": " and",
+          "start": 99.1,
+          "end": 104.56,
+          "probability": 0.93
         },
         {
           "word": " an",
-          "start": 123.28,
-          "end": 123.4,
+          "start": 104.56,
+          "end": 104.76,
           "probability": 0.99
-        },
-        {
-          "word": " incremental",
-          "start": 123.4,
-          "end": 123.7,
-          "probability": 1.0
-        },
-        {
-          "word": " patch.",
-          "start": 123.7,
-          "end": 124.26,
-          "probability": 0.99
-        },
-        {
-          "word": " It",
-          "start": 124.82,
-          "end": 124.98,
-          "probability": 0.97
-        },
-        {
-          "word": " is",
-          "start": 124.98,
-          "end": 125.08,
-          "probability": 0.97
-        },
-        {
-          "word": " built",
-          "start": 125.08,
-          "end": 125.32,
-          "probability": 0.99
-        },
-        {
-          "word": " specifically",
-          "start": 125.32,
-          "end": 125.8,
-          "probability": 0.99
-        },
-        {
-          "word": " around",
-          "start": 125.8,
-          "end": 126.46,
-          "probability": 1.0
-        },
-        {
-          "word": " autonomous",
-          "start": 126.46,
-          "end": 127.04,
-          "probability": 0.98
-        },
-        {
-          "word": " feedback",
-          "start": 127.04,
-          "end": 127.36,
-          "probability": 1.0
         }
       ]
     },
     {
       "id": 20,
-      "start": 127.36,
-      "end": 133.14,
-      "text": "loops capable of running multi hour terminal workflows without human intervention. So why",
+      "start": 104.76,
+      "end": 111.82,
+      "text": "single HTML file for distinct tracks, 8 characters, item collision physics with red and green shells,",
       "words": [
         {
-          "word": " loops",
-          "start": 127.36,
-          "end": 127.82,
-          "probability": 0.99
+          "word": " single",
+          "start": 104.76,
+          "end": 105.18,
+          "probability": 0.0
         },
         {
-          "word": " capable",
-          "start": 127.82,
-          "end": 128.66,
-          "probability": 0.65
+          "word": " HTML",
+          "start": 105.18,
+          "end": 105.66,
+          "probability": 0.76
         },
         {
-          "word": " of",
-          "start": 128.66,
-          "end": 129.1,
-          "probability": 1.0
-        },
-        {
-          "word": " running",
-          "start": 129.1,
-          "end": 129.34,
-          "probability": 1.0
-        },
-        {
-          "word": " multi",
-          "start": 129.34,
-          "end": 129.6,
-          "probability": 0.93
-        },
-        {
-          "word": " hour",
-          "start": 129.6,
-          "end": 130.0,
-          "probability": 0.58
-        },
-        {
-          "word": " terminal",
-          "start": 130.0,
-          "end": 130.28,
-          "probability": 0.99
-        },
-        {
-          "word": " workflows",
-          "start": 130.28,
-          "end": 130.84,
+          "word": " file",
+          "start": 105.66,
+          "end": 106.1,
           "probability": 0.98
         },
         {
-          "word": " without",
-          "start": 130.84,
-          "end": 131.16,
+          "word": " for",
+          "start": 106.1,
+          "end": 106.78,
+          "probability": 0.67
+        },
+        {
+          "word": " distinct",
+          "start": 106.78,
+          "end": 107.04,
+          "probability": 0.98
+        },
+        {
+          "word": " tracks,",
+          "start": 107.04,
+          "end": 107.56,
+          "probability": 0.98
+        },
+        {
+          "word": " 8",
+          "start": 108.16,
+          "end": 108.4,
+          "probability": 0.46
+        },
+        {
+          "word": " characters,",
+          "start": 108.4,
+          "end": 108.76,
           "probability": 0.99
         },
         {
-          "word": " human",
-          "start": 131.16,
-          "end": 131.54,
-          "probability": 0.99
+          "word": " item",
+          "start": 109.5,
+          "end": 109.82,
+          "probability": 0.87
         },
         {
-          "word": " intervention.",
-          "start": 131.54,
-          "end": 132.02,
-          "probability": 1.0
+          "word": " collision",
+          "start": 109.82,
+          "end": 110.06,
+          "probability": 0.93
         },
         {
-          "word": " So",
-          "start": 132.66,
-          "end": 132.88,
+          "word": " physics",
+          "start": 110.06,
+          "end": 110.46,
+          "probability": 0.98
+        },
+        {
+          "word": " with",
+          "start": 110.46,
+          "end": 110.82,
+          "probability": 0.98
+        },
+        {
+          "word": " red",
+          "start": 110.82,
+          "end": 111.06,
           "probability": 0.97
         },
         {
-          "word": " why",
-          "start": 132.88,
-          "end": 133.14,
-          "probability": 0.93
+          "word": " and",
+          "start": 111.06,
+          "end": 111.26,
+          "probability": 0.99
+        },
+        {
+          "word": " green",
+          "start": 111.26,
+          "end": 111.44,
+          "probability": 0.99
+        },
+        {
+          "word": " shells,",
+          "start": 111.44,
+          "end": 111.82,
+          "probability": 0.94
         }
       ]
     },
     {
       "id": 21,
-      "start": 133.14,
-      "end": 137.84,
-      "text": "preach caution in public while testing the most capable coding model on earth in private",
+      "start": 112.32,
+      "end": 117.9,
+      "text": "dynamic drifting calculations, and an autonomous bot AI engine running at 60 frames per second",
       "words": [
         {
-          "word": " preach",
-          "start": 133.14,
-          "end": 133.42,
+          "word": " dynamic",
+          "start": 112.32,
+          "end": 112.66,
+          "probability": 0.96
+        },
+        {
+          "word": " drifting",
+          "start": 112.66,
+          "end": 112.96,
+          "probability": 0.96
+        },
+        {
+          "word": " calculations,",
+          "start": 112.96,
+          "end": 113.54,
+          "probability": 0.99
+        },
+        {
+          "word": " and",
+          "start": 114.44,
+          "end": 114.6,
+          "probability": 0.99
+        },
+        {
+          "word": " an",
+          "start": 114.6,
+          "end": 114.72,
+          "probability": 0.97
+        },
+        {
+          "word": " autonomous",
+          "start": 114.72,
+          "end": 115.12,
           "probability": 0.98
         },
         {
-          "word": " caution",
-          "start": 133.42,
-          "end": 133.76,
+          "word": " bot",
+          "start": 115.12,
+          "end": 115.4,
+          "probability": 0.8
+        },
+        {
+          "word": " AI",
+          "start": 115.4,
+          "end": 115.66,
+          "probability": 0.91
+        },
+        {
+          "word": " engine",
+          "start": 115.66,
+          "end": 116.08,
           "probability": 0.99
         },
         {
-          "word": " in",
-          "start": 133.76,
-          "end": 134.1,
-          "probability": 0.99
-        },
-        {
-          "word": " public",
-          "start": 134.1,
-          "end": 134.32,
-          "probability": 0.99
-        },
-        {
-          "word": " while",
-          "start": 134.32,
-          "end": 134.78,
-          "probability": 0.95
-        },
-        {
-          "word": " testing",
-          "start": 134.78,
-          "end": 135.1,
+          "word": " running",
+          "start": 116.08,
+          "end": 116.32,
           "probability": 1.0
         },
         {
-          "word": " the",
-          "start": 135.1,
-          "end": 135.46,
+          "word": " at",
+          "start": 116.32,
+          "end": 116.66,
           "probability": 0.99
         },
         {
-          "word": " most",
-          "start": 135.46,
-          "end": 135.64,
-          "probability": 1.0
-        },
-        {
-          "word": " capable",
-          "start": 135.64,
-          "end": 135.98,
-          "probability": 1.0
-        },
-        {
-          "word": " coding",
-          "start": 135.98,
-          "end": 136.42,
-          "probability": 0.93
-        },
-        {
-          "word": " model",
-          "start": 136.42,
-          "end": 136.74,
+          "word": " 60",
+          "start": 116.66,
+          "end": 116.92,
           "probability": 0.99
         },
         {
-          "word": " on",
-          "start": 136.74,
-          "end": 137.08,
-          "probability": 1.0
+          "word": " frames",
+          "start": 116.92,
+          "end": 117.26,
+          "probability": 0.97
         },
         {
-          "word": " earth",
-          "start": 137.08,
-          "end": 137.34,
-          "probability": 0.43
-        },
-        {
-          "word": " in",
-          "start": 137.34,
-          "end": 137.54,
-          "probability": 0.95
-        },
-        {
-          "word": " private",
-          "start": 137.54,
-          "end": 137.84,
+          "word": " per",
+          "start": 117.26,
+          "end": 117.58,
           "probability": 0.99
+        },
+        {
+          "word": " second",
+          "start": 117.58,
+          "end": 117.9,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 22,
-      "start": 138.1,
-      "end": 145.1,
-      "text": "because anthropic knows what open AI is about to drop meet GPT six soul while the public is still",
+      "start": 117.9,
+      "end": 123.68,
+      "text": "directly in the browser. These aren't isolated toy demos. They are symptoms of what OpenAI",
       "words": [
         {
-          "word": " because",
-          "start": 138.1,
-          "end": 138.74,
-          "probability": 0.47
+          "word": " directly",
+          "start": 117.9,
+          "end": 118.22,
+          "probability": 0.94
         },
         {
-          "word": " anthropic",
-          "start": 138.74,
-          "end": 139.42,
-          "probability": 0.61
-        },
-        {
-          "word": " knows",
-          "start": 139.42,
-          "end": 139.66,
-          "probability": 0.98
-        },
-        {
-          "word": " what",
-          "start": 139.66,
-          "end": 140.04,
-          "probability": 0.99
-        },
-        {
-          "word": " open",
-          "start": 140.04,
-          "end": 140.26,
-          "probability": 0.09
-        },
-        {
-          "word": " AI",
-          "start": 140.26,
-          "end": 140.5,
-          "probability": 0.67
-        },
-        {
-          "word": " is",
-          "start": 140.5,
-          "end": 140.92,
-          "probability": 0.99
-        },
-        {
-          "word": " about",
-          "start": 140.92,
-          "end": 141.12,
+          "word": " in",
+          "start": 118.22,
+          "end": 118.56,
           "probability": 1.0
-        },
-        {
-          "word": " to",
-          "start": 141.12,
-          "end": 141.32,
-          "probability": 1.0
-        },
-        {
-          "word": " drop",
-          "start": 141.32,
-          "end": 141.6,
-          "probability": 0.99
-        },
-        {
-          "word": " meet",
-          "start": 141.6,
-          "end": 142.42,
-          "probability": 0.03
-        },
-        {
-          "word": " GPT",
-          "start": 142.42,
-          "end": 142.82,
-          "probability": 0.88
-        },
-        {
-          "word": " six",
-          "start": 142.82,
-          "end": 143.24,
-          "probability": 0.09
-        },
-        {
-          "word": " soul",
-          "start": 143.24,
-          "end": 143.58,
-          "probability": 0.59
-        },
-        {
-          "word": " while",
-          "start": 143.58,
-          "end": 144.28,
-          "probability": 0.77
         },
         {
           "word": " the",
-          "start": 144.28,
-          "end": 144.42,
-          "probability": 0.98
-        },
-        {
-          "word": " public",
-          "start": 144.42,
-          "end": 144.66,
-          "probability": 0.98
-        },
-        {
-          "word": " is",
-          "start": 144.66,
-          "end": 144.9,
+          "start": 118.56,
+          "end": 118.64,
           "probability": 1.0
         },
         {
-          "word": " still",
-          "start": 144.9,
-          "end": 145.1,
+          "word": " browser.",
+          "start": 118.64,
+          "end": 118.8,
           "probability": 0.99
+        },
+        {
+          "word": " These",
+          "start": 119.54,
+          "end": 119.7,
+          "probability": 0.99
+        },
+        {
+          "word": " aren't",
+          "start": 119.7,
+          "end": 120.06,
+          "probability": 0.99
+        },
+        {
+          "word": " isolated",
+          "start": 120.06,
+          "end": 120.44,
+          "probability": 0.99
+        },
+        {
+          "word": " toy",
+          "start": 120.44,
+          "end": 120.86,
+          "probability": 0.97
+        },
+        {
+          "word": " demos.",
+          "start": 120.86,
+          "end": 121.22,
+          "probability": 0.99
+        },
+        {
+          "word": " They",
+          "start": 121.94,
+          "end": 122.1,
+          "probability": 0.99
+        },
+        {
+          "word": " are",
+          "start": 122.1,
+          "end": 122.24,
+          "probability": 0.99
+        },
+        {
+          "word": " symptoms",
+          "start": 122.24,
+          "end": 122.54,
+          "probability": 0.97
+        },
+        {
+          "word": " of",
+          "start": 122.54,
+          "end": 123.0,
+          "probability": 1.0
+        },
+        {
+          "word": " what",
+          "start": 123.0,
+          "end": 123.2,
+          "probability": 1.0
+        },
+        {
+          "word": " OpenAI",
+          "start": 123.2,
+          "end": 123.68,
+          "probability": 0.72
         }
       ]
     },
     {
       "id": 23,
-      "start": 145.1,
-      "end": 150.78,
-      "text": "wrestling with 01 and GPT five reasoning tiers. Early testers are showing off what open AI soul",
+      "start": 123.68,
+      "end": 129.16,
+      "text": "is running at scale behind closed doors. In an interview yesterday, Sam Altman dropped a",
       "words": [
         {
-          "word": " wrestling",
-          "start": 145.1,
-          "end": 145.38,
-          "probability": 0.96
-        },
-        {
-          "word": " with",
-          "start": 145.38,
-          "end": 145.74,
+          "word": " is",
+          "start": 123.68,
+          "end": 124.04,
           "probability": 1.0
         },
         {
-          "word": " 01",
-          "start": 145.74,
-          "end": 145.96,
-          "probability": 0.27
+          "word": " running",
+          "start": 124.04,
+          "end": 124.28,
+          "probability": 1.0
         },
         {
-          "word": " and",
-          "start": 145.96,
-          "end": 146.42,
-          "probability": 0.92
+          "word": " at",
+          "start": 124.28,
+          "end": 124.52,
+          "probability": 0.99
         },
         {
-          "word": " GPT",
-          "start": 146.42,
-          "end": 146.7,
+          "word": " scale",
+          "start": 124.52,
+          "end": 124.74,
+          "probability": 1.0
+        },
+        {
+          "word": " behind",
+          "start": 124.74,
+          "end": 125.18,
+          "probability": 0.99
+        },
+        {
+          "word": " closed",
+          "start": 125.18,
+          "end": 125.46,
+          "probability": 0.99
+        },
+        {
+          "word": " doors.",
+          "start": 125.46,
+          "end": 125.88,
+          "probability": 1.0
+        },
+        {
+          "word": " In",
+          "start": 126.48,
+          "end": 126.66,
+          "probability": 1.0
+        },
+        {
+          "word": " an",
+          "start": 126.66,
+          "end": 126.74,
+          "probability": 1.0
+        },
+        {
+          "word": " interview",
+          "start": 126.74,
+          "end": 127.0,
+          "probability": 1.0
+        },
+        {
+          "word": " yesterday,",
+          "start": 127.0,
+          "end": 127.52,
+          "probability": 1.0
+        },
+        {
+          "word": " Sam",
+          "start": 128.16,
+          "end": 128.38,
           "probability": 0.97
         },
         {
-          "word": " five",
-          "start": 146.7,
-          "end": 147.14,
-          "probability": 0.76
+          "word": " Altman",
+          "start": 128.38,
+          "end": 128.76,
+          "probability": 0.93
         },
         {
-          "word": " reasoning",
-          "start": 147.14,
-          "end": 147.44,
-          "probability": 0.96
-        },
-        {
-          "word": " tiers.",
-          "start": 147.44,
-          "end": 147.68,
-          "probability": 0.57
-        },
-        {
-          "word": " Early",
-          "start": 147.98,
-          "end": 148.6,
-          "probability": 0.95
-        },
-        {
-          "word": " testers",
-          "start": 148.6,
-          "end": 148.88,
+          "word": " dropped",
+          "start": 128.76,
+          "end": 129.04,
           "probability": 0.99
         },
         {
-          "word": " are",
-          "start": 148.88,
-          "end": 149.22,
-          "probability": 0.99
-        },
-        {
-          "word": " showing",
-          "start": 149.22,
-          "end": 149.46,
+          "word": " a",
+          "start": 129.04,
+          "end": 129.38,
           "probability": 1.0
-        },
-        {
-          "word": " off",
-          "start": 149.46,
-          "end": 149.74,
-          "probability": 1.0
-        },
-        {
-          "word": " what",
-          "start": 149.74,
-          "end": 149.98,
-          "probability": 0.94
-        },
-        {
-          "word": " open",
-          "start": 149.98,
-          "end": 150.2,
-          "probability": 0.92
-        },
-        {
-          "word": " AI",
-          "start": 150.2,
-          "end": 150.42,
-          "probability": 0.91
-        },
-        {
-          "word": " soul",
-          "start": 150.42,
-          "end": 150.78,
-          "probability": 0.78
         }
       ]
     },
     {
       "id": 24,
-      "start": 150.78,
-      "end": 156.84,
-      "text": "engine can accomplish in zero shot execution. Look at this demo from researcher Lyra. This is a",
+      "start": 129.38,
+      "end": 134.76,
+      "text": "revelation that should terrify every legacy enterprise. Every night, I have a few thousand",
       "words": [
         {
-          "word": " engine",
-          "start": 150.78,
-          "end": 151.1,
+          "word": " revelation",
+          "start": 129.38,
+          "end": 129.8,
+          "probability": 0.2
+        },
+        {
+          "word": " that",
+          "start": 129.8,
+          "end": 130.02,
+          "probability": 0.97
+        },
+        {
+          "word": " should",
+          "start": 130.02,
+          "end": 130.18,
           "probability": 0.99
         },
         {
-          "word": " can",
-          "start": 151.1,
-          "end": 151.36,
-          "probability": 0.99
-        },
-        {
-          "word": " accomplish",
-          "start": 151.36,
-          "end": 151.78,
-          "probability": 1.0
-        },
-        {
-          "word": " in",
-          "start": 151.78,
-          "end": 152.04,
-          "probability": 0.99
-        },
-        {
-          "word": " zero",
-          "start": 152.04,
-          "end": 152.3,
-          "probability": 0.82
-        },
-        {
-          "word": " shot",
-          "start": 152.3,
-          "end": 152.52,
-          "probability": 0.94
-        },
-        {
-          "word": " execution.",
-          "start": 152.52,
-          "end": 152.88,
+          "word": " terrify",
+          "start": 130.18,
+          "end": 130.68,
           "probability": 0.98
         },
         {
-          "word": " Look",
-          "start": 153.56,
-          "end": 153.82,
+          "word": " every",
+          "start": 130.68,
+          "end": 131.02,
+          "probability": 0.99
+        },
+        {
+          "word": " legacy",
+          "start": 131.02,
+          "end": 131.42,
           "probability": 0.98
         },
         {
-          "word": " at",
-          "start": 153.82,
-          "end": 154.04,
+          "word": " enterprise.",
+          "start": 131.42,
+          "end": 131.84,
+          "probability": 0.97
+        },
+        {
+          "word": " Every",
+          "start": 132.72,
+          "end": 132.96,
+          "probability": 0.99
+        },
+        {
+          "word": " night,",
+          "start": 132.96,
+          "end": 133.24,
+          "probability": 0.99
+        },
+        {
+          "word": " I",
+          "start": 133.92,
+          "end": 134.1,
           "probability": 1.0
         },
         {
-          "word": " this",
-          "start": 154.04,
-          "end": 154.2,
-          "probability": 0.99
-        },
-        {
-          "word": " demo",
-          "start": 154.2,
-          "end": 154.46,
-          "probability": 0.99
-        },
-        {
-          "word": " from",
-          "start": 154.46,
-          "end": 154.92,
-          "probability": 1.0
-        },
-        {
-          "word": " researcher",
-          "start": 154.92,
-          "end": 155.36,
-          "probability": 0.81
-        },
-        {
-          "word": " Lyra.",
-          "start": 155.36,
-          "end": 155.96,
-          "probability": 0.85
-        },
-        {
-          "word": " This",
-          "start": 156.38,
-          "end": 156.56,
-          "probability": 0.99
-        },
-        {
-          "word": " is",
-          "start": 156.56,
-          "end": 156.7,
+          "word": " have",
+          "start": 134.1,
+          "end": 134.22,
           "probability": 1.0
         },
         {
           "word": " a",
-          "start": 156.7,
-          "end": 156.84,
-          "probability": 0.99
+          "start": 134.22,
+          "end": 134.3,
+          "probability": 1.0
+        },
+        {
+          "word": " few",
+          "start": 134.3,
+          "end": 134.48,
+          "probability": 1.0
+        },
+        {
+          "word": " thousand",
+          "start": 134.48,
+          "end": 134.76,
+          "probability": 0.95
         }
       ]
     },
     {
       "id": 25,
-      "start": 156.84,
-      "end": 163.06,
-      "text": "fully functional interactive 3D Star Wars death star simulator cockpit controls orbital physics",
+      "start": 134.76,
+      "end": 140.4,
+      "text": "agents running with GPT-6 Astra, thousands of autonomous agent loops conducting research,",
       "words": [
         {
-          "word": " fully",
-          "start": 156.84,
-          "end": 157.04,
+          "word": " agents",
+          "start": 134.76,
+          "end": 135.08,
           "probability": 0.99
         },
         {
-          "word": " functional",
-          "start": 157.04,
-          "end": 157.54,
+          "word": " running",
+          "start": 135.08,
+          "end": 135.48,
           "probability": 0.99
         },
         {
-          "word": " interactive",
-          "start": 157.54,
-          "end": 158.2,
-          "probability": 0.92
+          "word": " with",
+          "start": 135.48,
+          "end": 135.78,
+          "probability": 1.0
         },
         {
-          "word": " 3D",
-          "start": 158.2,
-          "end": 158.96,
-          "probability": 0.62
+          "word": " GPT",
+          "start": 135.78,
+          "end": 136.16,
+          "probability": 0.96
         },
         {
-          "word": " Star",
-          "start": 158.96,
-          "end": 159.3,
-          "probability": 0.63
+          "word": "-6",
+          "start": 136.16,
+          "end": 136.66,
+          "probability": 0.83
         },
         {
-          "word": " Wars",
-          "start": 159.3,
-          "end": 159.56,
+          "word": " Astra,",
+          "start": 136.66,
+          "end": 137.14,
+          "probability": 0.87
+        },
+        {
+          "word": " thousands",
+          "start": 137.54,
+          "end": 138.04,
+          "probability": 0.99
+        },
+        {
+          "word": " of",
+          "start": 138.04,
+          "end": 138.32,
+          "probability": 1.0
+        },
+        {
+          "word": " autonomous",
+          "start": 138.32,
+          "end": 138.64,
+          "probability": 0.93
+        },
+        {
+          "word": " agent",
+          "start": 138.64,
+          "end": 139.06,
           "probability": 0.97
         },
         {
-          "word": " death",
-          "start": 159.56,
-          "end": 159.9,
-          "probability": 0.47
+          "word": " loops",
+          "start": 139.06,
+          "end": 139.38,
+          "probability": 0.99
         },
         {
-          "word": " star",
-          "start": 159.9,
-          "end": 160.24,
-          "probability": 0.9
+          "word": " conducting",
+          "start": 139.38,
+          "end": 139.74,
+          "probability": 0.97
         },
         {
-          "word": " simulator",
-          "start": 160.24,
-          "end": 160.7,
-          "probability": 0.98
-        },
-        {
-          "word": " cockpit",
-          "start": 160.7,
-          "end": 161.62,
-          "probability": 0.68
-        },
-        {
-          "word": " controls",
-          "start": 161.62,
-          "end": 162.14,
-          "probability": 0.98
-        },
-        {
-          "word": " orbital",
-          "start": 162.14,
-          "end": 162.62,
-          "probability": 0.74
-        },
-        {
-          "word": " physics",
-          "start": 162.62,
-          "end": 163.06,
-          "probability": 0.98
+          "word": " research,",
+          "start": 139.74,
+          "end": 140.4,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 26,
-      "start": 163.06,
-      "end": 169.94,
-      "text": "deck exploration custom WebGL shaders generated in a single prompt zero shot in under nine minutes",
+      "start": 140.8,
+      "end": 145.18,
+      "text": "writing unit tests, and refactoring production code while human leadership sleeps.",
       "words": [
         {
-          "word": " deck",
-          "start": 163.06,
-          "end": 163.52,
-          "probability": 0.0
+          "word": " writing",
+          "start": 140.8,
+          "end": 141.12,
+          "probability": 0.98
         },
         {
-          "word": " exploration",
-          "start": 163.52,
-          "end": 163.92,
-          "probability": 0.92
+          "word": " unit",
+          "start": 141.12,
+          "end": 141.42,
+          "probability": 1.0
         },
         {
-          "word": " custom",
-          "start": 163.92,
-          "end": 164.98,
-          "probability": 0.29
-        },
-        {
-          "word": " WebGL",
-          "start": 164.98,
-          "end": 165.5,
-          "probability": 0.69
-        },
-        {
-          "word": " shaders",
-          "start": 165.5,
-          "end": 166.02,
-          "probability": 0.96
-        },
-        {
-          "word": " generated",
-          "start": 166.02,
-          "end": 167.0,
-          "probability": 0.74
-        },
-        {
-          "word": " in",
-          "start": 167.0,
-          "end": 167.38,
+          "word": " tests,",
+          "start": 141.42,
+          "end": 141.76,
           "probability": 0.99
         },
         {
-          "word": " a",
-          "start": 167.38,
-          "end": 167.48,
+          "word": " and",
+          "start": 142.32,
+          "end": 142.5,
+          "probability": 0.99
+        },
+        {
+          "word": " refactoring",
+          "start": 142.5,
+          "end": 143.12,
+          "probability": 0.98
+        },
+        {
+          "word": " production",
+          "start": 143.12,
+          "end": 143.36,
           "probability": 1.0
         },
         {
-          "word": " single",
-          "start": 167.48,
-          "end": 167.7,
+          "word": " code",
+          "start": 143.36,
+          "end": 143.88,
           "probability": 1.0
         },
         {
-          "word": " prompt",
-          "start": 167.7,
-          "end": 168.04,
-          "probability": 0.93
-        },
-        {
-          "word": " zero",
-          "start": 168.04,
-          "end": 168.48,
-          "probability": 0.77
-        },
-        {
-          "word": " shot",
-          "start": 168.48,
-          "end": 168.9,
+          "word": " while",
+          "start": 143.88,
+          "end": 144.18,
           "probability": 0.95
         },
         {
-          "word": " in",
-          "start": 168.9,
-          "end": 169.18,
-          "probability": 0.97
+          "word": " human",
+          "start": 144.18,
+          "end": 144.44,
+          "probability": 0.95
         },
         {
-          "word": " under",
-          "start": 169.18,
-          "end": 169.3,
-          "probability": 0.99
-        },
-        {
-          "word": " nine",
-          "start": 169.3,
-          "end": 169.64,
-          "probability": 0.72
-        },
-        {
-          "word": " minutes",
-          "start": 169.64,
-          "end": 169.94,
+          "word": " leadership",
+          "start": 144.44,
+          "end": 144.78,
           "probability": 1.0
+        },
+        {
+          "word": " sleeps.",
+          "start": 144.78,
+          "end": 145.18,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 27,
-      "start": 170.5,
-      "end": 177.64,
-      "text": "72,000 tokens of unbroken logic. We are not talking about writing a Python snake game or an HTML",
+      "start": 145.98,
+      "end": 151.18,
+      "text": "And before the developer community could even process Astra, the next tier leaked into the wild.",
       "words": [
         {
-          "word": " 72",
-          "start": 170.5,
-          "end": 170.88,
-          "probability": 0.74
-        },
-        {
-          "word": ",000",
-          "start": 170.88,
-          "end": 171.6,
-          "probability": 0.95
-        },
-        {
-          "word": " tokens",
-          "start": 171.6,
-          "end": 172.04,
-          "probability": 0.98
-        },
-        {
-          "word": " of",
-          "start": 172.04,
-          "end": 172.44,
-          "probability": 0.99
-        },
-        {
-          "word": " unbroken",
-          "start": 172.44,
-          "end": 173.0,
-          "probability": 0.98
-        },
-        {
-          "word": " logic.",
-          "start": 173.0,
-          "end": 173.44,
+          "word": " And",
+          "start": 145.98,
+          "end": 146.08,
           "probability": 0.97
         },
         {
-          "word": " We",
-          "start": 174.1,
-          "end": 174.3,
+          "word": " before",
+          "start": 146.08,
+          "end": 146.38,
           "probability": 0.99
         },
         {
-          "word": " are",
-          "start": 174.3,
-          "end": 174.44,
-          "probability": 0.99
+          "word": " the",
+          "start": 146.38,
+          "end": 146.68,
+          "probability": 0.94
         },
         {
-          "word": " not",
-          "start": 174.44,
-          "end": 174.6,
-          "probability": 1.0
-        },
-        {
-          "word": " talking",
-          "start": 174.6,
-          "end": 174.96,
-          "probability": 1.0
-        },
-        {
-          "word": " about",
-          "start": 174.96,
-          "end": 175.18,
-          "probability": 1.0
-        },
-        {
-          "word": " writing",
-          "start": 175.18,
-          "end": 175.5,
-          "probability": 0.98
-        },
-        {
-          "word": " a",
-          "start": 175.5,
-          "end": 175.76,
-          "probability": 0.99
-        },
-        {
-          "word": " Python",
-          "start": 175.76,
-          "end": 175.96,
-          "probability": 0.91
-        },
-        {
-          "word": " snake",
-          "start": 175.96,
-          "end": 176.4,
-          "probability": 0.86
-        },
-        {
-          "word": " game",
-          "start": 176.4,
-          "end": 176.72,
-          "probability": 0.97
-        },
-        {
-          "word": " or",
-          "start": 176.72,
-          "end": 177.12,
+          "word": " developer",
+          "start": 146.68,
+          "end": 146.98,
           "probability": 0.96
         },
         {
-          "word": " an",
-          "start": 177.12,
-          "end": 177.26,
-          "probability": 0.95
+          "word": " community",
+          "start": 146.98,
+          "end": 147.38,
+          "probability": 1.0
         },
         {
-          "word": " HTML",
-          "start": 177.26,
-          "end": 177.64,
-          "probability": 0.95
+          "word": " could",
+          "start": 147.38,
+          "end": 147.78,
+          "probability": 0.99
+        },
+        {
+          "word": " even",
+          "start": 147.78,
+          "end": 147.98,
+          "probability": 1.0
+        },
+        {
+          "word": " process",
+          "start": 147.98,
+          "end": 148.34,
+          "probability": 1.0
+        },
+        {
+          "word": " Astra,",
+          "start": 148.34,
+          "end": 149.04,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 149.48,
+          "end": 149.6,
+          "probability": 0.99
+        },
+        {
+          "word": " next",
+          "start": 149.6,
+          "end": 149.78,
+          "probability": 0.99
+        },
+        {
+          "word": " tier",
+          "start": 149.78,
+          "end": 150.1,
+          "probability": 0.89
+        },
+        {
+          "word": " leaked",
+          "start": 150.1,
+          "end": 150.4,
+          "probability": 0.9
+        },
+        {
+          "word": " into",
+          "start": 150.4,
+          "end": 150.74,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 150.74,
+          "end": 150.88,
+          "probability": 0.99
+        },
+        {
+          "word": " wild.",
+          "start": 150.88,
+          "end": 151.18,
+          "probability": 0.97
         }
       ]
     },
     {
       "id": 28,
-      "start": 177.64,
-      "end": 183.12,
-      "text": "calculator anymore. This is autonomous software synthesis where the AI acts like a senior graphics",
+      "start": 151.74,
+      "end": 158.76,
+      "text": "Developers scanning the OpenAI API endpoint discovered direct model identifiers for GPT-6",
       "words": [
         {
-          "word": " calculator",
-          "start": 177.64,
-          "end": 178.22,
-          "probability": 0.98
+          "word": " Developers",
+          "start": 151.74,
+          "end": 152.24,
+          "probability": 0.02
         },
         {
-          "word": " anymore.",
-          "start": 178.22,
-          "end": 178.76,
-          "probability": 0.94
-        },
-        {
-          "word": " This",
-          "start": 179.36,
-          "end": 179.58,
+          "word": " scanning",
+          "start": 152.24,
+          "end": 152.54,
           "probability": 0.99
-        },
-        {
-          "word": " is",
-          "start": 179.58,
-          "end": 179.7,
-          "probability": 1.0
-        },
-        {
-          "word": " autonomous",
-          "start": 179.7,
-          "end": 180.04,
-          "probability": 0.95
-        },
-        {
-          "word": " software",
-          "start": 180.04,
-          "end": 180.44,
-          "probability": 0.99
-        },
-        {
-          "word": " synthesis",
-          "start": 180.44,
-          "end": 180.9,
-          "probability": 0.99
-        },
-        {
-          "word": " where",
-          "start": 180.9,
-          "end": 181.42,
-          "probability": 0.8
         },
         {
           "word": " the",
-          "start": 181.42,
-          "end": 181.56,
-          "probability": 1.0
-        },
-        {
-          "word": " AI",
-          "start": 181.56,
-          "end": 181.74,
-          "probability": 0.94
-        },
-        {
-          "word": " acts",
-          "start": 181.74,
-          "end": 182.22,
+          "start": 152.54,
+          "end": 152.9,
           "probability": 0.98
         },
         {
-          "word": " like",
-          "start": 182.22,
-          "end": 182.42,
-          "probability": 1.0
+          "word": " OpenAI",
+          "start": 152.9,
+          "end": 153.38,
+          "probability": 0.89
         },
         {
-          "word": " a",
-          "start": 182.42,
-          "end": 182.54,
-          "probability": 1.0
+          "word": " API",
+          "start": 153.38,
+          "end": 154.08,
+          "probability": 0.79
         },
         {
-          "word": " senior",
-          "start": 182.54,
-          "end": 182.8,
-          "probability": 0.97
+          "word": " endpoint",
+          "start": 154.08,
+          "end": 154.6,
+          "probability": 0.7
         },
         {
-          "word": " graphics",
-          "start": 182.8,
-          "end": 183.12,
-          "probability": 1.0
+          "word": " discovered",
+          "start": 154.6,
+          "end": 155.24,
+          "probability": 0.7
+        },
+        {
+          "word": " direct",
+          "start": 155.24,
+          "end": 155.64,
+          "probability": 0.94
+        },
+        {
+          "word": " model",
+          "start": 155.64,
+          "end": 155.96,
+          "probability": 0.93
+        },
+        {
+          "word": " identifiers",
+          "start": 155.96,
+          "end": 156.66,
+          "probability": 0.98
+        },
+        {
+          "word": " for",
+          "start": 156.66,
+          "end": 157.18,
+          "probability": 0.98
+        },
+        {
+          "word": " GPT",
+          "start": 157.18,
+          "end": 158.16,
+          "probability": 0.91
+        },
+        {
+          "word": "-6",
+          "start": 158.16,
+          "end": 158.76,
+          "probability": 0.82
         }
       ]
     },
     {
       "id": 29,
-      "start": 183.12,
-      "end": 189.34,
-      "text": "engineer calculates shader mathematics structures the state tree and self corrects runtime rendering",
+      "start": 158.76,
+      "end": 164.28,
+      "text": "Soul. Leak telemetry suggests Soul is OpenAI's specialized high reasoning engine designed for",
       "words": [
         {
-          "word": " engineer",
-          "start": 183.12,
-          "end": 183.56,
+          "word": " Soul.",
+          "start": 158.76,
+          "end": 159.08,
+          "probability": 0.15
+        },
+        {
+          "word": " Leak",
+          "start": 159.56,
+          "end": 159.9,
+          "probability": 0.56
+        },
+        {
+          "word": " telemetry",
+          "start": 159.9,
+          "end": 160.36,
+          "probability": 0.89
+        },
+        {
+          "word": " suggests",
+          "start": 160.36,
+          "end": 160.72,
+          "probability": 0.86
+        },
+        {
+          "word": " Soul",
+          "start": 160.72,
+          "end": 161.12,
+          "probability": 0.64
+        },
+        {
+          "word": " is",
+          "start": 161.12,
+          "end": 161.4,
           "probability": 0.99
         },
         {
-          "word": " calculates",
-          "start": 183.56,
-          "end": 184.48,
-          "probability": 0.76
-        },
-        {
-          "word": " shader",
-          "start": 184.48,
-          "end": 184.96,
-          "probability": 0.97
-        },
-        {
-          "word": " mathematics",
-          "start": 184.96,
-          "end": 185.42,
-          "probability": 0.99
-        },
-        {
-          "word": " structures",
-          "start": 185.42,
-          "end": 186.5,
-          "probability": 0.5
-        },
-        {
-          "word": " the",
-          "start": 186.5,
-          "end": 186.88,
+          "word": " OpenAI's",
+          "start": 161.4,
+          "end": 162.14,
           "probability": 0.88
         },
         {
-          "word": " state",
-          "start": 186.88,
-          "end": 187.08,
-          "probability": 0.96
-        },
-        {
-          "word": " tree",
-          "start": 187.08,
-          "end": 187.36,
+          "word": " specialized",
+          "start": 162.14,
+          "end": 162.5,
           "probability": 0.99
         },
         {
-          "word": " and",
-          "start": 187.36,
-          "end": 188.0,
-          "probability": 0.96
+          "word": " high",
+          "start": 162.5,
+          "end": 162.94,
+          "probability": 0.89
         },
         {
-          "word": " self",
-          "start": 188.0,
-          "end": 188.18,
-          "probability": 0.97
+          "word": " reasoning",
+          "start": 162.94,
+          "end": 163.3,
+          "probability": 0.58
         },
         {
-          "word": " corrects",
-          "start": 188.18,
-          "end": 188.66,
-          "probability": 0.75
+          "word": " engine",
+          "start": 163.3,
+          "end": 163.64,
+          "probability": 1.0
         },
         {
-          "word": " runtime",
-          "start": 188.66,
-          "end": 188.84,
-          "probability": 0.78
+          "word": " designed",
+          "start": 163.64,
+          "end": 163.96,
+          "probability": 0.99
         },
         {
-          "word": " rendering",
-          "start": 188.84,
-          "end": 189.34,
-          "probability": 0.95
+          "word": " for",
+          "start": 163.96,
+          "end": 164.28,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 30,
-      "start": 189.34,
-      "end": 195.66,
-      "text": "bugs on the fly and soul is only one piece of the puzzle. Open AI's leaked roadmap reveals an",
+      "start": 164.28,
+      "end": 169.58,
+      "text": "extreme multi-hop logic and recursive system planning. Outperforming Astra on long horizon",
       "words": [
         {
-          "word": " bugs",
-          "start": 189.34,
-          "end": 189.72,
-          "probability": 0.0
-        },
-        {
-          "word": " on",
-          "start": 189.72,
-          "end": 189.96,
-          "probability": 0.92
-        },
-        {
-          "word": " the",
-          "start": 189.96,
-          "end": 190.04,
+          "word": " extreme",
+          "start": 164.28,
+          "end": 164.62,
           "probability": 0.99
         },
         {
-          "word": " fly",
-          "start": 190.04,
-          "end": 190.24,
-          "probability": 0.99
+          "word": " multi",
+          "start": 164.62,
+          "end": 164.96,
+          "probability": 0.91
+        },
+        {
+          "word": "-hop",
+          "start": 164.96,
+          "end": 165.24,
+          "probability": 0.89
+        },
+        {
+          "word": " logic",
+          "start": 165.24,
+          "end": 165.62,
+          "probability": 1.0
         },
         {
           "word": " and",
-          "start": 190.24,
-          "end": 190.94,
-          "probability": 0.25
-        },
-        {
-          "word": " soul",
-          "start": 190.94,
-          "end": 191.18,
-          "probability": 0.39
-        },
-        {
-          "word": " is",
-          "start": 191.18,
-          "end": 191.54,
-          "probability": 0.98
-        },
-        {
-          "word": " only",
-          "start": 191.54,
-          "end": 191.84,
-          "probability": 0.98
-        },
-        {
-          "word": " one",
-          "start": 191.84,
-          "end": 192.14,
-          "probability": 0.97
-        },
-        {
-          "word": " piece",
-          "start": 192.14,
-          "end": 192.44,
-          "probability": 0.99
-        },
-        {
-          "word": " of",
-          "start": 192.44,
-          "end": 192.68,
+          "start": 165.62,
+          "end": 165.9,
           "probability": 1.0
         },
         {
-          "word": " the",
-          "start": 192.68,
-          "end": 192.76,
-          "probability": 1.0
-        },
-        {
-          "word": " puzzle.",
-          "start": 192.76,
-          "end": 193.04,
+          "word": " recursive",
+          "start": 165.9,
+          "end": 166.12,
           "probability": 0.99
         },
         {
-          "word": " Open",
-          "start": 193.72,
-          "end": 193.9,
-          "probability": 0.92
+          "word": " system",
+          "start": 166.12,
+          "end": 166.56,
+          "probability": 0.99
         },
         {
-          "word": " AI's",
-          "start": 193.9,
-          "end": 194.32,
-          "probability": 0.63
+          "word": " planning.",
+          "start": 166.56,
+          "end": 167.04,
+          "probability": 0.99
         },
         {
-          "word": " leaked",
-          "start": 194.32,
-          "end": 194.56,
+          "word": " Outperforming",
+          "start": 167.74,
+          "end": 168.22,
+          "probability": 0.82
+        },
+        {
+          "word": " Astra",
+          "start": 168.22,
+          "end": 168.8,
+          "probability": 0.9
+        },
+        {
+          "word": " on",
+          "start": 168.8,
+          "end": 169.04,
+          "probability": 0.99
+        },
+        {
+          "word": " long",
+          "start": 169.04,
+          "end": 169.2,
+          "probability": 0.87
+        },
+        {
+          "word": " horizon",
+          "start": 169.2,
+          "end": 169.58,
           "probability": 0.93
-        },
-        {
-          "word": " roadmap",
-          "start": 194.56,
-          "end": 194.84,
-          "probability": 0.85
-        },
-        {
-          "word": " reveals",
-          "start": 194.84,
-          "end": 195.42,
-          "probability": 0.99
-        },
-        {
-          "word": " an",
-          "start": 195.42,
-          "end": 195.66,
-          "probability": 0.99
         }
       ]
     },
     {
       "id": 31,
-      "start": 195.66,
-      "end": 202.68,
-      "text": "entire cluster GPT six Luna for low latency edge devices GPT six soul for heavy engineering",
+      "start": 169.58,
+      "end": 174.34,
+      "text": "software architecture benchmarks. If Silicon Valley thought it had locked down the autonomous",
       "words": [
         {
-          "word": " entire",
-          "start": 195.66,
-          "end": 195.96,
+          "word": " software",
+          "start": 169.58,
+          "end": 169.98,
           "probability": 1.0
         },
         {
-          "word": " cluster",
-          "start": 195.96,
-          "end": 196.34,
+          "word": " architecture",
+          "start": 169.98,
+          "end": 170.4,
           "probability": 0.99
         },
         {
-          "word": " GPT",
-          "start": 196.34,
-          "end": 197.58,
-          "probability": 0.54
-        },
-        {
-          "word": " six",
-          "start": 197.58,
-          "end": 198.06,
-          "probability": 0.17
-        },
-        {
-          "word": " Luna",
-          "start": 198.06,
-          "end": 198.34,
-          "probability": 0.6
-        },
-        {
-          "word": " for",
-          "start": 198.34,
-          "end": 198.64,
-          "probability": 0.95
-        },
-        {
-          "word": " low",
-          "start": 198.64,
-          "end": 198.84,
-          "probability": 0.98
-        },
-        {
-          "word": " latency",
-          "start": 198.84,
-          "end": 199.16,
-          "probability": 0.95
-        },
-        {
-          "word": " edge",
-          "start": 199.16,
-          "end": 199.5,
-          "probability": 0.95
-        },
-        {
-          "word": " devices",
-          "start": 199.5,
-          "end": 199.86,
-          "probability": 0.98
-        },
-        {
-          "word": " GPT",
-          "start": 199.86,
-          "end": 201.0,
-          "probability": 0.76
-        },
-        {
-          "word": " six",
-          "start": 201.0,
-          "end": 201.48,
-          "probability": 0.78
-        },
-        {
-          "word": " soul",
-          "start": 201.48,
-          "end": 201.78,
-          "probability": 0.61
-        },
-        {
-          "word": " for",
-          "start": 201.78,
-          "end": 202.0,
+          "word": " benchmarks.",
+          "start": 170.4,
+          "end": 170.86,
           "probability": 0.99
         },
         {
-          "word": " heavy",
-          "start": 202.0,
-          "end": 202.18,
+          "word": " If",
+          "start": 171.76,
+          "end": 171.86,
           "probability": 0.98
         },
         {
-          "word": " engineering",
-          "start": 202.18,
-          "end": 202.68,
+          "word": " Silicon",
+          "start": 171.86,
+          "end": 172.06,
+          "probability": 0.98
+        },
+        {
+          "word": " Valley",
+          "start": 172.06,
+          "end": 172.42,
           "probability": 0.99
+        },
+        {
+          "word": " thought",
+          "start": 172.42,
+          "end": 172.86,
+          "probability": 0.99
+        },
+        {
+          "word": " it",
+          "start": 172.86,
+          "end": 173.06,
+          "probability": 0.99
+        },
+        {
+          "word": " had",
+          "start": 173.06,
+          "end": 173.2,
+          "probability": 0.99
+        },
+        {
+          "word": " locked",
+          "start": 173.2,
+          "end": 173.4,
+          "probability": 0.98
+        },
+        {
+          "word": " down",
+          "start": 173.4,
+          "end": 173.76,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 173.76,
+          "end": 173.98,
+          "probability": 0.99
+        },
+        {
+          "word": " autonomous",
+          "start": 173.98,
+          "end": 174.34,
+          "probability": 0.96
         }
       ]
     },
     {
       "id": 32,
-      "start": 203.26,
-      "end": 209.98,
-      "text": "and GPT six Astra. They're candidate for multi agent autonomous enterprise execution. Sam Altman",
+      "start": 174.34,
+      "end": 179.6,
+      "text": "coding market behind $200 month subscriptions, open source labs just delivered a devastating",
       "words": [
         {
-          "word": " and",
-          "start": 203.22,
-          "end": 203.52,
-          "probability": 0.85
+          "word": " coding",
+          "start": 174.34,
+          "end": 174.62,
+          "probability": 0.92
         },
         {
-          "word": " GPT",
-          "start": 203.52,
-          "end": 203.92,
-          "probability": 0.93
+          "word": " market",
+          "start": 174.62,
+          "end": 175.0,
+          "probability": 1.0
         },
         {
-          "word": " six",
-          "start": 203.92,
-          "end": 204.48,
-          "probability": 0.91
+          "word": " behind",
+          "start": 175.0,
+          "end": 175.36,
+          "probability": 0.98
         },
         {
-          "word": " Astra.",
-          "start": 204.48,
-          "end": 204.98,
-          "probability": 0.84
+          "word": " $200",
+          "start": 175.36,
+          "end": 175.96,
+          "probability": 0.9
         },
         {
-          "word": " They're",
-          "start": 205.44,
-          "end": 205.84,
-          "probability": 0.74
+          "word": " month",
+          "start": 175.96,
+          "end": 176.36,
+          "probability": 0.49
         },
         {
-          "word": " candidate",
-          "start": 205.84,
-          "end": 206.14,
-          "probability": 0.91
+          "word": " subscriptions,",
+          "start": 176.36,
+          "end": 176.76,
+          "probability": 0.97
         },
         {
-          "word": " for",
-          "start": 206.14,
-          "end": 206.44,
-          "probability": 0.88
+          "word": " open",
+          "start": 177.48,
+          "end": 177.68,
+          "probability": 0.78
         },
         {
-          "word": " multi",
-          "start": 206.44,
-          "end": 206.66,
-          "probability": 0.93
+          "word": " source",
+          "start": 177.68,
+          "end": 178.0,
+          "probability": 0.67
         },
         {
-          "word": " agent",
-          "start": 206.66,
-          "end": 207.02,
-          "probability": 0.5
+          "word": " labs",
+          "start": 178.0,
+          "end": 178.3,
+          "probability": 0.98
         },
         {
-          "word": " autonomous",
-          "start": 207.02,
-          "end": 207.62,
-          "probability": 0.74
-        },
-        {
-          "word": " enterprise",
-          "start": 207.62,
-          "end": 208.08,
-          "probability": 0.91
-        },
-        {
-          "word": " execution.",
-          "start": 208.08,
-          "end": 208.58,
+          "word": " just",
+          "start": 178.3,
+          "end": 178.68,
           "probability": 0.99
         },
         {
-          "word": " Sam",
-          "start": 209.22,
-          "end": 209.56,
-          "probability": 0.96
+          "word": " delivered",
+          "start": 178.68,
+          "end": 179.02,
+          "probability": 1.0
         },
         {
-          "word": " Altman",
-          "start": 209.56,
-          "end": 209.98,
-          "probability": 0.96
+          "word": " a",
+          "start": 179.02,
+          "end": 179.26,
+          "probability": 0.99
+        },
+        {
+          "word": " devastating",
+          "start": 179.26,
+          "end": 179.6,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 33,
-      "start": 209.98,
-      "end": 215.18,
-      "text": "cannot along with safety letters all he wants but open AI cannot afford to yield the software",
+      "start": 179.6,
+      "end": 186.92,
+      "text": "response. A viral thread with over 45,000 views by developers, Souda Mone revealed deep-seak",
       "words": [
         {
-          "word": " cannot",
-          "start": 209.98,
-          "end": 210.18,
-          "probability": 0.63
+          "word": " response.",
+          "start": 179.6,
+          "end": 180.2,
+          "probability": 0.16
         },
         {
-          "word": " along",
-          "start": 210.18,
-          "end": 210.7,
-          "probability": 0.89
-        },
-        {
-          "word": " with",
-          "start": 210.7,
-          "end": 210.96,
-          "probability": 1.0
-        },
-        {
-          "word": " safety",
-          "start": 210.96,
-          "end": 211.18,
+          "word": " A",
+          "start": 180.9,
+          "end": 180.98,
           "probability": 0.98
         },
         {
-          "word": " letters",
-          "start": 211.18,
-          "end": 211.54,
+          "word": " viral",
+          "start": 180.98,
+          "end": 181.28,
+          "probability": 0.98
+        },
+        {
+          "word": " thread",
+          "start": 181.28,
+          "end": 181.64,
+          "probability": 0.98
+        },
+        {
+          "word": " with",
+          "start": 181.64,
+          "end": 181.96,
+          "probability": 0.96
+        },
+        {
+          "word": " over",
+          "start": 181.96,
+          "end": 182.16,
           "probability": 0.99
         },
         {
-          "word": " all",
-          "start": 211.54,
-          "end": 211.88,
+          "word": " 45",
+          "start": 182.16,
+          "end": 182.64,
+          "probability": 0.96
+        },
+        {
+          "word": ",000",
+          "start": 182.64,
+          "end": 183.28,
+          "probability": 0.97
+        },
+        {
+          "word": " views",
+          "start": 183.28,
+          "end": 183.54,
+          "probability": 1.0
+        },
+        {
+          "word": " by",
+          "start": 183.54,
+          "end": 183.86,
+          "probability": 0.99
+        },
+        {
+          "word": " developers,",
+          "start": 183.86,
+          "end": 184.28,
+          "probability": 0.31
+        },
+        {
+          "word": " Souda",
+          "start": 184.62,
+          "end": 184.84,
+          "probability": 0.4
+        },
+        {
+          "word": " Mone",
+          "start": 184.84,
+          "end": 185.06,
           "probability": 0.49
         },
         {
-          "word": " he",
-          "start": 211.88,
-          "end": 212.0,
-          "probability": 0.99
+          "word": " revealed",
+          "start": 185.06,
+          "end": 185.66,
+          "probability": 0.91
         },
         {
-          "word": " wants",
-          "start": 212.0,
-          "end": 212.22,
-          "probability": 1.0
+          "word": " deep",
+          "start": 185.66,
+          "end": 186.46,
+          "probability": 0.42
         },
         {
-          "word": " but",
-          "start": 212.22,
-          "end": 212.94,
-          "probability": 0.37
-        },
-        {
-          "word": " open",
-          "start": 212.94,
-          "end": 213.12,
-          "probability": 0.9
-        },
-        {
-          "word": " AI",
-          "start": 213.12,
-          "end": 213.38,
-          "probability": 0.85
-        },
-        {
-          "word": " cannot",
-          "start": 213.38,
-          "end": 213.76,
-          "probability": 0.92
-        },
-        {
-          "word": " afford",
-          "start": 213.76,
-          "end": 214.14,
-          "probability": 1.0
-        },
-        {
-          "word": " to",
-          "start": 214.14,
-          "end": 214.38,
-          "probability": 1.0
-        },
-        {
-          "word": " yield",
-          "start": 214.38,
-          "end": 214.62,
-          "probability": 0.99
-        },
-        {
-          "word": " the",
-          "start": 214.62,
-          "end": 214.88,
-          "probability": 0.99
-        },
-        {
-          "word": " software",
-          "start": 214.88,
-          "end": 215.18,
-          "probability": 0.99
+          "word": "-seak",
+          "start": 186.46,
+          "end": 186.92,
+          "probability": 0.5
         }
       ]
     },
     {
       "id": 34,
-      "start": 215.18,
-      "end": 220.4,
-      "text": "engineering crown to anthropic and that brings us to the elephant in the room that silicon valley",
+      "start": 186.92,
+      "end": 192.88,
+      "text": "harness. Unlike closed proprietary agent sandboxes, deep-seak harness provides a lightweight,",
       "words": [
         {
-          "word": " engineering",
-          "start": 215.18,
-          "end": 215.62,
-          "probability": 0.07
+          "word": " harness.",
+          "start": 186.92,
+          "end": 187.12,
+          "probability": 0.88
         },
         {
-          "word": " crown",
-          "start": 215.62,
-          "end": 215.98,
-          "probability": 0.76
-        },
-        {
-          "word": " to",
-          "start": 215.98,
-          "end": 216.22,
+          "word": " Unlike",
+          "start": 187.78,
+          "end": 188.16,
           "probability": 0.99
         },
         {
-          "word": " anthropic",
-          "start": 216.22,
-          "end": 216.76,
-          "probability": 0.69
-        },
-        {
-          "word": " and",
-          "start": 216.76,
-          "end": 217.4,
-          "probability": 0.26
-        },
-        {
-          "word": " that",
-          "start": 217.4,
-          "end": 217.54,
-          "probability": 0.99
-        },
-        {
-          "word": " brings",
-          "start": 217.54,
-          "end": 217.84,
-          "probability": 0.99
-        },
-        {
-          "word": " us",
-          "start": 217.84,
-          "end": 218.1,
-          "probability": 1.0
-        },
-        {
-          "word": " to",
-          "start": 218.1,
-          "end": 218.3,
-          "probability": 0.99
-        },
-        {
-          "word": " the",
-          "start": 218.3,
-          "end": 218.42,
-          "probability": 1.0
-        },
-        {
-          "word": " elephant",
-          "start": 218.42,
-          "end": 218.74,
+          "word": " closed",
+          "start": 188.16,
+          "end": 188.52,
           "probability": 0.98
         },
         {
-          "word": " in",
-          "start": 218.74,
-          "end": 219.08,
+          "word": " proprietary",
+          "start": 188.52,
+          "end": 189.14,
           "probability": 0.98
         },
         {
-          "word": " the",
-          "start": 219.08,
-          "end": 219.18,
-          "probability": 1.0
+          "word": " agent",
+          "start": 189.14,
+          "end": 189.7,
+          "probability": 0.86
         },
         {
-          "word": " room",
-          "start": 219.18,
-          "end": 219.42,
-          "probability": 1.0
+          "word": " sandboxes,",
+          "start": 189.7,
+          "end": 190.32,
+          "probability": 0.78
         },
         {
-          "word": " that",
-          "start": 219.42,
-          "end": 219.74,
-          "probability": 0.98
+          "word": " deep",
+          "start": 191.14,
+          "end": 191.32,
+          "probability": 0.91
         },
         {
-          "word": " silicon",
-          "start": 219.74,
-          "end": 220.0,
-          "probability": 0.31
+          "word": "-seak",
+          "start": 191.32,
+          "end": 191.62,
+          "probability": 0.97
         },
         {
-          "word": " valley",
-          "start": 220.0,
-          "end": 220.4,
-          "probability": 0.82
+          "word": " harness",
+          "start": 191.62,
+          "end": 191.9,
+          "probability": 0.99
+        },
+        {
+          "word": " provides",
+          "start": 191.9,
+          "end": 192.32,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 192.32,
+          "end": 192.56,
+          "probability": 0.99
+        },
+        {
+          "word": " lightweight,",
+          "start": 192.56,
+          "end": 192.88,
+          "probability": 0.96
         }
       ]
     },
     {
       "id": 35,
-      "start": 220.4,
-      "end": 226.56,
-      "text": "refuses to talk about even if anthropic and open AI signed a legally binding pack tomorrow to freeze",
+      "start": 193.44,
+      "end": 198.34,
+      "text": "local first framework that connects directly to local terminal environments. It executes",
       "words": [
         {
-          "word": " refuses",
-          "start": 220.4,
-          "end": 220.98,
-          "probability": 0.97
+          "word": " local",
+          "start": 193.44,
+          "end": 193.86,
+          "probability": 0.99
+        },
+        {
+          "word": " first",
+          "start": 193.86,
+          "end": 194.08,
+          "probability": 0.6
+        },
+        {
+          "word": " framework",
+          "start": 194.08,
+          "end": 194.48,
+          "probability": 0.89
+        },
+        {
+          "word": " that",
+          "start": 194.48,
+          "end": 194.88,
+          "probability": 0.99
+        },
+        {
+          "word": " connects",
+          "start": 194.88,
+          "end": 195.14,
+          "probability": 1.0
+        },
+        {
+          "word": " directly",
+          "start": 195.14,
+          "end": 195.76,
+          "probability": 1.0
         },
         {
           "word": " to",
-          "start": 220.98,
-          "end": 221.36,
+          "start": 195.76,
+          "end": 195.94,
           "probability": 1.0
         },
         {
-          "word": " talk",
-          "start": 221.36,
-          "end": 221.56,
+          "word": " local",
+          "start": 195.94,
+          "end": 196.16,
           "probability": 1.0
         },
         {
-          "word": " about",
-          "start": 221.56,
-          "end": 221.84,
+          "word": " terminal",
+          "start": 196.16,
+          "end": 196.54,
+          "probability": 0.99
+        },
+        {
+          "word": " environments.",
+          "start": 196.54,
+          "end": 197.26,
           "probability": 1.0
         },
         {
-          "word": " even",
-          "start": 221.84,
-          "end": 222.56,
-          "probability": 0.42
-        },
-        {
-          "word": " if",
-          "start": 222.56,
-          "end": 222.8,
-          "probability": 0.98
-        },
-        {
-          "word": " anthropic",
-          "start": 222.8,
-          "end": 223.42,
-          "probability": 0.95
-        },
-        {
-          "word": " and",
-          "start": 223.42,
-          "end": 223.56,
-          "probability": 0.79
-        },
-        {
-          "word": " open",
-          "start": 223.56,
-          "end": 223.7,
-          "probability": 0.97
-        },
-        {
-          "word": " AI",
-          "start": 223.7,
-          "end": 223.96,
-          "probability": 0.76
-        },
-        {
-          "word": " signed",
-          "start": 223.96,
-          "end": 224.5,
-          "probability": 0.95
-        },
-        {
-          "word": " a",
-          "start": 224.5,
-          "end": 224.62,
-          "probability": 0.8
-        },
-        {
-          "word": " legally",
-          "start": 224.62,
-          "end": 224.82,
+          "word": " It",
+          "start": 197.86,
+          "end": 197.94,
           "probability": 0.99
         },
         {
-          "word": " binding",
-          "start": 224.82,
-          "end": 225.3,
-          "probability": 0.99
-        },
-        {
-          "word": " pack",
-          "start": 225.3,
-          "end": 225.6,
-          "probability": 0.77
-        },
-        {
-          "word": " tomorrow",
-          "start": 225.6,
-          "end": 225.96,
-          "probability": 0.98
-        },
-        {
-          "word": " to",
-          "start": 225.96,
-          "end": 226.3,
-          "probability": 0.99
-        },
-        {
-          "word": " freeze",
-          "start": 226.3,
-          "end": 226.56,
-          "probability": 0.94
+          "word": " executes",
+          "start": 197.94,
+          "end": 198.34,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 36,
-      "start": 226.56,
-      "end": 232.8,
-      "text": "all frontier models. It wouldn't matter because open weights have completely destroyed their moat.",
+      "start": 198.34,
+      "end": 204.44,
+      "text": "multi-file refactoring, automatically catches runtime syntax exceptions, spins up automated",
       "words": [
         {
-          "word": " all",
-          "start": 226.56,
-          "end": 226.86,
-          "probability": 0.95
+          "word": " multi",
+          "start": 198.34,
+          "end": 198.68,
+          "probability": 0.66
         },
         {
-          "word": " frontier",
-          "start": 226.86,
-          "end": 227.12,
-          "probability": 0.92
-        },
-        {
-          "word": " models.",
-          "start": 227.12,
-          "end": 227.5,
-          "probability": 0.98
-        },
-        {
-          "word": " It",
-          "start": 228.2,
-          "end": 228.7,
-          "probability": 0.96
-        },
-        {
-          "word": " wouldn't",
-          "start": 228.7,
-          "end": 228.96,
-          "probability": 0.99
-        },
-        {
-          "word": " matter",
-          "start": 228.96,
-          "end": 229.24,
-          "probability": 1.0
-        },
-        {
-          "word": " because",
-          "start": 229.24,
-          "end": 229.98,
-          "probability": 0.88
-        },
-        {
-          "word": " open",
-          "start": 229.98,
-          "end": 230.26,
-          "probability": 0.98
-        },
-        {
-          "word": " weights",
-          "start": 230.26,
-          "end": 230.66,
-          "probability": 0.93
-        },
-        {
-          "word": " have",
-          "start": 230.66,
-          "end": 231.0,
-          "probability": 0.99
-        },
-        {
-          "word": " completely",
-          "start": 231.0,
-          "end": 231.42,
-          "probability": 1.0
-        },
-        {
-          "word": " destroyed",
-          "start": 231.42,
-          "end": 232.02,
-          "probability": 1.0
-        },
-        {
-          "word": " their",
-          "start": 232.02,
-          "end": 232.38,
-          "probability": 0.97
-        },
-        {
-          "word": " moat.",
-          "start": 232.38,
-          "end": 232.8,
+          "word": "-file",
+          "start": 198.68,
+          "end": 199.04,
           "probability": 0.9
+        },
+        {
+          "word": " refactoring,",
+          "start": 199.04,
+          "end": 199.76,
+          "probability": 0.99
+        },
+        {
+          "word": " automatically",
+          "start": 200.42,
+          "end": 200.86,
+          "probability": 0.98
+        },
+        {
+          "word": " catches",
+          "start": 200.86,
+          "end": 201.36,
+          "probability": 0.99
+        },
+        {
+          "word": " runtime",
+          "start": 201.36,
+          "end": 201.68,
+          "probability": 0.86
+        },
+        {
+          "word": " syntax",
+          "start": 201.68,
+          "end": 202.24,
+          "probability": 0.99
+        },
+        {
+          "word": " exceptions,",
+          "start": 202.24,
+          "end": 202.82,
+          "probability": 0.99
+        },
+        {
+          "word": " spins",
+          "start": 203.68,
+          "end": 203.84,
+          "probability": 1.0
+        },
+        {
+          "word": " up",
+          "start": 203.84,
+          "end": 204.08,
+          "probability": 1.0
+        },
+        {
+          "word": " automated",
+          "start": 204.08,
+          "end": 204.44,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 37,
-      "start": 233.1,
-      "end": 238.72,
-      "text": "Right now developers are running deep seek version 4.1 flash at a fraction of ascent per prompt",
+      "start": 204.44,
+      "end": 210.38,
+      "text": "unit test suites, and iterates autonomously until every test passes. When paired with cheap",
       "words": [
         {
-          "word": " Right",
-          "start": 233.1,
-          "end": 233.38,
-          "probability": 0.97
+          "word": " unit",
+          "start": 204.44,
+          "end": 204.98,
+          "probability": 0.01
         },
         {
-          "word": " now",
-          "start": 233.38,
-          "end": 233.7,
-          "probability": 0.97
+          "word": " test",
+          "start": 204.98,
+          "end": 205.2,
+          "probability": 0.74
         },
         {
-          "word": " developers",
-          "start": 233.7,
-          "end": 234.34,
-          "probability": 0.61
+          "word": " suites,",
+          "start": 205.2,
+          "end": 205.48,
+          "probability": 0.93
         },
         {
-          "word": " are",
-          "start": 234.34,
-          "end": 234.8,
-          "probability": 0.99
-        },
-        {
-          "word": " running",
-          "start": 234.8,
-          "end": 235.08,
-          "probability": 1.0
-        },
-        {
-          "word": " deep",
-          "start": 235.08,
-          "end": 235.3,
-          "probability": 0.87
-        },
-        {
-          "word": " seek",
-          "start": 235.3,
-          "end": 235.58,
-          "probability": 0.26
-        },
-        {
-          "word": " version",
-          "start": 235.58,
-          "end": 235.84,
+          "word": " and",
+          "start": 206.1,
+          "end": 206.34,
           "probability": 0.98
         },
         {
-          "word": " 4",
-          "start": 235.84,
-          "end": 236.2,
-          "probability": 0.87
+          "word": " iterates",
+          "start": 206.34,
+          "end": 206.82,
+          "probability": 0.95
         },
         {
-          "word": ".1",
-          "start": 236.2,
-          "end": 236.7,
+          "word": " autonomously",
+          "start": 206.82,
+          "end": 207.5,
+          "probability": 1.0
+        },
+        {
+          "word": " until",
+          "start": 207.5,
+          "end": 207.86,
           "probability": 0.99
         },
         {
-          "word": " flash",
-          "start": 236.7,
-          "end": 236.96,
-          "probability": 0.84
-        },
-        {
-          "word": " at",
-          "start": 236.96,
-          "end": 237.32,
+          "word": " every",
+          "start": 207.86,
+          "end": 208.22,
           "probability": 0.99
         },
         {
-          "word": " a",
-          "start": 237.32,
-          "end": 237.4,
+          "word": " test",
+          "start": 208.22,
+          "end": 208.48,
           "probability": 1.0
         },
         {
-          "word": " fraction",
-          "start": 237.4,
-          "end": 237.62,
+          "word": " passes.",
+          "start": 208.48,
+          "end": 208.98,
           "probability": 1.0
         },
         {
-          "word": " of",
-          "start": 237.62,
-          "end": 237.92,
+          "word": " When",
+          "start": 209.56,
+          "end": 209.7,
           "probability": 1.0
         },
         {
-          "word": " ascent",
-          "start": 237.92,
-          "end": 238.14,
-          "probability": 0.46
+          "word": " paired",
+          "start": 209.7,
+          "end": 210.0,
+          "probability": 1.0
         },
         {
-          "word": " per",
-          "start": 238.14,
-          "end": 238.38,
-          "probability": 0.82
+          "word": " with",
+          "start": 210.0,
+          "end": 210.18,
+          "probability": 1.0
         },
         {
-          "word": " prompt",
-          "start": 238.38,
-          "end": 238.72,
+          "word": " cheap",
+          "start": 210.18,
+          "end": 210.38,
           "probability": 0.99
         }
       ]
     },
     {
       "id": 38,
-      "start": 239.42,
-      "end": 244.78,
-      "text": "delivering code quality that rivals proprietary models costing 100 times more. Look at this",
+      "start": 210.38,
+      "end": 216.12,
+      "text": "inference tiers like deep-seak version 4.1 flash, developers are achieving agency at a fraction",
       "words": [
         {
-          "word": " delivering",
-          "start": 239.34,
-          "end": 239.66,
-          "probability": 0.73
+          "word": " inference",
+          "start": 210.38,
+          "end": 210.66,
+          "probability": 0.97
         },
         {
-          "word": " code",
-          "start": 239.66,
-          "end": 240.14,
-          "probability": 0.99
+          "word": " tiers",
+          "start": 210.66,
+          "end": 211.04,
+          "probability": 0.97
         },
         {
-          "word": " quality",
-          "start": 240.14,
-          "end": 240.52,
-          "probability": 0.99
+          "word": " like",
+          "start": 211.04,
+          "end": 211.4,
+          "probability": 0.9
         },
         {
-          "word": " that",
-          "start": 240.52,
-          "end": 240.86,
-          "probability": 0.98
+          "word": " deep",
+          "start": 211.4,
+          "end": 211.62,
+          "probability": 0.43
         },
         {
-          "word": " rivals",
-          "start": 240.86,
-          "end": 241.12,
-          "probability": 0.98
+          "word": "-seak",
+          "start": 211.62,
+          "end": 211.92,
+          "probability": 0.41
         },
         {
-          "word": " proprietary",
-          "start": 241.12,
-          "end": 241.48,
-          "probability": 0.99
+          "word": " version",
+          "start": 211.92,
+          "end": 212.08,
+          "probability": 0.9
         },
         {
-          "word": " models",
-          "start": 241.48,
-          "end": 242.14,
-          "probability": 0.99
-        },
-        {
-          "word": " costing",
-          "start": 242.14,
-          "end": 242.42,
+          "word": " 4",
+          "start": 212.08,
+          "end": 212.44,
           "probability": 0.96
         },
         {
-          "word": " 100",
-          "start": 242.42,
-          "end": 242.86,
-          "probability": 0.92
-        },
-        {
-          "word": " times",
-          "start": 242.86,
-          "end": 243.3,
-          "probability": 0.96
-        },
-        {
-          "word": " more.",
-          "start": 243.3,
-          "end": 243.66,
-          "probability": 0.99
-        },
-        {
-          "word": " Look",
-          "start": 244.04,
-          "end": 244.36,
-          "probability": 0.99
-        },
-        {
-          "word": " at",
-          "start": 244.36,
-          "end": 244.6,
+          "word": ".1",
+          "start": 212.44,
+          "end": 212.88,
           "probability": 1.0
         },
         {
-          "word": " this",
-          "start": 244.6,
-          "end": 244.78,
-          "probability": 0.96
+          "word": " flash,",
+          "start": 212.88,
+          "end": 213.16,
+          "probability": 0.52
+        },
+        {
+          "word": " developers",
+          "start": 213.68,
+          "end": 214.06,
+          "probability": 0.99
+        },
+        {
+          "word": " are",
+          "start": 214.06,
+          "end": 214.56,
+          "probability": 1.0
+        },
+        {
+          "word": " achieving",
+          "start": 214.56,
+          "end": 214.86,
+          "probability": 0.99
+        },
+        {
+          "word": " agency",
+          "start": 214.86,
+          "end": 215.48,
+          "probability": 0.98
+        },
+        {
+          "word": " at",
+          "start": 215.48,
+          "end": 215.8,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 215.8,
+          "end": 215.86,
+          "probability": 1.0
+        },
+        {
+          "word": " fraction",
+          "start": 215.86,
+          "end": 216.12,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 39,
-      "start": 244.78,
-      "end": 250.94,
-      "text": "benchmark test across model routers in one shot interactive generation deep seeks cheap tier",
+      "start": 216.12,
+      "end": 221.76,
+      "text": "of a cent per token. The debate over whether AI will replace programmers is officially over.",
       "words": [
         {
-          "word": " benchmark",
-          "start": 244.78,
-          "end": 245.18,
-          "probability": 0.33
+          "word": " of",
+          "start": 216.12,
+          "end": 216.42,
+          "probability": 1.0
         },
         {
-          "word": " test",
-          "start": 245.18,
-          "end": 245.62,
-          "probability": 0.93
+          "word": " a",
+          "start": 216.42,
+          "end": 216.48,
+          "probability": 0.65
         },
         {
-          "word": " across",
-          "start": 245.62,
-          "end": 246.02,
+          "word": " cent",
+          "start": 216.48,
+          "end": 216.66,
+          "probability": 0.96
+        },
+        {
+          "word": " per",
+          "start": 216.66,
+          "end": 216.86,
+          "probability": 0.98
+        },
+        {
+          "word": " token.",
+          "start": 216.86,
+          "end": 217.12,
+          "probability": 1.0
+        },
+        {
+          "word": " The",
+          "start": 217.74,
+          "end": 217.82,
+          "probability": 1.0
+        },
+        {
+          "word": " debate",
+          "start": 217.82,
+          "end": 218.12,
+          "probability": 1.0
+        },
+        {
+          "word": " over",
+          "start": 218.12,
+          "end": 218.5,
+          "probability": 1.0
+        },
+        {
+          "word": " whether",
+          "start": 218.5,
+          "end": 218.9,
           "probability": 0.99
         },
         {
-          "word": " model",
-          "start": 246.02,
-          "end": 246.5,
-          "probability": 0.97
+          "word": " AI",
+          "start": 218.9,
+          "end": 219.12,
+          "probability": 0.98
         },
         {
-          "word": " routers",
-          "start": 246.5,
-          "end": 246.78,
+          "word": " will",
+          "start": 219.12,
+          "end": 219.58,
+          "probability": 1.0
+        },
+        {
+          "word": " replace",
+          "start": 219.58,
+          "end": 220.02,
+          "probability": 1.0
+        },
+        {
+          "word": " programmers",
+          "start": 220.02,
+          "end": 220.4,
           "probability": 0.99
         },
         {
-          "word": " in",
-          "start": 246.78,
-          "end": 247.66,
-          "probability": 0.06
+          "word": " is",
+          "start": 220.4,
+          "end": 220.92,
+          "probability": 1.0
         },
         {
-          "word": " one",
-          "start": 247.66,
-          "end": 247.84,
-          "probability": 0.94
+          "word": " officially",
+          "start": 220.92,
+          "end": 221.38,
+          "probability": 1.0
         },
         {
-          "word": " shot",
-          "start": 247.84,
-          "end": 248.12,
-          "probability": 0.52
-        },
-        {
-          "word": " interactive",
-          "start": 248.12,
-          "end": 248.48,
-          "probability": 0.88
-        },
-        {
-          "word": " generation",
-          "start": 248.48,
-          "end": 249.0,
-          "probability": 0.99
-        },
-        {
-          "word": " deep",
-          "start": 249.0,
-          "end": 250.08,
-          "probability": 0.49
-        },
-        {
-          "word": " seeks",
-          "start": 250.08,
-          "end": 250.32,
-          "probability": 0.44
-        },
-        {
-          "word": " cheap",
-          "start": 250.32,
-          "end": 250.7,
-          "probability": 0.93
-        },
-        {
-          "word": " tier",
-          "start": 250.7,
-          "end": 250.94,
-          "probability": 0.82
+          "word": " over.",
+          "start": 221.38,
+          "end": 221.76,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 40,
-      "start": 250.94,
-      "end": 256.98,
-      "text": "matched or beat closed models costing 20 times its API price and the rumors around deep seek code",
+      "start": 222.22,
+      "end": 227.64,
+      "text": "Programmers aren't being replaced by AI. They are being replaced by developers who deploy",
       "words": [
         {
-          "word": " matched",
-          "start": 250.94,
-          "end": 251.26,
-          "probability": 0.92
-        },
-        {
-          "word": " or",
-          "start": 251.26,
-          "end": 251.66,
-          "probability": 0.99
-        },
-        {
-          "word": " beat",
-          "start": 251.66,
-          "end": 251.86,
-          "probability": 0.95
-        },
-        {
-          "word": " closed",
-          "start": 251.86,
-          "end": 252.14,
-          "probability": 0.76
-        },
-        {
-          "word": " models",
-          "start": 252.14,
-          "end": 252.56,
-          "probability": 0.99
-        },
-        {
-          "word": " costing",
-          "start": 252.56,
-          "end": 252.92,
-          "probability": 0.97
-        },
-        {
-          "word": " 20",
-          "start": 252.92,
-          "end": 253.32,
-          "probability": 0.85
-        },
-        {
-          "word": " times",
-          "start": 253.32,
-          "end": 253.74,
-          "probability": 0.93
-        },
-        {
-          "word": " its",
-          "start": 253.74,
-          "end": 253.92,
-          "probability": 0.93
-        },
-        {
-          "word": " API",
-          "start": 253.92,
-          "end": 254.1,
-          "probability": 0.91
-        },
-        {
-          "word": " price",
-          "start": 254.1,
-          "end": 254.82,
-          "probability": 0.98
-        },
-        {
-          "word": " and",
-          "start": 254.82,
-          "end": 255.54,
-          "probability": 0.66
-        },
-        {
-          "word": " the",
-          "start": 255.54,
-          "end": 255.64,
+          "word": " Programmers",
+          "start": 222.22,
+          "end": 222.82,
           "probability": 0.96
         },
         {
-          "word": " rumors",
-          "start": 255.64,
-          "end": 255.82,
-          "probability": 0.96
-        },
-        {
-          "word": " around",
-          "start": 255.82,
-          "end": 256.26,
+          "word": " aren't",
+          "start": 222.82,
+          "end": 223.24,
           "probability": 1.0
         },
         {
-          "word": " deep",
-          "start": 256.26,
-          "end": 256.48,
-          "probability": 0.92
+          "word": " being",
+          "start": 223.24,
+          "end": 223.4,
+          "probability": 1.0
         },
         {
-          "word": " seek",
-          "start": 256.48,
-          "end": 256.72,
-          "probability": 0.5
+          "word": " replaced",
+          "start": 223.4,
+          "end": 223.74,
+          "probability": 1.0
         },
         {
-          "word": " code",
-          "start": 256.72,
-          "end": 256.98,
-          "probability": 0.97
+          "word": " by",
+          "start": 223.74,
+          "end": 224.22,
+          "probability": 1.0
+        },
+        {
+          "word": " AI.",
+          "start": 224.22,
+          "end": 224.5,
+          "probability": 1.0
+        },
+        {
+          "word": " They",
+          "start": 225.08,
+          "end": 225.34,
+          "probability": 1.0
+        },
+        {
+          "word": " are",
+          "start": 225.34,
+          "end": 225.48,
+          "probability": 1.0
+        },
+        {
+          "word": " being",
+          "start": 225.48,
+          "end": 225.7,
+          "probability": 1.0
+        },
+        {
+          "word": " replaced",
+          "start": 225.7,
+          "end": 226.02,
+          "probability": 1.0
+        },
+        {
+          "word": " by",
+          "start": 226.02,
+          "end": 226.56,
+          "probability": 1.0
+        },
+        {
+          "word": " developers",
+          "start": 226.56,
+          "end": 226.94,
+          "probability": 1.0
+        },
+        {
+          "word": " who",
+          "start": 226.94,
+          "end": 227.44,
+          "probability": 0.96
+        },
+        {
+          "word": " deploy",
+          "start": 227.44,
+          "end": 227.64,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 41,
-      "start": 256.98,
-      "end": 263.6,
-      "text": "2.0 are terrifying closed labs a three trillion parameter mixture of experts architecture a native",
+      "start": 227.64,
+      "end": 232.9,
+      "text": "thousands of autonomous agents overnight. When a model can watch a gameplay video and",
       "words": [
         {
-          "word": " 2",
-          "start": 256.98,
-          "end": 257.2,
-          "probability": 0.93
-        },
-        {
-          "word": ".0",
-          "start": 257.2,
-          "end": 257.78,
-          "probability": 0.99
-        },
-        {
-          "word": " are",
-          "start": 257.78,
-          "end": 258.04,
-          "probability": 0.96
-        },
-        {
-          "word": " terrifying",
-          "start": 258.04,
-          "end": 258.42,
-          "probability": 0.98
-        },
-        {
-          "word": " closed",
-          "start": 258.42,
-          "end": 258.82,
-          "probability": 0.96
-        },
-        {
-          "word": " labs",
-          "start": 258.82,
-          "end": 259.2,
-          "probability": 0.95
-        },
-        {
-          "word": " a",
-          "start": 259.2,
-          "end": 260.14,
-          "probability": 0.69
-        },
-        {
-          "word": " three",
-          "start": 260.14,
-          "end": 260.32,
-          "probability": 0.42
-        },
-        {
-          "word": " trillion",
-          "start": 260.32,
-          "end": 260.7,
-          "probability": 0.97
-        },
-        {
-          "word": " parameter",
-          "start": 260.7,
-          "end": 260.98,
-          "probability": 0.9
-        },
-        {
-          "word": " mixture",
-          "start": 260.98,
-          "end": 261.42,
+          "word": " thousands",
+          "start": 227.64,
+          "end": 228.3,
           "probability": 0.99
         },
         {
           "word": " of",
-          "start": 261.42,
-          "end": 261.68,
+          "start": 228.3,
+          "end": 228.62,
           "probability": 1.0
         },
         {
-          "word": " experts",
-          "start": 261.68,
-          "end": 261.86,
-          "probability": 0.99
+          "word": " autonomous",
+          "start": 228.62,
+          "end": 228.94,
+          "probability": 0.96
         },
         {
-          "word": " architecture",
-          "start": 261.86,
-          "end": 262.42,
-          "probability": 0.98
+          "word": " agents",
+          "start": 228.94,
+          "end": 229.4,
+          "probability": 1.0
+        },
+        {
+          "word": " overnight.",
+          "start": 229.4,
+          "end": 229.8,
+          "probability": 0.97
+        },
+        {
+          "word": " When",
+          "start": 230.6,
+          "end": 230.74,
+          "probability": 1.0
         },
         {
           "word": " a",
-          "start": 262.42,
-          "end": 263.36,
-          "probability": 0.88
+          "start": 230.74,
+          "end": 230.84,
+          "probability": 1.0
         },
         {
-          "word": " native",
-          "start": 263.36,
-          "end": 263.6,
-          "probability": 0.93
+          "word": " model",
+          "start": 230.84,
+          "end": 231.08,
+          "probability": 1.0
+        },
+        {
+          "word": " can",
+          "start": 231.08,
+          "end": 231.34,
+          "probability": 1.0
+        },
+        {
+          "word": " watch",
+          "start": 231.34,
+          "end": 231.6,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 231.6,
+          "end": 231.8,
+          "probability": 1.0
+        },
+        {
+          "word": " gameplay",
+          "start": 231.8,
+          "end": 231.98,
+          "probability": 0.87
+        },
+        {
+          "word": " video",
+          "start": 231.98,
+          "end": 232.6,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 232.6,
+          "end": 232.9,
+          "probability": 0.98
         }
       ]
     },
     {
       "id": 42,
-      "start": 263.6,
-      "end": 269.9,
-      "text": "one million token context window and baked in computer use built on open weights downloadable",
+      "start": 232.9,
+      "end": 237.7,
+      "text": "reconstruct its source code in minutes, writing manual boilerplate isn't engineering anymore.",
       "words": [
         {
-          "word": " one",
-          "start": 263.6,
-          "end": 263.9,
-          "probability": 0.53
+          "word": " reconstruct",
+          "start": 232.9,
+          "end": 233.36,
+          "probability": 0.41
         },
         {
-          "word": " million",
-          "start": 263.9,
-          "end": 264.18,
-          "probability": 0.97
+          "word": " its",
+          "start": 233.36,
+          "end": 233.66,
+          "probability": 0.94
         },
         {
-          "word": " token",
-          "start": 264.18,
-          "end": 264.48,
-          "probability": 0.96
+          "word": " source",
+          "start": 233.66,
+          "end": 233.94,
+          "probability": 1.0
         },
         {
-          "word": " context",
-          "start": 264.48,
-          "end": 264.96,
-          "probability": 0.98
-        },
-        {
-          "word": " window",
-          "start": 264.96,
-          "end": 265.36,
-          "probability": 0.98
-        },
-        {
-          "word": " and",
-          "start": 265.36,
-          "end": 266.08,
+          "word": " code",
+          "start": 233.94,
+          "end": 234.26,
           "probability": 0.99
-        },
-        {
-          "word": " baked",
-          "start": 266.08,
-          "end": 266.28,
-          "probability": 0.96
         },
         {
           "word": " in",
-          "start": 266.28,
-          "end": 266.52,
-          "probability": 0.71
-        },
-        {
-          "word": " computer",
-          "start": 266.52,
-          "end": 266.8,
+          "start": 234.26,
+          "end": 234.44,
           "probability": 0.99
         },
         {
-          "word": " use",
-          "start": 266.8,
-          "end": 267.16,
-          "probability": 0.99
+          "word": " minutes,",
+          "start": 234.44,
+          "end": 234.68,
+          "probability": 1.0
         },
         {
-          "word": " built",
-          "start": 267.16,
-          "end": 267.92,
-          "probability": 0.96
+          "word": " writing",
+          "start": 235.24,
+          "end": 235.54,
+          "probability": 0.95
         },
         {
-          "word": " on",
-          "start": 267.92,
-          "end": 268.22,
-          "probability": 0.98
+          "word": " manual",
+          "start": 235.54,
+          "end": 235.92,
+          "probability": 0.93
         },
         {
-          "word": " open",
-          "start": 268.22,
-          "end": 268.52,
-          "probability": 0.98
+          "word": " boilerplate",
+          "start": 235.92,
+          "end": 236.54,
+          "probability": 0.97
         },
         {
-          "word": " weights",
-          "start": 268.52,
-          "end": 268.84,
-          "probability": 0.91
+          "word": " isn't",
+          "start": 236.54,
+          "end": 236.92,
+          "probability": 0.94
         },
         {
-          "word": " downloadable",
-          "start": 268.84,
-          "end": 269.9,
-          "probability": 0.99
+          "word": " engineering",
+          "start": 236.92,
+          "end": 237.18,
+          "probability": 1.0
+        },
+        {
+          "word": " anymore.",
+          "start": 237.18,
+          "end": 237.7,
+          "probability": 0.97
         }
       ]
     },
     {
       "id": 43,
-      "start": 270.72,
-      "end": 277.06,
-      "text": "uncensurable and completely outside western regulatory reach if closed American labs pause",
+      "start": 238.38,
+      "end": 243.68,
+      "text": "It's an antiquity. The frontier has shifted from prompt engineering to agent orchestration.",
       "words": [
         {
-          "word": " uncensurable",
-          "start": 270.72,
-          "end": 271.5,
-          "probability": 0.59
+          "word": " It's",
+          "start": 238.38,
+          "end": 238.52,
+          "probability": 0.98
         },
         {
-          "word": " and",
-          "start": 271.5,
-          "end": 272.24,
-          "probability": 0.62
+          "word": " an",
+          "start": 238.52,
+          "end": 238.62,
+          "probability": 0.98
         },
         {
-          "word": " completely",
-          "start": 272.24,
-          "end": 272.64,
+          "word": " antiquity.",
+          "start": 238.62,
+          "end": 238.98,
           "probability": 0.99
         },
         {
-          "word": " outside",
-          "start": 272.64,
-          "end": 273.12,
+          "word": " The",
+          "start": 239.78,
+          "end": 239.86,
           "probability": 0.99
         },
         {
-          "word": " western",
-          "start": 273.12,
-          "end": 273.76,
-          "probability": 0.21
+          "word": " frontier",
+          "start": 239.86,
+          "end": 240.08,
+          "probability": 0.94
         },
         {
-          "word": " regulatory",
-          "start": 273.76,
-          "end": 274.26,
+          "word": " has",
+          "start": 240.08,
+          "end": 240.54,
+          "probability": 1.0
+        },
+        {
+          "word": " shifted",
+          "start": 240.54,
+          "end": 240.9,
+          "probability": 1.0
+        },
+        {
+          "word": " from",
+          "start": 240.9,
+          "end": 241.28,
+          "probability": 1.0
+        },
+        {
+          "word": " prompt",
+          "start": 241.28,
+          "end": 241.56,
           "probability": 0.99
         },
         {
-          "word": " reach",
-          "start": 274.26,
-          "end": 274.98,
+          "word": " engineering",
+          "start": 241.56,
+          "end": 242.02,
           "probability": 0.99
         },
         {
-          "word": " if",
-          "start": 274.98,
-          "end": 275.64,
-          "probability": 0.08
+          "word": " to",
+          "start": 242.02,
+          "end": 242.56,
+          "probability": 0.99
         },
         {
-          "word": " closed",
-          "start": 275.64,
-          "end": 275.88,
+          "word": " agent",
+          "start": 242.56,
+          "end": 242.82,
           "probability": 0.96
         },
         {
-          "word": " American",
-          "start": 275.88,
-          "end": 276.18,
-          "probability": 0.91
-        },
-        {
-          "word": " labs",
-          "start": 276.18,
-          "end": 276.66,
-          "probability": 0.41
-        },
-        {
-          "word": " pause",
-          "start": 276.66,
-          "end": 277.06,
-          "probability": 0.96
+          "word": " orchestration.",
+          "start": 242.82,
+          "end": 243.68,
+          "probability": 0.99
         }
       ]
     },
     {
       "id": 44,
-      "start": 277.06,
-      "end": 282.7,
-      "text": "for even six months open weights will swallow the entire developer ecosystem hole that is",
+      "start": 244.26,
+      "end": 249.28,
+      "text": "And as GPT's sixth sole and open source harnesses collide, the only question left is,",
       "words": [
         {
-          "word": " for",
-          "start": 277.06,
-          "end": 277.42,
-          "probability": 0.99
+          "word": " And",
+          "start": 244.26,
+          "end": 244.34,
+          "probability": 0.98
         },
         {
-          "word": " even",
-          "start": 277.42,
-          "end": 277.62,
-          "probability": 1.0
+          "word": " as",
+          "start": 244.34,
+          "end": 244.5,
+          "probability": 0.97
         },
         {
-          "word": " six",
-          "start": 277.62,
-          "end": 277.88,
-          "probability": 0.9
-        },
-        {
-          "word": " months",
-          "start": 277.88,
-          "end": 278.18,
-          "probability": 1.0
-        },
-        {
-          "word": " open",
-          "start": 278.18,
-          "end": 278.94,
-          "probability": 0.54
-        },
-        {
-          "word": " weights",
-          "start": 278.94,
-          "end": 279.24,
+          "word": " GPT's",
+          "start": 244.5,
+          "end": 245.14,
           "probability": 0.76
         },
         {
-          "word": " will",
-          "start": 279.24,
-          "end": 279.52,
+          "word": " sixth",
+          "start": 245.14,
+          "end": 245.26,
+          "probability": 0.5
+        },
+        {
+          "word": " sole",
+          "start": 245.26,
+          "end": 245.62,
+          "probability": 0.38
+        },
+        {
+          "word": " and",
+          "start": 245.62,
+          "end": 245.86,
           "probability": 0.98
         },
         {
-          "word": " swallow",
-          "start": 279.52,
-          "end": 279.82,
-          "probability": 0.98
+          "word": " open",
+          "start": 245.86,
+          "end": 246.02,
+          "probability": 0.95
         },
         {
-          "word": " the",
-          "start": 279.82,
-          "end": 280.16,
+          "word": " source",
+          "start": 246.02,
+          "end": 246.32,
+          "probability": 0.77
+        },
+        {
+          "word": " harnesses",
+          "start": 246.32,
+          "end": 246.84,
+          "probability": 0.93
+        },
+        {
+          "word": " collide,",
+          "start": 246.84,
+          "end": 247.08,
           "probability": 0.99
         },
         {
-          "word": " entire",
-          "start": 280.16,
-          "end": 280.4,
+          "word": " the",
+          "start": 247.98,
+          "end": 248.08,
+          "probability": 0.99
+        },
+        {
+          "word": " only",
+          "start": 248.08,
+          "end": 248.22,
           "probability": 1.0
         },
         {
-          "word": " developer",
-          "start": 280.4,
-          "end": 280.92,
-          "probability": 0.98
+          "word": " question",
+          "start": 248.22,
+          "end": 248.64,
+          "probability": 1.0
         },
         {
-          "word": " ecosystem",
-          "start": 280.92,
-          "end": 281.48,
-          "probability": 0.96
+          "word": " left",
+          "start": 248.64,
+          "end": 248.9,
+          "probability": 1.0
         },
         {
-          "word": " hole",
-          "start": 281.48,
-          "end": 281.9,
-          "probability": 0.22
-        },
-        {
-          "word": " that",
-          "start": 281.9,
-          "end": 282.56,
-          "probability": 0.51
-        },
-        {
-          "word": " is",
-          "start": 282.56,
-          "end": 282.7,
-          "probability": 0.98
+          "word": " is,",
+          "start": 248.9,
+          "end": 249.28,
+          "probability": 1.0
         }
       ]
     },
     {
       "id": 45,
-      "start": 282.7,
-      "end": 287.9,
-      "text": "precisely why Donald Trump and federal defense officials immediately shot down the idea of an",
+      "start": 249.64,
+      "end": 251.94,
+      "text": "how many agents are working for you tonight?",
       "words": [
         {
-          "word": " precisely",
-          "start": 282.7,
-          "end": 283.0,
-          "probability": 0.97
+          "word": " how",
+          "start": 249.64,
+          "end": 250.2,
+          "probability": 0.67
         },
         {
-          "word": " why",
-          "start": 283.0,
-          "end": 283.58,
-          "probability": 0.97
-        },
-        {
-          "word": " Donald",
-          "start": 283.58,
-          "end": 283.9,
-          "probability": 0.84
-        },
-        {
-          "word": " Trump",
-          "start": 283.9,
-          "end": 284.3,
-          "probability": 0.96
-        },
-        {
-          "word": " and",
-          "start": 284.3,
-          "end": 284.62,
-          "probability": 0.99
-        },
-        {
-          "word": " federal",
-          "start": 284.62,
-          "end": 284.86,
-          "probability": 0.96
-        },
-        {
-          "word": " defense",
-          "start": 284.86,
-          "end": 285.24,
-          "probability": 0.89
-        },
-        {
-          "word": " officials",
-          "start": 285.24,
-          "end": 285.86,
+          "word": " many",
+          "start": 250.2,
+          "end": 250.34,
           "probability": 1.0
-        },
-        {
-          "word": " immediately",
-          "start": 285.86,
-          "end": 286.26,
-          "probability": 0.97
-        },
-        {
-          "word": " shot",
-          "start": 286.26,
-          "end": 286.72,
-          "probability": 0.8
-        },
-        {
-          "word": " down",
-          "start": 286.72,
-          "end": 287.0,
-          "probability": 1.0
-        },
-        {
-          "word": " the",
-          "start": 287.0,
-          "end": 287.2,
-          "probability": 0.99
-        },
-        {
-          "word": " idea",
-          "start": 287.2,
-          "end": 287.48,
-          "probability": 1.0
-        },
-        {
-          "word": " of",
-          "start": 287.48,
-          "end": 287.8,
-          "probability": 0.99
-        },
-        {
-          "word": " an",
-          "start": 287.8,
-          "end": 287.9,
-          "probability": 0.99
-        }
-      ]
-    },
-    {
-      "id": 46,
-      "start": 287.9,
-      "end": 294.04,
-      "text": "AI slowdown this week in their words pausing American AI frontier development while rival",
-      "words": [
-        {
-          "word": " AI",
-          "start": 287.9,
-          "end": 288.06,
-          "probability": 0.78
-        },
-        {
-          "word": " slowdown",
-          "start": 288.06,
-          "end": 288.46,
-          "probability": 0.77
-        },
-        {
-          "word": " this",
-          "start": 288.46,
-          "end": 288.88,
-          "probability": 0.96
-        },
-        {
-          "word": " week",
-          "start": 288.88,
-          "end": 289.06,
-          "probability": 1.0
-        },
-        {
-          "word": " in",
-          "start": 289.06,
-          "end": 289.8,
-          "probability": 0.85
-        },
-        {
-          "word": " their",
-          "start": 289.8,
-          "end": 289.96,
-          "probability": 0.98
-        },
-        {
-          "word": " words",
-          "start": 289.96,
-          "end": 290.22,
-          "probability": 0.99
-        },
-        {
-          "word": " pausing",
-          "start": 290.22,
-          "end": 291.26,
-          "probability": 0.79
-        },
-        {
-          "word": " American",
-          "start": 291.26,
-          "end": 291.46,
-          "probability": 0.95
-        },
-        {
-          "word": " AI",
-          "start": 291.46,
-          "end": 292.0,
-          "probability": 0.82
-        },
-        {
-          "word": " frontier",
-          "start": 292.0,
-          "end": 292.42,
-          "probability": 0.9
-        },
-        {
-          "word": " development",
-          "start": 292.42,
-          "end": 292.96,
-          "probability": 0.99
-        },
-        {
-          "word": " while",
-          "start": 292.96,
-          "end": 293.76,
-          "probability": 0.92
-        },
-        {
-          "word": " rival",
-          "start": 293.76,
-          "end": 294.04,
-          "probability": 0.99
-        }
-      ]
-    },
-    {
-      "id": 47,
-      "start": 294.04,
-      "end": 300.46,
-      "text": "nations ship open weight models at light speed isn't safety it's geopolitical suicide so what",
-      "words": [
-        {
-          "word": " nations",
-          "start": 294.04,
-          "end": 294.46,
-          "probability": 0.0
-        },
-        {
-          "word": " ship",
-          "start": 294.46,
-          "end": 294.9,
-          "probability": 0.82
-        },
-        {
-          "word": " open",
-          "start": 294.9,
-          "end": 295.2,
-          "probability": 0.94
-        },
-        {
-          "word": " weight",
-          "start": 295.2,
-          "end": 295.52,
-          "probability": 0.49
-        },
-        {
-          "word": " models",
-          "start": 295.52,
-          "end": 295.76,
-          "probability": 0.98
-        },
-        {
-          "word": " at",
-          "start": 295.76,
-          "end": 296.08,
-          "probability": 0.96
-        },
-        {
-          "word": " light",
-          "start": 296.08,
-          "end": 296.24,
-          "probability": 0.91
-        },
-        {
-          "word": " speed",
-          "start": 296.24,
-          "end": 296.52,
-          "probability": 0.84
-        },
-        {
-          "word": " isn't",
-          "start": 296.52,
-          "end": 297.02,
-          "probability": 0.89
-        },
-        {
-          "word": " safety",
-          "start": 297.02,
-          "end": 297.28,
-          "probability": 0.97
-        },
-        {
-          "word": " it's",
-          "start": 297.28,
-          "end": 298.32,
-          "probability": 0.57
-        },
-        {
-          "word": " geopolitical",
-          "start": 298.32,
-          "end": 298.62,
-          "probability": 0.92
-        },
-        {
-          "word": " suicide",
-          "start": 298.62,
-          "end": 299.32,
-          "probability": 0.99
-        },
-        {
-          "word": " so",
-          "start": 299.32,
-          "end": 300.22,
-          "probability": 0.56
-        },
-        {
-          "word": " what",
-          "start": 300.22,
-          "end": 300.46,
-          "probability": 0.99
-        }
-      ]
-    },
-    {
-      "id": 48,
-      "start": 300.46,
-      "end": 306.84,
-      "text": "is the real takeaway here ignore what these CEO say in press releases watch what they commit to",
-      "words": [
-        {
-          "word": " is",
-          "start": 300.46,
-          "end": 300.58,
-          "probability": 0.98
-        },
-        {
-          "word": " the",
-          "start": 300.58,
-          "end": 300.74,
-          "probability": 0.99
-        },
-        {
-          "word": " real",
-          "start": 300.74,
-          "end": 300.96,
-          "probability": 0.98
-        },
-        {
-          "word": " takeaway",
-          "start": 300.96,
-          "end": 301.28,
-          "probability": 0.71
-        },
-        {
-          "word": " here",
-          "start": 301.28,
-          "end": 301.88,
-          "probability": 0.98
-        },
-        {
-          "word": " ignore",
-          "start": 301.88,
-          "end": 302.7,
-          "probability": 0.9
-        },
-        {
-          "word": " what",
-          "start": 302.7,
-          "end": 303.06,
-          "probability": 0.99
-        },
-        {
-          "word": " these",
-          "start": 303.06,
-          "end": 303.24,
-          "probability": 0.49
-        },
-        {
-          "word": " CEO",
-          "start": 303.24,
-          "end": 303.62,
-          "probability": 0.34
-        },
-        {
-          "word": " say",
-          "start": 303.62,
-          "end": 304.02,
-          "probability": 0.93
-        },
-        {
-          "word": " in",
-          "start": 304.02,
-          "end": 304.24,
-          "probability": 0.73
-        },
-        {
-          "word": " press",
-          "start": 304.24,
-          "end": 304.44,
-          "probability": 0.99
-        },
-        {
-          "word": " releases",
-          "start": 304.44,
-          "end": 304.86,
-          "probability": 0.99
-        },
-        {
-          "word": " watch",
-          "start": 304.86,
-          "end": 305.82,
-          "probability": 0.94
-        },
-        {
-          "word": " what",
-          "start": 305.82,
-          "end": 306.14,
-          "probability": 1.0
-        },
-        {
-          "word": " they",
-          "start": 306.14,
-          "end": 306.3,
-          "probability": 0.99
-        },
-        {
-          "word": " commit",
-          "start": 306.3,
-          "end": 306.56,
-          "probability": 0.99
-        },
-        {
-          "word": " to",
-          "start": 306.56,
-          "end": 306.84,
-          "probability": 0.98
-        }
-      ]
-    },
-    {
-      "id": 49,
-      "start": 306.84,
-      "end": 312.98,
-      "text": "github watch what gets pushed to model routers the race to recursive self improvement isn't",
-      "words": [
-        {
-          "word": " github",
-          "start": 306.84,
-          "end": 307.12,
-          "probability": 0.37
-        },
-        {
-          "word": " watch",
-          "start": 307.12,
-          "end": 308.0,
-          "probability": 0.96
-        },
-        {
-          "word": " what",
-          "start": 308.0,
-          "end": 308.36,
-          "probability": 1.0
-        },
-        {
-          "word": " gets",
-          "start": 308.36,
-          "end": 308.54,
-          "probability": 0.99
-        },
-        {
-          "word": " pushed",
-          "start": 308.54,
-          "end": 308.9,
-          "probability": 0.9
-        },
-        {
-          "word": " to",
-          "start": 308.9,
-          "end": 309.14,
-          "probability": 0.94
-        },
-        {
-          "word": " model",
-          "start": 309.14,
-          "end": 309.32,
-          "probability": 0.99
-        },
-        {
-          "word": " routers",
-          "start": 309.32,
-          "end": 309.82,
-          "probability": 0.98
-        },
-        {
-          "word": " the",
-          "start": 309.82,
-          "end": 310.58,
-          "probability": 0.95
-        },
-        {
-          "word": " race",
-          "start": 310.58,
-          "end": 310.82,
-          "probability": 0.94
-        },
-        {
-          "word": " to",
-          "start": 310.82,
-          "end": 311.14,
-          "probability": 0.96
-        },
-        {
-          "word": " recursive",
-          "start": 311.14,
-          "end": 311.4,
-          "probability": 0.94
-        },
-        {
-          "word": " self",
-          "start": 311.4,
-          "end": 311.94,
-          "probability": 0.99
-        },
-        {
-          "word": " improvement",
-          "start": 311.94,
-          "end": 312.34,
-          "probability": 0.36
-        },
-        {
-          "word": " isn't",
-          "start": 312.34,
-          "end": 312.98,
-          "probability": 0.97
-        }
-      ]
-    },
-    {
-      "id": 50,
-      "start": 312.98,
-      "end": 318.82,
-      "text": "slowing down it just moved underground the gap between developers who use these autonomous",
-      "words": [
-        {
-          "word": " slowing",
-          "start": 312.98,
-          "end": 313.32,
-          "probability": 1.0
-        },
-        {
-          "word": " down",
-          "start": 313.32,
-          "end": 313.66,
-          "probability": 0.99
-        },
-        {
-          "word": " it",
-          "start": 313.66,
-          "end": 314.38,
-          "probability": 0.91
-        },
-        {
-          "word": " just",
-          "start": 314.38,
-          "end": 314.54,
-          "probability": 0.98
-        },
-        {
-          "word": " moved",
-          "start": 314.54,
-          "end": 314.82,
-          "probability": 0.95
-        },
-        {
-          "word": " underground",
-          "start": 314.82,
-          "end": 315.54,
-          "probability": 0.98
-        },
-        {
-          "word": " the",
-          "start": 315.54,
-          "end": 316.36,
-          "probability": 0.95
-        },
-        {
-          "word": " gap",
-          "start": 316.36,
-          "end": 316.6,
-          "probability": 0.99
-        },
-        {
-          "word": " between",
-          "start": 316.6,
-          "end": 317.0,
-          "probability": 1.0
-        },
-        {
-          "word": " developers",
-          "start": 317.0,
-          "end": 317.5,
-          "probability": 0.99
-        },
-        {
-          "word": " who",
-          "start": 317.5,
-          "end": 317.94,
-          "probability": 0.97
-        },
-        {
-          "word": " use",
-          "start": 317.94,
-          "end": 318.14,
-          "probability": 0.88
-        },
-        {
-          "word": " these",
-          "start": 318.14,
-          "end": 318.44,
-          "probability": 0.97
-        },
-        {
-          "word": " autonomous",
-          "start": 318.44,
-          "end": 318.82,
-          "probability": 1.0
-        }
-      ]
-    },
-    {
-      "id": 51,
-      "start": 318.82,
-      "end": 324.48,
-      "text": "coding agents and those who don't is about to become an uncrossable canyon the frontier is moving",
-      "words": [
-        {
-          "word": " coding",
-          "start": 318.82,
-          "end": 319.3,
-          "probability": 0.0
         },
         {
           "word": " agents",
-          "start": 319.3,
-          "end": 319.66,
+          "start": 250.34,
+          "end": 250.68,
           "probability": 0.99
         },
         {
-          "word": " and",
-          "start": 319.66,
-          "end": 320.1,
-          "probability": 0.81
-        },
-        {
-          "word": " those",
-          "start": 320.1,
-          "end": 320.32,
+          "word": " are",
+          "start": 250.68,
+          "end": 251.0,
           "probability": 1.0
         },
         {
-          "word": " who",
-          "start": 320.32,
-          "end": 320.54,
+          "word": " working",
+          "start": 251.0,
+          "end": 251.2,
           "probability": 1.0
         },
         {
-          "word": " don't",
-          "start": 320.54,
-          "end": 320.88,
-          "probability": 0.98
-        },
-        {
-          "word": " is",
-          "start": 320.88,
-          "end": 320.98,
-          "probability": 0.98
-        },
-        {
-          "word": " about",
-          "start": 320.98,
-          "end": 321.22,
+          "word": " for",
+          "start": 251.2,
+          "end": 251.54,
           "probability": 1.0
         },
         {
-          "word": " to",
-          "start": 321.22,
-          "end": 321.42,
+          "word": " you",
+          "start": 251.54,
+          "end": 251.68,
           "probability": 1.0
         },
         {
-          "word": " become",
-          "start": 321.42,
-          "end": 321.68,
+          "word": " tonight?",
+          "start": 251.68,
+          "end": 251.94,
           "probability": 1.0
-        },
-        {
-          "word": " an",
-          "start": 321.68,
-          "end": 321.92,
-          "probability": 0.99
-        },
-        {
-          "word": " uncrossable",
-          "start": 321.92,
-          "end": 322.54,
-          "probability": 0.94
-        },
-        {
-          "word": " canyon",
-          "start": 322.54,
-          "end": 322.88,
-          "probability": 0.81
-        },
-        {
-          "word": " the",
-          "start": 322.88,
-          "end": 323.58,
-          "probability": 0.04
-        },
-        {
-          "word": " frontier",
-          "start": 323.58,
-          "end": 323.8,
-          "probability": 0.94
-        },
-        {
-          "word": " is",
-          "start": 323.8,
-          "end": 324.2,
-          "probability": 1.0
-        },
-        {
-          "word": " moving",
-          "start": 324.2,
-          "end": 324.48,
-          "probability": 1.0
-        }
-      ]
-    },
-    {
-      "id": 52,
-      "start": 324.48,
-      "end": 326.38,
-      "text": "and nobody is hitting the brakes",
-      "words": [
-        {
-          "word": " and",
-          "start": 324.48,
-          "end": 325.14,
-          "probability": 0.93
-        },
-        {
-          "word": " nobody",
-          "start": 325.14,
-          "end": 325.36,
-          "probability": 0.99
-        },
-        {
-          "word": " is",
-          "start": 325.36,
-          "end": 325.74,
-          "probability": 1.0
-        },
-        {
-          "word": " hitting",
-          "start": 325.74,
-          "end": 325.96,
-          "probability": 1.0
-        },
-        {
-          "word": " the",
-          "start": 325.96,
-          "end": 326.2,
-          "probability": 1.0
-        },
-        {
-          "word": " brakes",
-          "start": 326.2,
-          "end": 326.38,
-          "probability": 0.89
         }
       ]
     }
