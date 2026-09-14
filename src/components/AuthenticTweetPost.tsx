@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { XLogo } from "./RealLogos";
 
@@ -60,18 +60,18 @@ export const AuthenticTweetPost: React.FC<AuthenticTweetPostProps> = ({
     >
       <div
         style={{
-          width: 1280,
+          width: 1480,
           maxHeight: 960,
           opacity,
-          transform: `scale(${interpolate(entrance, [0, 1], [0.92, 1])}) translate3d(${swayX}px, ${swayY}px, 0px)`,
-          background: "linear-gradient(135deg, rgba(15, 23, 42, 0.96) 0%, rgba(9, 14, 26, 0.98) 100%)",
+          transform: `scale(${interpolate(entrance, [0, 1], [0.94, 1])}) translate3d(${swayX}px, ${swayY}px, 0px)`,
+          background: "linear-gradient(135deg, rgba(15, 23, 42, 0.98) 0%, rgba(9, 14, 26, 0.99) 100%)",
           border: `1.5px solid ${brandColor}55`,
           borderRadius: 24,
-          padding: "28px 36px",
-          boxShadow: `0 30px 90px rgba(0, 0, 0, 0.95), 0 0 50px ${brandColor}22`,
+          padding: "34px 46px",
+          boxShadow: `0 35px 100px rgba(0, 0, 0, 0.95), 0 0 60px ${brandColor}25`,
           display: "flex",
           flexDirection: "column",
-          gap: 20,
+          gap: 22,
           position: "relative",
           overflow: "hidden",
         }}
@@ -165,7 +165,7 @@ export const AuthenticTweetPost: React.FC<AuthenticTweetPostProps> = ({
         </div>
 
         {/* Full Tweet Text (Clean, Readable, Zero Words Cut Off) */}
-        <div style={{ fontSize: 21, lineHeight: 1.45, color: "#F1F5F9", whiteSpace: "pre-line", fontWeight: 500 }}>
+        <div style={{ fontSize: 25, lineHeight: 1.5, color: "#F1F5F9", whiteSpace: "pre-line", fontWeight: 500 }}>
           {tweetText}
         </div>
 
@@ -174,10 +174,10 @@ export const AuthenticTweetPost: React.FC<AuthenticTweetPostProps> = ({
           <div
             style={{
               position: "relative",
-              padding: "12px 20px",
-              borderRadius: 12,
-              background: "rgba(2, 6, 23, 0.7)",
-              border: "1px solid rgba(255, 255, 255, 0.1)",
+              padding: "16px 24px",
+              borderRadius: 14,
+              background: "rgba(2, 6, 23, 0.8)",
+              border: "1px solid rgba(255, 255, 255, 0.12)",
               overflow: "hidden",
             }}
           >
@@ -193,7 +193,7 @@ export const AuthenticTweetPost: React.FC<AuthenticTweetPostProps> = ({
                 transition: "width 0.1s linear",
               }}
             />
-            <span style={{ position: "relative", zIndex: 2, fontSize: 18, fontWeight: 700, color: "#FFFFFF" }}>
+            <span style={{ position: "relative", zIndex: 2, fontSize: 22, fontWeight: 700, color: "#FFFFFF" }}>
               "{highlightPhrase}"
             </span>
           </div>

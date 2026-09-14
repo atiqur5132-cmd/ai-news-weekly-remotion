@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 
 interface CinematicScreenRecordProps {
@@ -9,6 +9,10 @@ interface CinematicScreenRecordProps {
   brandName?: string;
   badgeColor?: string;
   headlineBadge?: string;
+  startScrollY?: number;
+  endScrollY?: number;
+  zoomScale?: number;
+  isCard?: boolean;
 }
 
 export const CinematicScreenRecord: React.FC<CinematicScreenRecordProps> = ({
@@ -19,6 +23,10 @@ export const CinematicScreenRecord: React.FC<CinematicScreenRecordProps> = ({
   brandName,
   badgeColor = "#38BDF8",
   headlineBadge,
+  startScrollY = 0,
+  endScrollY = 240,
+  zoomScale = 1.0,
+  isCard = false,
 }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -26,27 +34,33 @@ export const CinematicScreenRecord: React.FC<CinematicScreenRecordProps> = ({
   const entrance = spring({ frame, fps, config: { damping: 14, stiffness: 120, mass: 0.8 } });
   const opacity = interpolate(frame, [0, 10], [0, 1], { extrapolateRight: "clamp" });
 
-  const swayX = Math.sin(frame / 45) * 2;
-  const swayY = Math.cos(frame / 50) * 1.5;
+  // Smooth cinematic documentary web scroll (strictly 1:1 flat, NO 2.5D tilt)
+  const scrollY = interpolate(frame, [0, durationInFrames], [startScrollY, endScrollY], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+
+  // Auto-detect if media is a narrow vertical card
+  const isVerticalCard = isCard || mediaSrc.includes("_card.png");
 
   return (
     <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
       <div
         style={{
-          width: 1700,
-          height: 940,
+          width: 1760,
+          height: 960,
           opacity,
-          transform: `scale(${interpolate(entrance, [0, 1], [0.94, 1])}) translate3d(${swayX}px, ${swayY}px, 0px)`,
-          background: "rgba(9, 14, 26, 0.96)",
+          transform: `scale(${interpolate(entrance, [0, 1], [0.96, 1])})`,
+          background: "rgba(9, 14, 26, 0.98)",
           border: `1.5px solid ${badgeColor}44`,
-          borderRadius: 22,
+          borderRadius: 16,
           boxShadow: `0 36px 90px -18px rgba(0, 0, 0, 0.95), 0 0 45px ${badgeColor}18`,
           display: "flex",
           flexDirection: "column",
           overflow: "hidden",
         }}
       >
-        {/* Browser Chrome Header with Brand Identity */}
+        {/* Browser Chrome Header with Mac dots + Verified URL + Brand */}
         <div
           style={{
             height: 56,
@@ -56,6 +70,7 @@ export const CinematicScreenRecord: React.FC<CinematicScreenRecordProps> = ({
             alignItems: "center",
             justifyContent: "space-between",
             padding: "0 24px",
+            zIndex: 10,
           }}
         >
           {/* Mac window dots + Brand Logo */}
@@ -119,31 +134,79 @@ export const CinematicScreenRecord: React.FC<CinematicScreenRecordProps> = ({
           </div>
         </div>
 
-        {/* Viewport: 100% UNCLIPPED, Natural Aspect Ratio, Centered */}
+        {/* Viewport: 92%+ High Canvas Utilization */}
         <div
           style={{
             flex: 1,
             position: "relative",
             background: "#020617",
+            overflow: "hidden",
             display: "flex",
             justifyContent: "center",
-            alignItems: "center",
-            padding: 20,
-            overflow: "hidden",
+            alignItems: isVerticalCard ? "center" : "flex-start",
           }}
         >
-          <Img
-            src={staticFile(mediaSrc)}
-            style={{
-              maxWidth: "100%",
-              maxHeight: "100%",
-              width: "auto",
-              height: "auto",
-              objectFit: "contain",
-              borderRadius: 12,
-              boxShadow: "0 10px 40px rgba(0,0,0,0.8)",
-            }}
-          />
+          {/* If it's a vertical card, render an ambient blurred version in the background to eliminate all dead black void */}
+          {isVerticalCard ? (
+            <>
+              <div
+                style={{
+                  position: "absolute",
+                  inset: -20,
+                  backgroundImage: `url(${staticFile(mediaSrc)})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  filter: "blur(35px) brightness(0.25) saturate(1.4)",
+                  transform: "scale(1.1)",
+                }}
+              />
+              <div
+                style={{
+                  position: "relative",
+                  zIndex: 2,
+                  maxHeight: "92%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  transform: `scale(${zoomScale || 1.15}) translateY(${-scrollY * 0.4}px)`,
+                  transition: "transform 0.1s ease-out",
+                }}
+              >
+                <Img
+                  src={staticFile(mediaSrc)}
+                  style={{
+                    maxHeight: 820,
+                    width: "auto",
+                    borderRadius: 16,
+                    boxShadow: "0 25px 60px rgba(0, 0, 0, 0.95), 0 0 30px rgba(56, 189, 248, 0.15)",
+                    border: "1px solid rgba(255, 255, 255, 0.1)",
+                  }}
+                />
+              </div>
+            </>
+          ) : (
+            /* If it's a 16:9 desktop view, fill 100% width with smooth animated scroll */
+            <div
+              style={{
+                width: "100%",
+                transform: `translateY(${-scrollY}px)`,
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <Img
+                src={staticFile(mediaSrc)}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  minHeight: "100%",
+                  objectFit: "cover",
+                  transform: `scale(${zoomScale})`,
+                  transformOrigin: "top center",
+                }}
+              />
+            </div>
+          )}
         </div>
       </div>
     </AbsoluteFill>
