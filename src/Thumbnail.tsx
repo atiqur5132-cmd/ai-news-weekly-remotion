@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill } from "remotion";
-import { DeepSeekLogo, OpenAILogo } from "./components/RealLogos";
+import { GoogleOfficialLogo } from "./components/RealLogos";
 
 export const Thumbnail: React.FC = () => {
   // Generate 3D perspective undulating dot grid wave
@@ -74,7 +74,7 @@ export const Thumbnail: React.FC = () => {
           position: "absolute",
           inset: 0,
           background:
-            "radial-gradient(ellipse 90% 60% at 75% 20%, rgba(236, 72, 153, 0.18) 0%, transparent 60%), radial-gradient(circle at 35% 85%, rgba(14, 165, 233, 0.15) 0%, transparent 55%)",
+            "radial-gradient(ellipse 90% 60% at 75% 20%, rgba(66, 133, 244, 0.25) 0%, transparent 60%), radial-gradient(circle at 35% 85%, rgba(14, 165, 233, 0.18) 0%, transparent 55%)",
           zIndex: 1,
         }}
       />
@@ -141,9 +141,7 @@ export const Thumbnail: React.FC = () => {
         {/* Brand Badges */}
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 12, filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.8))" }}>
-            <OpenAILogo size={46} color="#10A37F" />
-            <span style={{ fontSize: 24, color: "#94A3B8" }}>+</span>
-            <DeepSeekLogo size={46} color="#4D6BFE" />
+            <GoogleOfficialLogo size={48} />
           </div>
 
           <span
@@ -156,7 +154,7 @@ export const Thumbnail: React.FC = () => {
               fontFamily: "'Montserrat', sans-serif",
             }}
           >
-            OPENAI • DEEPSEEK
+            GOOGLE DEEPMIND LEAK
           </span>
 
           <div
@@ -181,7 +179,7 @@ export const Thumbnail: React.FC = () => {
         <div style={{ marginTop: 40, display: "flex", flexDirection: "column", gap: 8 }}>
           <div
             style={{
-              fontSize: 52,
+              fontSize: 50,
               fontWeight: 900,
               color: "#38BDF8",
               letterSpacing: "0.08em",
@@ -191,7 +189,7 @@ export const Thumbnail: React.FC = () => {
               lineHeight: 1,
             }}
           >
-            GPT-6 ASTRA REVEALED
+            CODENAME: ARGON
           </div>
 
           <h1
@@ -205,10 +203,10 @@ export const Thumbnail: React.FC = () => {
               fontFamily: "'Montserrat', 'Inter', system-ui, sans-serif",
               lineHeight: 0.95,
               filter:
-                "drop-shadow(0 0 20px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 50px rgba(236, 72, 153, 0.7)) drop-shadow(0 0 90px rgba(0, 112, 243, 0.45))",
+                "drop-shadow(0 0 20px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 50px rgba(66, 133, 244, 0.7)) drop-shadow(0 0 90px rgba(0, 112, 243, 0.45))",
             }}
           >
-            SOL LEAKED!
+            GEMINI 4 PRO!
           </h1>
         </div>
       </div>
