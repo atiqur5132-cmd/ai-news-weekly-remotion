@@ -1,0 +1,61 @@
+================================================================================
+YOUTUBE SEO & METADATA PACK: GEMINI 4 PRO LEAK (5-MINUTE DOCUMENTARY)
+================================================================================
+
+--- 1. HIGH-CTR TITLES (CHOOSE 1) ---
+
+[Option 1 - Maximum Curiosity / Viral]:
+Google Just Leaked Gemini 4: It’s Worse Than We Thought For OpenAI...
+
+[Option 2 - Technical & Benchmark Authority (Recommended)]:
+Gemini 4 Pro "ARGON" Checkpoint Leaked: 256K Output Limit & Crushing Benchmarks!
+
+[Option 3 - Direct Breaking News]:
+Google Skipped 3.5 Pro? Gemini 4 First Checkpoint Leaked (Full Breakdown)
+
+[Option 4 - Competitive Showdown]:
+Gemini 4 vs GPT-6 Astra: The Leaked Benchmark That Changes Everything
+
+[Option 5 - Short & Punchy]:
+IT HAPPENED. Google Gemini 4 Pro Leaked!
+
+--------------------------------------------------------------------------------
+--- 2. COMPLETE YOUTUBE DESCRIPTION (COPY & PASTE READY) ---
+--------------------------------------------------------------------------------
+
+Google has quietly skipped Gemini 3.5 Pro entirely, and the first internal checkpoint for Gemini 4 Pro—codenamed Argon—just leaked across Silicon Valley. With a monstrous 256,000 token output limit and leaked benchmarks crushing Claude Fable 5.1 and GPT-6 Astra, Google is preparing to flip the frontier AI hierarchy on its head.
+
+In this forensic breakdown, we analyze the verified leaks from X (Twitter), internal DeepMind checkpoints, and today's shocking discovery on Google Cloud Platform (GCP) quota pages.
+
+⏱️ TIMESTAMPS / CHAPTERS:
+00:00 - Google Silently Skips Gemini 3.5 Pro
+00:46 - Leaked Checkpoint "Argon" & 256K Output Ceiling
+01:30 - Terminal-Bench 72.8% & AutomationBench Record
+02:21 - GCP Quotas Leak: Gemini 3.8 Live & Extended Thinking
+03:11 - Google Antigravity Server Meltdown (8s -> 45s)
+04:08 - DeepMind Safety Restructure & The October Reckoning
+
+🔍 KEY REVELATIONS IN THIS VIDEO:
+• Codename Argon: The first internal checkpoint of Gemini 4 Pro surfaced, clocking a 2.4-minute evaluation on High thinking effort.
+• 256K Output Token Limit: A 4x increase over the previous 64k ceiling, allowing full-codebase atomic refactors in a single pass.
+• Leaked Benchmarks: Gemini 4 reportedly scores 72.8% on Terminal-Bench Science 0.1 and 48.7% on AutomationBench, outperforming GPT-6 Astra (67.5%) and Claude Fable 5.1 (64.2%).
+• Google Cloud Quotas Discovery: New production IDs "gemini-3.8-live" and "gemini-3.8-live-extended-thinking" spotted on live quota registries today.
+• Antigravity Traffic Spike: Developer rush causes response times to surge from 8 seconds to 45 seconds as engineers stress-test UI generation.
+• DeepMind Restructuring: AI safety divisions reorganized ahead of an anticipated October 2026 public rollout.
+
+Sources & Research:
+Verified timeline leaks via X (@Lentils80, @ravikiran_dev7, @StatsWire, @anytanreal, @Mr_Salio) and Google Cloud Platform production registries.
+
+#Gemini4 #GoogleAI #GoogleDeepMind #GPT6 #ClaudeFable #ArtificialIntelligence #TechNews #AIBreakdown
+
+--------------------------------------------------------------------------------
+--- 3. 500-CHARACTER YOUTUBE TAGS (COMMA SEPARATED) ---
+--------------------------------------------------------------------------------
+Gemini 4, Gemini 4 Pro, Google Gemini 4, Gemini Argon, Gemini 4 leak, Google DeepMind, Gemini 3.8 Live, gemini-3.8-live-extended-thinking, GPT-6 Astra, Claude Fable 5.1, Terminal-Bench, AutomationBench, Google Antigravity, AI coding agents, Gemini 4 benchmark, Google AI leak, Sundar Pichai AI, Demis Hassabis, frontier AI 2026, recursive self improvement, AI news weekly, AI documentary, OpenAI vs Google
+
+--------------------------------------------------------------------------------
+--- 4. HIGH-ENGAGEMENT PINNED COMMENT ---
+--------------------------------------------------------------------------------
+Do you think Gemini 4 Pro’s 256k output limit and 72.8% Terminal-Bench score will finally dethrone OpenAI, or will GPT-6 Sol keep the crown? 
+
+Drop your predictions below! 👇 (We're replying to everyone in the first 2 hours!)

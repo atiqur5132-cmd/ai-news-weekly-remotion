@@ -1,50 +1,62 @@
-import React from "react";
+﻿import React from "react";
 import { AbsoluteFill, Audio, Series, staticFile } from "remotion";
 import {
-  Scene1_DocColdOpen,
-  Scene2_DocInsideLeaks,
-  Scene3_DocBenchmarks,
-  Scene4_DocGcpQuota,
-  Scene5_DocAntigravity,
-  Scene6_DocFinale,
-} from "./scenes/Gemini4DocScenes";
+  Act1_ColdOpenDuel,
+  Act2_AnthropicFable,
+  Act3_AnthropicOpus,
+  Act4_OpenAIAstraPhysics,
+  Act5_OpenAISolLeak,
+  Act6_VoiceAgents,
+  Act7_GoogleFinale,
+  Act8_OutroVerdict,
+} from "./scenes/ShadowWarActs";
 
 export const MainVideo: React.FC = () => {
   return (
-    <AbsoluteFill style={{ backgroundColor: "#060812" }}>
-      {/* Master 5m 02s Brian Multilingual Voiceover Audio */}
+    <AbsoluteFill style={{ backgroundColor: "#02040A" }}>
+      {/* Broadcast Mastered Brian Multilingual Voiceover Audio (408.1s / 12,243 frames) */}
       <Audio src={staticFile("voiceover.wav")} />
 
-      {/* Frame-Accurate Zero-Overlap Remotion Series Timeline (Total: 9,062 frames @ 30 FPS / 302.08s) */}
+      {/* Frame-Accurate Whisper-Synchronized 8-Act Series Timeline */}
       <Series>
-        {/* Scene 1: Cold Open Hook & Autonomous Supremacy (0.00s -> 46.38s) */}
-        <Series.Sequence durationInFrames={1400}>
-          <Scene1_DocColdOpen durationInFrames={1400} />
+        {/* Act 1: Cold Open Hook (The Game Engine Duel) -> 0.0s to 49.8s */}
+        <Series.Sequence durationInFrames={1494}>
+          <Act1_ColdOpenDuel />
         </Series.Sequence>
 
-        {/* Scene 2: Inside Leaks & Forensic Timeline (46.38s -> 90.22s) */}
-        <Series.Sequence durationInFrames={1320}>
-          <Scene2_DocInsideLeaks durationInFrames={1320} />
+        {/* Act 2: Anthropic's Stealth Offensive (Fable 5.2 1-Hour Build) -> 49.8s to 106.2s */}
+        <Series.Sequence durationInFrames={1692}>
+          <Act2_AnthropicFable />
         </Series.Sequence>
 
-        {/* Scene 3: Benchmark Forensics: Terminal-Bench & Automation (90.22s -> 140.86s) */}
-        <Series.Sequence durationInFrames={1520}>
-          <Scene3_DocBenchmarks durationInFrames={1520} />
+        {/* Act 3: The 4D Chess Move: Opus 5.2 & 26% RSI -> 106.2s to 147.5s */}
+        <Series.Sequence durationInFrames={1239}>
+          <Act3_AnthropicOpus />
         </Series.Sequence>
 
-        {/* Scene 4: Breaking Today: GCP Quotas Leaks & Live Audio (140.86s -> 190.94s) */}
+        {/* Act 4: OpenAI's Reality Engine (Astra WaveRunner & Steam Rebuild) -> 147.5s to 206.0s */}
+        <Series.Sequence durationInFrames={1755}>
+          <Act4_OpenAIAstraPhysics />
+        </Series.Sequence>
+
+        {/* Act 5: Leaked Sibling: "GPT-6 Sol" & Sam Altman Swarms -> 206.0s to 254.5s */}
+        <Series.Sequence durationInFrames={1455}>
+          <Act5_OpenAISolLeak />
+        </Series.Sequence>
+
+        {/* Act 6: Autonomous Voice Agents & Micro-Token Economics (Jev & DeepSeek) -> 254.5s to 304.5s */}
         <Series.Sequence durationInFrames={1500}>
-          <Scene4_DocGcpQuota durationInFrames={1500} />
+          <Act6_VoiceAgents />
         </Series.Sequence>
 
-        {/* Scene 5: Antigravity Traffic Surge & Companion Previews (190.94s -> 248.74s) */}
-        <Series.Sequence durationInFrames={1720}>
-          <Scene5_DocAntigravity durationInFrames={1720} />
+        {/* Act 7: Google's Shadow Strike [The Grand Finale] (Gemini 4 Pro Arena Leak) -> 304.5s to 367.5s */}
+        <Series.Sequence durationInFrames={1890}>
+          <Act7_GoogleFinale />
         </Series.Sequence>
 
-        {/* Scene 6: DeepMind Reorganization & October Showdown (248.74s -> 302.08s) */}
-        <Series.Sequence durationInFrames={1602}>
-          <Scene6_DocFinale durationInFrames={1602} />
+        {/* Act 8: The Developer Verdict & Outro -> 367.5s to 408.1s */}
+        <Series.Sequence durationInFrames={1218}>
+          <Act8_OutroVerdict />
         </Series.Sequence>
       </Series>
     </AbsoluteFill>

@@ -1,9 +1,8 @@
-import React, { useMemo } from "react";
+﻿import React, { useMemo } from "react";
 import { AbsoluteFill } from "remotion";
-import { GoogleOfficialLogo } from "./components/RealLogos";
+import { AnthropicLogo, OpenAILogo } from "./components/RealLogos";
 
 export const Thumbnail: React.FC = () => {
-  // Generate 3D perspective undulating dot grid wave
   const dots = useMemo(() => {
     const rows = 28;
     const cols = 52;
@@ -43,7 +42,7 @@ export const Thumbnail: React.FC = () => {
         const isCrest = wave > 15;
         const color =
           t > 0.75 && isCrest
-            ? "#A5F3FC"
+            ? "#FDE68A"
             : t > 0.5
             ? "#38BDF8"
             : "#0284C7";
@@ -74,7 +73,7 @@ export const Thumbnail: React.FC = () => {
           position: "absolute",
           inset: 0,
           background:
-            "radial-gradient(ellipse 90% 60% at 75% 20%, rgba(66, 133, 244, 0.25) 0%, transparent 60%), radial-gradient(circle at 35% 85%, rgba(14, 165, 233, 0.18) 0%, transparent 55%)",
+            "radial-gradient(ellipse 90% 60% at 75% 20%, rgba(217, 119, 6, 0.25) 0%, transparent 60%), radial-gradient(circle at 35% 85%, rgba(14, 165, 233, 0.18) 0%, transparent 55%)",
           zIndex: 1,
         }}
       />
@@ -138,24 +137,19 @@ export const Thumbnail: React.FC = () => {
           gap: 16,
         }}
       >
-        {/* Brand Badges */}
-        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 12, filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.8))" }}>
-            <GoogleOfficialLogo size={48} />
+        {/* Brand Badges: Anthropic + OpenAI */}
+        <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10, filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.8))" }}>
+            <AnthropicLogo size={46} color="#FBBF24" />
+            <span style={{ color: "#FBBF24", fontSize: 28, fontWeight: 900, letterSpacing: "0.05em" }}>ANTHROPIC</span>
           </div>
 
-          <span
-            style={{
-              fontSize: 34,
-              fontWeight: 900,
-              color: "#FFFFFF",
-              letterSpacing: "0.06em",
-              textTransform: "uppercase",
-              fontFamily: "'Montserrat', sans-serif",
-            }}
-          >
-            GOOGLE DEEPMIND LEAK
-          </span>
+          <span style={{ color: "#64748B", fontSize: 24, fontWeight: 800 }}>VS</span>
+
+          <div style={{ display: "flex", alignItems: "center", gap: 10, filter: "drop-shadow(0 2px 10px rgba(0,0,0,0.8))" }}>
+            <OpenAILogo size={46} color="#10B981" />
+            <span style={{ color: "#10B981", fontSize: 28, fontWeight: 900, letterSpacing: "0.05em" }}>OPENAI</span>
+          </div>
 
           <div
             style={{
@@ -189,13 +183,13 @@ export const Thumbnail: React.FC = () => {
               lineHeight: 1,
             }}
           >
-            CODENAME: ARGON
+            UNRELEASED STEALTH CHECKPOINTS
           </div>
 
           <h1
             style={{
               margin: 0,
-              fontSize: 135,
+              fontSize: 125,
               fontWeight: 950,
               letterSpacing: "-0.03em",
               textTransform: "uppercase",
@@ -203,10 +197,10 @@ export const Thumbnail: React.FC = () => {
               fontFamily: "'Montserrat', 'Inter', system-ui, sans-serif",
               lineHeight: 0.95,
               filter:
-                "drop-shadow(0 0 20px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 50px rgba(66, 133, 244, 0.7)) drop-shadow(0 0 90px rgba(0, 112, 243, 0.45))",
+                "drop-shadow(0 0 20px rgba(255, 255, 255, 0.95)) drop-shadow(0 0 50px rgba(217, 119, 6, 0.7)) drop-shadow(0 0 90px rgba(0, 112, 243, 0.45))",
             }}
           >
-            GEMINI 4 PRO!
+            FABLE 5.2 vs ASTRA!
           </h1>
         </div>
       </div>
