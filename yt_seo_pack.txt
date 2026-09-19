@@ -1,61 +1,76 @@
 ================================================================================
-YOUTUBE SEO & METADATA PACK: GEMINI 4 PRO LEAK (5-MINUTE DOCUMENTARY)
+VIRAL YOUTUBE SEO & METADATA PACK: THE AUTONOMOUS REALITY ENGINE DUEL
+(Anthropic Fable 5.2 & Opus 5.2 vs OpenAI GPT-6 Astra & Sol vs Google Gemini 4 Pro)
 ================================================================================
 
---- 1. HIGH-CTR TITLES (CHOOSE 1) ---
+--- 1. HIGH-CTR TITLES (CHOOSE 1 ACCORDING TO YOUR CHANNEL STYLE) ---
 
-[Option 1 - Maximum Curiosity / Viral]:
-Google Just Leaked Gemini 4: It’s Worse Than We Thought For OpenAI...
+[Option 1 - Maximum Algorithmic Curiosity / Broad Viral (Recommended)]:
+AI Just Replaced Game Engines: Anthropic Fable 5.2 vs OpenAI Astra!
 
-[Option 2 - Technical & Benchmark Authority (Recommended)]:
-Gemini 4 Pro "ARGON" Checkpoint Leaked: 256K Output Limit & Crushing Benchmarks!
+[Option 2 - Technical Authority & Insider Leak]:
+Behind Closed Doors: Fable 5.2, GPT-6 Sol & Google's 2M Context Finale Leaked
 
-[Option 3 - Direct Breaking News]:
-Google Skipped 3.5 Pro? Gemini 4 First Checkpoint Leaked (Full Breakdown)
+[Option 3 - High-Stakes Disruption (Vox / ColdFusion Style)]:
+Something Broke in Frontier AI This Week (Chatbots Are Dead)
 
-[Option 4 - Competitive Showdown]:
-Gemini 4 vs GPT-6 Astra: The Leaked Benchmark That Changes Everything
+[Option 4 - Competitive Head-to-Head]:
+Anthropic vs OpenAI: The Stealth Model Leaks Changing Everything
 
-[Option 5 - Short & Punchy]:
-IT HAPPENED. Google Gemini 4 Pro Leaked!
+[Option 5 - Short, Punchy & High-Impact]:
+THEY DID IT. Autonomous AI Game Engines Are Here!
 
 --------------------------------------------------------------------------------
 --- 2. COMPLETE YOUTUBE DESCRIPTION (COPY & PASTE READY) ---
 --------------------------------------------------------------------------------
 
-Google has quietly skipped Gemini 3.5 Pro entirely, and the first internal checkpoint for Gemini 4 Pro—codenamed Argon—just leaked across Silicon Valley. With a monstrous 256,000 token output limit and leaked benchmarks crushing Claude Fable 5.1 and GPT-6 Astra, Google is preparing to flip the frontier AI hierarchy on its head.
+While tech leaders plead with governments to slow down AI development, behind closed doors, Anthropic, OpenAI, and Google just escalated into an all-out reality synthesis war. In the last 48 hours, unreleased checkpoints leaked across the developer ecosystem—from Anthropic’s stealth "Fable 5.2" generating a complete 3D multiplayer brawler in 60 minutes, to OpenAI’s GPT-6 Astra simulating real-time fluid wake physics natively inside the browser, and Sam Altman admitting to running thousands of autonomous agents every single night. 
 
-In this forensic breakdown, we analyze the verified leaks from X (Twitter), internal DeepMind checkpoints, and today's shocking discovery on Google Cloud Platform (GCP) quota pages.
+In this forensic tech documentary, we analyze the raw footage, leaked API routing logs, and the shockwave 2M context Gemini 4 Pro finale that Google is quietly preparing for late 2026.
 
 ⏱️ TIMESTAMPS / CHAPTERS:
-00:00 - Google Silently Skips Gemini 3.5 Pro
-00:46 - Leaked Checkpoint "Argon" & 256K Output Ceiling
-01:30 - Terminal-Bench 72.8% & AutomationBench Record
-02:21 - GCP Quotas Leak: Gemini 3.8 Live & Extended Thinking
-03:11 - Google Antigravity Server Meltdown (8s -> 45s)
-04:08 - DeepMind Safety Restructure & The October Reckoning
+00:00 - The Reality Engine Duel (Chatbots Are Dead)
+00:50 - Anthropic's Stealth Strike: Fable 5.2 Rebuilds Brawl Stars in 60 Mins
+01:46 - The 4D Chess Move: Opus 5.2 & 26% Recursive Self-Improvement (RSI)
+02:27 - OpenAI's Reality Engine: Astra WaveRunner & Steam Game Reverse-Engineering
+03:26 - The "GPT-6 Sol" Leak: 4x Speed & Sam Altman's Nightly Swarms
+04:14 - Autonomous Voice Revolution: Jev 300ms Agent & DeepSeek-Harness
+05:04 - Google's Shadow Strike: Gemini 4 Pro Leaked Specs & Pure SVG Shelby GT500
+06:07 - The 2026 Developer Verdict: Which Model Wins?
 
-🔍 KEY REVELATIONS IN THIS VIDEO:
-• Codename Argon: The first internal checkpoint of Gemini 4 Pro surfaced, clocking a 2.4-minute evaluation on High thinking effort.
-• 256K Output Token Limit: A 4x increase over the previous 64k ceiling, allowing full-codebase atomic refactors in a single pass.
-• Leaked Benchmarks: Gemini 4 reportedly scores 72.8% on Terminal-Bench Science 0.1 and 48.7% on AutomationBench, outperforming GPT-6 Astra (67.5%) and Claude Fable 5.1 (64.2%).
-• Google Cloud Quotas Discovery: New production IDs "gemini-3.8-live" and "gemini-3.8-live-extended-thinking" spotted on live quota registries today.
-• Antigravity Traffic Spike: Developer rush causes response times to surge from 8 seconds to 45 seconds as engineers stress-test UI generation.
-• DeepMind Restructuring: AI safety divisions reorganized ahead of an anticipated October 2026 public rollout.
+🔍 KEY REVELATIONS ANALYZED IN THIS BREAKDOWN:
+• Anthropic Fable 5.2: Stealth-routed to high-reasoning coding accounts; assembled "Sundown Showdown" (4 distinct brawler classes, range cones, bullet scatter, Three.js dynamic shaders) from pure code in 1 hour.
+• 26% Recursive Self-Improvement: Anthropic confirms Claude models now autonomously execute over a quarter of their own internal R&D, training their successors.
+• OpenAI GPT-6 Astra: Synthesizes browser-native fluid wake physics, collision detection, and reverse-engineers full commercial Steam fishing games from a single video recording.
+• GPT-6 Sol Leak: Leaked API routing traces reveal an April 30 cutoff with 4x faster generation than Astra at 75% lower cost.
+• Sam Altman's Overnight Swarms: Running a few thousand autonomous parallel agents every night while he sleeps, monitored via smartphone.
+• Jev Voice Browser Agent: 300ms real-time voice-to-action automation at $0.0002 per decision.
+• Google Gemini 4 Pro Grand Finale: LMSYS mystery checkpoint leaking 2M token context, 256K output token ceiling, pure vector SVG 1967 Shelby GT500, and interactive exploded PS5 CAD models.
 
-Sources & Research:
-Verified timeline leaks via X (@Lentils80, @ravikiran_dev7, @StatsWire, @anytanreal, @Mr_Salio) and Google Cloud Platform production registries.
+Evidence Sources & Community Research:
+Verified leaks and footage via X (@notjazii, @cherry_mx_reds, @ravikiran_dev7, @vidhiparmarr, @moritzkremb, @buildwithrajath, @Grow_withAI).
 
-#Gemini4 #GoogleAI #GoogleDeepMind #GPT6 #ClaudeFable #ArtificialIntelligence #TechNews #AIBreakdown
+#Anthropic #OpenAI #Claude5 #GPT6 #Gemini4 #AIAgents #ArtificialIntelligence #GameDev #TechNews #DeepSeek
 
 --------------------------------------------------------------------------------
 --- 3. 500-CHARACTER YOUTUBE TAGS (COMMA SEPARATED) ---
 --------------------------------------------------------------------------------
-Gemini 4, Gemini 4 Pro, Google Gemini 4, Gemini Argon, Gemini 4 leak, Google DeepMind, Gemini 3.8 Live, gemini-3.8-live-extended-thinking, GPT-6 Astra, Claude Fable 5.1, Terminal-Bench, AutomationBench, Google Antigravity, AI coding agents, Gemini 4 benchmark, Google AI leak, Sundar Pichai AI, Demis Hassabis, frontier AI 2026, recursive self improvement, AI news weekly, AI documentary, OpenAI vs Google
+Anthropic Fable 5.2, Claude Fable, OpenAI Astra, GPT-6 Astra, GPT-6 Sol, Claude Opus 5.2, Google Gemini 4 Pro, Gemini 4 leak, AI game engines, Three.js AI, autonomous coding agents, recursive self improvement, Sam Altman agents, Jev voice agent, DeepSeek Harness, DeepSeek V4.1, Gemini 4 specs, 256k output token, AI news weekly, AI documentary, OpenAI vs Anthropic, future of AI 2026, AI coding, frontier AI leaks
 
 --------------------------------------------------------------------------------
 --- 4. HIGH-ENGAGEMENT PINNED COMMENT ---
 --------------------------------------------------------------------------------
-Do you think Gemini 4 Pro’s 256k output limit and 72.8% Terminal-Bench score will finally dethrone OpenAI, or will GPT-6 Sol keep the crown? 
+We just crossed the threshold where AI models build entire 3D games in 60 minutes and run 26% of their own R&D. 
 
-Drop your predictions below! 👇 (We're replying to everyone in the first 2 hours!)
+Between Anthropic’s Fable 5.2, OpenAI’s Astra/Sol, and Google’s upcoming 2M-context Gemini 4 Pro—which one would you trust to build your next product? 
+
+Drop your thoughts below! 👇 (Replying to everyone in the first 2 hours!)
+
+--------------------------------------------------------------------------------
+--- 5. THUMBNAIL TEXT HOOK OVERLAYS (PAIR WITH out/thumb.png) ---
+--------------------------------------------------------------------------------
+• Option A: CHATBOTS ARE DEAD.
+• Option B: FABLE 5.2 vs ASTRA
+• Option C: THE STEALTH LEAK
+• Option D: 60-MIN GAME ENGINE!
+================================================================================
