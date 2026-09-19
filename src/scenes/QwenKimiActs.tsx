@@ -29,8 +29,7 @@ import { BongoCatMascot } from "../components/BongoCatMascot";
 export const TweetInspectCard: React.FC<{
   imageName: string;
   headline?: string;
-  highlightText?: string;
-}> = ({ imageName, headline, highlightText }) => {
+}> = ({ imageName, headline }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -38,11 +37,6 @@ export const TweetInspectCard: React.FC<{
     frame,
     fps,
     config: { damping: 14, stiffness: 120 },
-  });
-
-  const highlightSweep = interpolate(frame, [15, 45], [0, 100], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
   });
 
   return (
@@ -86,23 +80,6 @@ export const TweetInspectCard: React.FC<{
         }}
       >
         <Img src={staticFile(`evidence/${imageName}`)} style={{ width: "100%", display: "block" }} />
-
-        {highlightText && (
-          <div
-            style={{
-              position: "absolute",
-              bottom: 110,
-              left: 50,
-              height: 54,
-              width: `${highlightSweep * 0.9}%`,
-              background: "rgba(250, 204, 21, 0.35)",
-              border: "1px solid rgba(250, 204, 21, 0.85)",
-              borderRadius: 8,
-              mixBlendMode: "screen",
-              pointerEvents: "none",
-            }}
-          />
-        )}
       </div>
     </AbsoluteFill>
   );
@@ -209,6 +186,8 @@ export const RealVideoDossier: React.FC<{
             <Video
               src={staticFile(`evidence/${videoName}`)}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              muted={true}
+              volume={0}
             />
           </div>
 
@@ -753,7 +732,6 @@ export const QwenKimiActs: React.FC = () => {
         <TweetInspectCard
           imageName="rauchg_vercel_open.png"
           headline="78.4% Open-Weight Volume Surge"
-          highlightText="Open 78.4%"
         />
       </Sequence>
 
@@ -786,7 +764,6 @@ export const QwenKimiActs: React.FC = () => {
         <TweetInspectCard
           imageName="prismml_bonsai_card.png"
           headline="Ternary Bonsai 2 27B Compression"
-          highlightText="9x smaller... 98.2% aggregate benchmark"
         />
       </Sequence>
 
@@ -794,7 +771,6 @@ export const QwenKimiActs: React.FC = () => {
         <TweetInspectCard
           imageName="sero_500dollar_gpu.png"
           headline="Frontier Intelligence on $500 GPU"
-          highlightText="runs on 8GB of VRAM"
         />
       </Sequence>
 
@@ -802,7 +778,6 @@ export const QwenKimiActs: React.FC = () => {
         <TweetInspectCard
           imageName="analogalok_cerebras_card.png"
           headline="2,000 Tokens/Sec Offline OS"
-          highlightText="2,000 tokens/second"
         />
       </Sequence>
 
@@ -811,7 +786,6 @@ export const QwenKimiActs: React.FC = () => {
         <TweetInspectCard
           imageName="berryxia_yangzhilin_card.png"
           headline="$4.6M Training Miracle · Yang Zhilin"
-          highlightText="spent just $4.6 Million"
         />
       </Sequence>
 
@@ -847,7 +821,6 @@ export const QwenKimiActs: React.FC = () => {
         <TweetInspectCard
           imageName="mts_code_arena_card.png"
           headline="#1 Ranked Code Arena (1679 Elo)"
-          highlightText="ranks substantially above even Fable"
         />
       </Sequence>
 
@@ -887,7 +860,6 @@ export const QwenKimiActs: React.FC = () => {
         <TweetInspectCard
           imageName="luminabench_k31_teaser_card.png"
           headline="Kimi K3.1 Cryptographic Teaser"
-          highlightText="deciphers to pi continuing after 3.1"
         />
       </Sequence>
 
