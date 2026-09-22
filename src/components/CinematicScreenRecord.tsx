@@ -24,7 +24,7 @@ export const CinematicScreenRecord: React.FC<CinematicScreenRecordProps> = ({
   badgeColor = "#38BDF8",
   headlineBadge,
   startScrollY = 0,
-  endScrollY = 240,
+  endScrollY = 0,
   zoomScale = 1.0,
   isCard = false,
 }) => {
@@ -168,7 +168,7 @@ export const CinematicScreenRecord: React.FC<CinematicScreenRecordProps> = ({
                   display: "flex",
                   justifyContent: "center",
                   alignItems: "center",
-                  transform: `scale(${zoomScale || 1.15}) translateY(${-scrollY * 0.4}px)`,
+                  transform: `scale(${zoomScale}) translateY(${-scrollY * 0.4}px)`,
                   transition: "transform 0.1s ease-out",
                 }}
               >

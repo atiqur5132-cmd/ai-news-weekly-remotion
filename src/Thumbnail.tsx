@@ -12,7 +12,7 @@ export const Thumbnail: React.FC = () => {
       }}
     >
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900;950&family=Inter:wght@700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900;950&family=Inter:wght@700;800;900&family=JetBrains+Mono:wght@700;800&display=swap');
       `}</style>
 
       {/* 1. Volumetric Amber/Gold Light Flares */}
@@ -70,7 +70,7 @@ export const Thumbnail: React.FC = () => {
           gap: 16,
         }}
       >
-        {/* Brand Row: Authentic Anthropic Logo + Verified */}
+        {/* Brand Row: Authentic Anthropic Logo + Official Launch Badge */}
         <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
           <div
             style={{
@@ -100,17 +100,17 @@ export const Thumbnail: React.FC = () => {
 
           <div
             style={{
-              background: "rgba(220, 38, 38, 0.2)",
-              border: "1px solid #EF4444",
+              background: "#DC2626",
               borderRadius: 16,
               padding: "10px 24px",
-              color: "#FCA5A5",
+              color: "#FFFFFF",
               fontSize: 22,
-              fontWeight: 800,
+              fontWeight: 900,
               letterSpacing: "0.1em",
+              boxShadow: "0 0 30px rgba(220, 38, 38, 0.6)",
             }}
           >
-            5.2 SKIPPED
+            OFFICIAL LAUNCH
           </div>
         </div>
 
@@ -118,10 +118,10 @@ export const Thumbnail: React.FC = () => {
         <div style={{ marginTop: 20, display: "flex", flexDirection: "column", gap: 8 }}>
           <div
             style={{
-              fontSize: 60,
+              fontSize: 48,
               fontWeight: 900,
               color: "#F59E0B",
-              letterSpacing: "0.05em",
+              letterSpacing: "0.08em",
               textTransform: "uppercase",
               fontFamily: "'Montserrat', sans-serif",
               textShadow:
@@ -129,19 +129,19 @@ export const Thumbnail: React.FC = () => {
               lineHeight: 1,
             }}
           >
-            LEAKED CHECKPOINT
+            NEXT-GEN REASONING
           </div>
 
           <h1
             style={{
               margin: 0,
-              fontSize: 160,
+              fontSize: 140,
               fontWeight: 950,
               letterSpacing: "-0.035em",
               textTransform: "uppercase",
               color: "#FFFFFF",
               fontFamily: "'Montserrat', 'Inter', system-ui, sans-serif",
-              lineHeight: 0.88,
+              lineHeight: 0.9,
               filter:
                 "drop-shadow(0 0 35px rgba(255, 255, 255, 0.98)) drop-shadow(0 0 80px rgba(217, 119, 6, 0.95)) drop-shadow(0 0 140px rgba(245, 158, 11, 0.65))",
             }}
@@ -164,15 +164,15 @@ export const Thumbnail: React.FC = () => {
             width: "fit-content",
           }}
         >
-          <div style={{ color: "#34D399", fontSize: 26, fontWeight: 800 }}>-60% CACHE CUT</div>
+          <div style={{ color: "#34D399", fontSize: 26, fontWeight: 800 }}>-40% COST</div>
           <div style={{ width: 1, height: 28, background: "rgba(255,255,255,0.2)" }} />
-          <div style={{ color: "#FDE68A", fontSize: 26, fontWeight: 800 }}>DROPPING TUESDAY</div>
+          <div style={{ color: "#FDE68A", fontSize: 26, fontWeight: 800 }}>66.4% TERMINAL-BENCH</div>
           <div style={{ width: 1, height: 28, background: "rgba(255,255,255,0.2)" }} />
-          <div style={{ color: "#38BDF8", fontSize: 26, fontWeight: 800 }}>CODENAME: WAFER-EAP</div>
+          <div style={{ color: "#38BDF8", fontSize: 26, fontWeight: 800 }}>$0.20 CACHE READS</div>
         </div>
       </div>
 
-      {/* 4. Right-side Visual Evidence Card: Actual 3D Synthesis Frame */}
+      {/* 4. Right-side Visual Evidence Card: Actual Ethan Mollick 3D Shader Video Thumb */}
       <div
         style={{
           position: "absolute",
@@ -206,18 +206,18 @@ export const Thumbnail: React.FC = () => {
             <div style={{ width: 14, height: 14, borderRadius: "50%", background: "#10B981" }} />
           </div>
           <div style={{ color: "#FDE68A", fontSize: 14, fontWeight: 800, fontFamily: "monospace", letterSpacing: "0.08em" }}>
-            EVIDENCE // WAYMO I-PACE 3D SYNTHESIS
+            EVIDENCE // ETHAN MOLLICK 3D SHADER
           </div>
           <div style={{ background: "rgba(245, 158, 11, 0.2)", color: "#F59E0B", padding: "4px 12px", borderRadius: 8, fontSize: 13, fontWeight: 800 }}>
-            REAL BENCHMARK
+            VERIFIED
           </div>
         </div>
 
-        <div style={{ flex: 1, position: "relative", overflow: "hidden", background: "#f8f9fc", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ flex: 1, position: "relative", overflow: "hidden", background: "#05070e", display: "flex", alignItems: "center", justifyContent: "center" }}>
           <img
-            src={staticFile("evidence/waymo_3d_frame.png")}
+            src={staticFile("evidence/emollick_shader_thumb.jpg")}
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            alt="Waymo 3D Output"
+            alt="3D Procedural Shader"
           />
         </div>
 
@@ -232,10 +232,10 @@ export const Thumbnail: React.FC = () => {
           }}
         >
           <div style={{ color: "#94A3B8", fontSize: 14, fontFamily: "monospace" }}>
-            RENDERED VIA CLAUDE CODE IN BROWSER
+            ANTHROPIC.COM/CLAUDE-OPUS-5-5
           </div>
           <div style={{ color: "#34D399", fontSize: 14, fontWeight: 800 }}>
-            4,000+ LINES THREE.JS
+            LIVE BENCHMARK
           </div>
         </div>
       </div>

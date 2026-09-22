@@ -2,49 +2,49 @@ import React from "react";
 import { AbsoluteFill, Audio, Series, staticFile } from "remotion";
 import {
   Act1_ColdOpenHook,
-  Act2_SkipMystery,
-  Act3_WaymoTeardown,
-  Act4_VillaShowcase,
-  Act5_DebunkControversy,
-  Act6_PricingAndWar,
-} from "./scenes/Opus55Scenes";
+  Act2_EarlyAccessShock,
+  Act3_BenchmarkForensics,
+  Act4_EconomicCollapse,
+  Act5_NaturalCommunication,
+  Act6_FrontierWarRoadmap,
+} from "./scenes/Opus55LaunchComprehensiveScenes";
 
 export const MainVideo: React.FC = () => {
   return (
-    <AbsoluteFill style={{ backgroundColor: "#02040A" }}>
-      {/* Broadcast Mastered Brian Multilingual Voiceover Audio (320.88s / 9,626 frames) */}
+    <AbsoluteFill style={{ backgroundColor: "#030712" }}>
+      {/* Studio Mastered Brian Multilingual HD Voiceover (303.29s / 9,099 frames @ 30fps) */}
       <Audio src={staticFile("voiceover.wav")} />
 
-      {/* Frame-Accurate Whisper-Synchronized 6-Act Sequence (Total: 9,626 frames / 5m 20.88s) */}
+      {/* Frame-Accurate Whisper-Synchronized 6-Act Comprehensive Documentary (5 Minutes) */}
       <Series>
-        {/* Act 1: Cold Open Paradox & Death of Point Releases (1586 frames / 52.87s | F0 -> F1586) */}
-        <Series.Sequence durationInFrames={1586}>
-          <Act1_ColdOpenHook />
+        {/* Act 1: Cold Open Hook & The Shock Leapfrog (1346 frames | 0.0s -> 44.86s) */}
+        <Series.Sequence durationInFrames={1346}>
+          <Act1_ColdOpenHook durationInFrames={1346} />
         </Series.Sequence>
 
-        {/* Act 2: Paper Trail & Codename Wafer-EAP (2290 frames / 76.33s | F1586 -> F3876) */}
-        <Series.Sequence durationInFrames={2290}>
-          <Act2_SkipMystery />
+        {/* Act 2: Ethan Mollick Test & 680k Code Migration (1674 frames | 44.86s -> 100.66s) */}
+        <Series.Sequence durationInFrames={1674}>
+          <Act2_EarlyAccessShock durationInFrames={1674} />
         </Series.Sequence>
 
-        {/* Act 3: Real Evidence Waymo 3D Vehicle & Financial Teardown (2221 frames / 74.03s | F3876 -> F6097) */}
-        <Series.Sequence durationInFrames={2221}>
-          <Act3_WaymoTeardown />
+        {/* Act 3: Benchmark Forensics - Crushing Terminal-Bench 4.0 (1697 frames | 100.66s -> 157.24s) */}
+        <Series.Sequence durationInFrames={1697}>
+          <Act3_BenchmarkForensics durationInFrames={1697} />
         </Series.Sequence>
 
-        {/* Act 4: 3D Villa & Procedural Scene Stability (781 frames / 26.03s | F6097 -> F6878) */}
-        <Series.Sequence durationInFrames={781}>
-          <Act4_VillaShowcase />
+        {/* Act 4: The 40% Economic Collapse & HAProxy Rewrite (2103 frames | 157.24s -> 227.34s) */}
+        <Series.Sequence durationInFrames={2103}>
+          <Act4_EconomicCollapse durationInFrames={2103} />
         </Series.Sequence>
 
-        {/* Act 5: Fake Output Scandal & Forensic Audit (1235 frames / 41.17s | F6878 -> F8113) */}
-        <Series.Sequence durationInFrames={1235}>
-          <Act5_DebunkControversy />
+        {/* Act 5: Natural Communication & Alignment Verification (1405 frames | 227.34s -> 274.18s) */}
+        <Series.Sequence durationInFrames={1405}>
+          <Act5_NaturalCommunication durationInFrames={1405} />
         </Series.Sequence>
 
-        {/* Act 6: Economic Weapon & Tuesday Frontier War (1513 frames / 50.43s | F8113 -> F9626) */}
-        <Series.Sequence durationInFrames={1513}>
-          <Act6_PricingAndWar />
+        {/* Act 6: The Frontier War & Upcoming Roadmap (874 frames | 274.18s -> 303.29s) */}
+        <Series.Sequence durationInFrames={874}>
+          <Act6_FrontierWarRoadmap durationInFrames={874} />
         </Series.Sequence>
       </Series>
     </AbsoluteFill>
